@@ -529,7 +529,7 @@ Each candidate profile contains:
 
 **Vinay Babannavar**
 
-B.Tech Computer Science Engineering  
+B.E Computer Science Engineering  
 T. John Institute of Technology, Bengaluru | CGPA: 8.7  
 Expected Graduation: 2027
 
