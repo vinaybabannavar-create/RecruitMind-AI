@@ -1,0 +1,7814 @@
+[
+  {
+    "id": "CAND_0001",
+    "name": "Priya White",
+    "email": "priya.white@email.com",
+    "location": "Mumbai",
+    "summary": "Detail-oriented engineer with expertise in Hadoop, Scikit-learn, Snowflake, Pandas. Love solving complex problems.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "Scikit-learn",
+      "Snowflake",
+      "Pandas",
+      "Deep Learning",
+      "Airflow",
+      "LangChain",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Anna University",
+      "graduation_year": 2010,
+      "cgpa": 9.0
+    },
+    "experience": [
+      {
+        "company": "IBM",
+        "role": "DevOps Engineer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "priya_white",
+      "repos": 34,
+      "contributions_last_year": 284,
+      "open_source_prs": 12,
+      "github_score": 0.13
+    },
+    "activity_signals": {
+      "leetcode_solved": 214,
+      "hackathon_participations": 2,
+      "blog_posts": 6,
+      "linkedin_activity_score": 0.3,
+      "last_active_days_ago": 87
+    },
+    "career_signals": {
+      "career_growth_score": 0.6,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Data Engineer",
+      "ML Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 37.3,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0002",
+    "name": "Stephanie Verma",
+    "email": "stephanie.verma@email.com",
+    "location": "Delhi",
+    "summary": "Passionate about fullstack development. Strong background in REST, Redis, JavaScript, React with hands-on project experience.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "fullstack",
+    "skills": [
+      "REST",
+      "Redis",
+      "JavaScript",
+      "React",
+      "Go",
+      "Scrum",
+      "Vue.js",
+      "Tailwind CSS",
+      "Django",
+      "Spring Boot",
+      "REST API"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "Manipal Institute",
+      "graduation_year": 2022,
+      "cgpa": 7.1
+    },
+    "experience": [
+      {
+        "company": "Capgemini",
+        "role": "Data Scientist",
+        "start": "2025-01",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "NPTEL Python",
+      "Google Cloud Professional",
+      "Cisco CCNA"
+    ],
+    "github": {
+      "username": "stephanie_verma",
+      "repos": 10,
+      "contributions_last_year": 234,
+      "open_source_prs": 40,
+      "github_score": 0.25
+    },
+    "activity_signals": {
+      "leetcode_solved": 273,
+      "hackathon_participations": 0,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.42,
+      "last_active_days_ago": 103
+    },
+    "career_signals": {
+      "career_growth_score": 0.74,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 21.6,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0003",
+    "name": "Karan Mehta",
+    "email": "karan.mehta@email.com",
+    "location": "Chennai",
+    "summary": "Mid AI engineer with 4 years of experience in Scikit-learn, NumPy, Git.",
+    "years_experience": 4,
+    "seniority": "mid",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "NumPy",
+      "Git",
+      "Flask",
+      "Pandas",
+      "TensorFlow",
+      "Keras",
+      "LLM",
+      "PyTorch",
+      "NLP",
+      "Django",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIT Bangalore",
+      "graduation_year": 2018,
+      "cgpa": 9.1
+    },
+    "experience": [
+      {
+        "company": "Flipkart",
+        "role": "ML Engineer",
+        "start": "2024-07",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Ola",
+        "role": "Software Engineer",
+        "start": "2023-12",
+        "end": "2024-12",
+        "duration_years": 1
+      },
+      {
+        "company": "Freshworks",
+        "role": "Platform Engineer",
+        "start": "2022-03",
+        "end": "2023-09",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Docker Certified",
+      "Cisco CCNA"
+    ],
+    "github": {
+      "username": "karan_mehta",
+      "repos": 33,
+      "contributions_last_year": 108,
+      "open_source_prs": 29,
+      "github_score": 0.24
+    },
+    "activity_signals": {
+      "leetcode_solved": 128,
+      "hackathon_participations": 4,
+      "blog_posts": 6,
+      "linkedin_activity_score": 0.24,
+      "last_active_days_ago": 40
+    },
+    "career_signals": {
+      "career_growth_score": 0.74,
+      "avg_tenure_years": 1.3,
+      "promotions": 0,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Data Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 7.0,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0004",
+    "name": "Karan Gupta",
+    "email": "karan.gupta@email.com",
+    "location": "Delhi",
+    "summary": "Senior ML engineer with 8 years of experience in FastAPI, REST, NumPy.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "REST",
+      "NumPy",
+      "NLP",
+      "Flask",
+      "Git",
+      "Agile",
+      "Keras",
+      "Python",
+      "PyTorch",
+      "LangChain",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "IIT Madras",
+      "graduation_year": 2011,
+      "cgpa": 9.4
+    },
+    "experience": [
+      {
+        "company": "Freshworks",
+        "role": "Full Stack Developer",
+        "start": "2025-05",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Byju's",
+        "role": "Full Stack Developer",
+        "start": "2022-09",
+        "end": "2025-03",
+        "duration_years": 3
+      },
+      {
+        "company": "DevHouse",
+        "role": "Data Engineer",
+        "start": "2019-10",
+        "end": "2022-08",
+        "duration_years": 3
+      },
+      {
+        "company": "DataCorp",
+        "role": "Python Developer",
+        "start": "2018-07",
+        "end": "2019-04",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "karan_gupta",
+      "repos": 0,
+      "contributions_last_year": 96,
+      "open_source_prs": 14,
+      "github_score": 0.3
+    },
+    "activity_signals": {
+      "leetcode_solved": 36,
+      "hackathon_participations": 1,
+      "blog_posts": 13,
+      "linkedin_activity_score": 0.4,
+      "last_active_days_ago": 91
+    },
+    "career_signals": {
+      "career_growth_score": 0.67,
+      "avg_tenure_years": 1.1,
+      "promotions": 0,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Backend Developer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 25.8,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0005",
+    "name": "Arjun Williams",
+    "email": "arjun.williams@email.com",
+    "location": "Remote",
+    "summary": "Passionate about fullstack development. Strong background in Git, Next.js, Flask, TypeScript with hands-on project experience.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "fullstack",
+    "skills": [
+      "Git",
+      "Next.js",
+      "Flask",
+      "TypeScript",
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "Amity University",
+      "graduation_year": 2012,
+      "cgpa": 9.4
+    },
+    "experience": [],
+    "certifications": [],
+    "github": {
+      "username": "arjun_williams",
+      "repos": 30,
+      "contributions_last_year": 70,
+      "open_source_prs": 37,
+      "github_score": 0.62
+    },
+    "activity_signals": {
+      "leetcode_solved": 257,
+      "hackathon_participations": 1,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.59,
+      "last_active_days_ago": 104
+    },
+    "career_signals": {
+      "career_growth_score": 0.8,
+      "avg_tenure_years": 0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Full Stack Developer",
+      "Data Engineer",
+      "Data Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 32.1,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0006",
+    "name": "Jason Miller",
+    "email": "jason.miller@email.com",
+    "location": "Hyderabad",
+    "summary": "Passionate about data development. Strong background in Hadoop, Spark, FastAPI, Flask with hands-on project experience.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "Spark",
+      "FastAPI",
+      "Flask",
+      "Snowflake",
+      "Pandas",
+      "Deep Learning",
+      "Airflow",
+      "NLP"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "IIT Madras",
+      "graduation_year": 2017,
+      "cgpa": 7.5
+    },
+    "experience": [
+      {
+        "company": "Ola",
+        "role": "Research Engineer",
+        "start": "2025-09",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Zomato",
+        "role": "Data Engineer",
+        "start": "2022-11",
+        "end": "2025-09",
+        "duration_years": 3
+      },
+      {
+        "company": "Capgemini",
+        "role": "Research Engineer",
+        "start": "2021-09",
+        "end": "2022-05",
+        "duration_years": 1
+      },
+      {
+        "company": "Flipkart",
+        "role": "Backend Developer",
+        "start": "2018-05",
+        "end": "2021-02",
+        "duration_years": 3
+      },
+      {
+        "company": "Oracle",
+        "role": "AI/ML Engineer",
+        "start": "2017-03",
+        "end": "2018-05",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "jason_miller",
+      "repos": 13,
+      "contributions_last_year": 288,
+      "open_source_prs": 34,
+      "github_score": 0.11
+    },
+    "activity_signals": {
+      "leetcode_solved": 259,
+      "hackathon_participations": 3,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.66,
+      "last_active_days_ago": 53
+    },
+    "career_signals": {
+      "career_growth_score": 0.65,
+      "avg_tenure_years": 3.0,
+      "promotions": 0,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Platform Engineer",
+      "Backend Developer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 10.6,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0007",
+    "name": "Stephanie Sharma",
+    "email": "stephanie.sharma@email.com",
+    "location": "Bengaluru",
+    "summary": "Results-driven developer specializing in REST, Terraform, Docker. 6 years building scalable systems.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "REST",
+      "Terraform",
+      "Docker",
+      "CI/CD",
+      "GCP",
+      "MySQL",
+      "MongoDB"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Bangalore University",
+      "graduation_year": 2014,
+      "cgpa": 9.7
+    },
+    "experience": [
+      {
+        "company": "TechSolutions",
+        "role": "Backend Developer",
+        "start": "2025-03",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "Backend Developer",
+        "start": "2023-12",
+        "end": "2025-06",
+        "duration_years": 2
+      },
+      {
+        "company": "DataCorp",
+        "role": "Cloud Engineer",
+        "start": "2021-12",
+        "end": "2023-04",
+        "duration_years": 2
+      },
+      {
+        "company": "TCS",
+        "role": "Platform Engineer",
+        "start": "2020-12",
+        "end": "2021-02",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization"
+    ],
+    "github": {
+      "username": "stephanie_sharma",
+      "repos": 15,
+      "contributions_last_year": 391,
+      "open_source_prs": 13,
+      "github_score": 0.21
+    },
+    "activity_signals": {
+      "leetcode_solved": 341,
+      "hackathon_participations": 0,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.38,
+      "last_active_days_ago": 57
+    },
+    "career_signals": {
+      "career_growth_score": 0.92,
+      "avg_tenure_years": 1.5,
+      "promotions": 3,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Research Engineer",
+      "AI/ML Engineer",
+      "Data Scientist"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 8.4,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0008",
+    "name": "Siddharth Patel",
+    "email": "siddharth.patel@email.com",
+    "location": "Delhi",
+    "summary": "Results-driven developer specializing in Scikit-learn, NumPy, Flask. 9 years building scalable systems.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "NumPy",
+      "Flask",
+      "Pandas",
+      "Keras",
+      "Problem Solving",
+      "PyTorch"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Delhi University",
+      "graduation_year": 2013,
+      "cgpa": 8.9
+    },
+    "experience": [
+      {
+        "company": "Freshworks",
+        "role": "ML Engineer",
+        "start": "2024-11",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "CRED",
+        "role": "DevOps Engineer",
+        "start": "2022-12",
+        "end": "2024-05",
+        "duration_years": 2
+      },
+      {
+        "company": "Infosys",
+        "role": "Full Stack Developer",
+        "start": "2019-07",
+        "end": "2022-11",
+        "duration_years": 3
+      },
+      {
+        "company": "Capgemini",
+        "role": "Frontend Developer",
+        "start": "2017-03",
+        "end": "2019-10",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Kaggle Competition Winner",
+      "NPTEL Python",
+      "TensorFlow Developer Certificate"
+    ],
+    "github": {
+      "username": "siddharth_patel",
+      "repos": 27,
+      "contributions_last_year": 582,
+      "open_source_prs": 23,
+      "github_score": 0.49
+    },
+    "activity_signals": {
+      "leetcode_solved": 35,
+      "hackathon_participations": 4,
+      "blog_posts": 12,
+      "linkedin_activity_score": 0.57,
+      "last_active_days_ago": 141
+    },
+    "career_signals": {
+      "career_growth_score": 0.85,
+      "avg_tenure_years": 1.8,
+      "promotions": 2,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Research Engineer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 34.6,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0009",
+    "name": "Priya Patel",
+    "email": "priya.patel@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about ai development. Strong background in Scikit-learn, Hugging Face, RAG, NumPy with hands-on project experience.",
+    "years_experience": 2,
+    "seniority": "junior",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "Hugging Face",
+      "RAG",
+      "NumPy",
+      "Deep Learning",
+      "Problem Solving",
+      "Python",
+      "LangChain",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "Manipal Institute",
+      "graduation_year": 2014,
+      "cgpa": 9.2
+    },
+    "experience": [
+      {
+        "company": "Startup XYZ",
+        "role": "Python Developer",
+        "start": "2024-10",
+        "end": "Present",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "TensorFlow Developer Certificate",
+      "Azure AZ-900"
+    ],
+    "github": {
+      "username": "priya_patel",
+      "repos": 33,
+      "contributions_last_year": 736,
+      "open_source_prs": 44,
+      "github_score": 0.72
+    },
+    "activity_signals": {
+      "leetcode_solved": 237,
+      "hackathon_participations": 8,
+      "blog_posts": 13,
+      "linkedin_activity_score": 0.9,
+      "last_active_days_ago": 141
+    },
+    "career_signals": {
+      "career_growth_score": 0.89,
+      "avg_tenure_years": 2.0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "ML Engineer",
+      "Platform Engineer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 42.5,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0010",
+    "name": "Neha Joshi",
+    "email": "neha.joshi@email.com",
+    "location": "Pune",
+    "summary": "Detail-oriented engineer with expertise in Linux, Go, Jenkins, CI/CD. Love solving complex problems.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "Linux",
+      "Go",
+      "Jenkins",
+      "CI/CD",
+      "MySQL",
+      "GitHub Actions",
+      "Agile"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "BITS Pilani",
+      "graduation_year": 2023,
+      "cgpa": 7.6
+    },
+    "experience": [
+      {
+        "company": "IBM",
+        "role": "Software Engineer",
+        "start": "2023-10",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Byju's",
+        "role": "Software Engineer",
+        "start": "2021-06",
+        "end": "2023-05",
+        "duration_years": 2
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Research Engineer",
+        "start": "2019-07",
+        "end": "2021-09",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "neha_joshi",
+      "repos": 21,
+      "contributions_last_year": 765,
+      "open_source_prs": 26,
+      "github_score": 0.31
+    },
+    "activity_signals": {
+      "leetcode_solved": 277,
+      "hackathon_participations": 8,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.72,
+      "last_active_days_ago": 125
+    },
+    "career_signals": {
+      "career_growth_score": 0.77,
+      "avg_tenure_years": 1.8,
+      "promotions": 0,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 9.4,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0011",
+    "name": "Siddharth Williams",
+    "email": "siddharth.williams@email.com",
+    "location": "Mumbai",
+    "summary": "Passionate about ai development. Strong background in Hugging Face, Flask, Pandas, Keras with hands-on project experience.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "ai",
+    "skills": [
+      "Hugging Face",
+      "Flask",
+      "Pandas",
+      "Keras",
+      "LLM",
+      "Problem Solving",
+      "PyTorch",
+      "LangChain",
+      "Django",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "SRM University",
+      "graduation_year": 2013,
+      "cgpa": 8.3
+    },
+    "experience": [],
+    "certifications": [
+      "AWS Solutions Architect",
+      "Kaggle Competition Winner",
+      "TensorFlow Developer Certificate"
+    ],
+    "github": {
+      "username": "siddharth_williams",
+      "repos": 1,
+      "contributions_last_year": 223,
+      "open_source_prs": 12,
+      "github_score": 0.59
+    },
+    "activity_signals": {
+      "leetcode_solved": 318,
+      "hackathon_participations": 7,
+      "blog_posts": 8,
+      "linkedin_activity_score": 1.0,
+      "last_active_days_ago": 95
+    },
+    "career_signals": {
+      "career_growth_score": 0.48,
+      "avg_tenure_years": 0,
+      "promotions": 1,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Data Engineer",
+      "Frontend Developer",
+      "Frontend Developer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 39.6,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0012",
+    "name": "Nicole Sharma",
+    "email": "nicole.sharma@email.com",
+    "location": "Pune",
+    "summary": "Results-driven developer specializing in FastAPI, Scikit-learn, System Design. 1 years building scalable systems.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "backend",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "System Design",
+      "REST",
+      "Go",
+      "Pandas",
+      "Django",
+      "Kubernetes",
+      "Docker",
+      "Spring Boot"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "Manipal Institute",
+      "graduation_year": 2014,
+      "cgpa": 7.7
+    },
+    "experience": [
+      {
+        "company": "Cognizant",
+        "role": "Platform Engineer",
+        "start": "2025-09",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "nicole_sharma",
+      "repos": 31,
+      "contributions_last_year": 793,
+      "open_source_prs": 26,
+      "github_score": 0.7
+    },
+    "activity_signals": {
+      "leetcode_solved": 54,
+      "hackathon_participations": 7,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.16,
+      "last_active_days_ago": 112
+    },
+    "career_signals": {
+      "career_growth_score": 0.72,
+      "avg_tenure_years": 1.0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Python Developer",
+      "Full Stack Developer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 29.8,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0013",
+    "name": "Megan Garcia",
+    "email": "megan.garcia@email.com",
+    "location": "Hyderabad",
+    "summary": "Passionate about backend development. Strong background in FastAPI, GraphQL, REST API, Terraform with hands-on project experience.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "backend",
+    "skills": [
+      "FastAPI",
+      "GraphQL",
+      "REST API",
+      "Terraform",
+      "Redis",
+      "Jenkins",
+      "Agile",
+      "Docker",
+      "MySQL",
+      "Django"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "VIT Vellore",
+      "graduation_year": 2019,
+      "cgpa": 8.7
+    },
+    "experience": [],
+    "certifications": [
+      "Kaggle Competition Winner",
+      "Kubernetes CKA",
+      "NPTEL Python"
+    ],
+    "github": {
+      "username": "megan_garcia",
+      "repos": 1,
+      "contributions_last_year": 377,
+      "open_source_prs": 50,
+      "github_score": 0.75
+    },
+    "activity_signals": {
+      "leetcode_solved": 47,
+      "hackathon_participations": 7,
+      "blog_posts": 11,
+      "linkedin_activity_score": 0.54,
+      "last_active_days_ago": 109
+    },
+    "career_signals": {
+      "career_growth_score": 0.81,
+      "avg_tenure_years": 0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Frontend Developer",
+      "Python Developer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 17.4,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0014",
+    "name": "James Singh",
+    "email": "james.singh@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, Scikit-learn, Hugging Face, NumPy. Love solving complex problems.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Hugging Face",
+      "NumPy",
+      "Scrum",
+      "Pandas",
+      "Deep Learning",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "Django"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "Manipal Institute",
+      "graduation_year": 2020,
+      "cgpa": 6.7
+    },
+    "experience": [
+      {
+        "company": "Swiggy",
+        "role": "Research Engineer",
+        "start": "2025-08",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "AIVentures",
+        "role": "Senior Software Engineer",
+        "start": "2024-07",
+        "end": "2025-08",
+        "duration_years": 1
+      },
+      {
+        "company": "HCL",
+        "role": "Cloud Engineer",
+        "start": "2023-11",
+        "end": "2024-01",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Coursera ML Specialization",
+      "Azure AZ-900",
+      "Kubernetes CKA"
+    ],
+    "github": {
+      "username": "james_singh",
+      "repos": 0,
+      "contributions_last_year": 155,
+      "open_source_prs": 6,
+      "github_score": 0.11
+    },
+    "activity_signals": {
+      "leetcode_solved": 293,
+      "hackathon_participations": 2,
+      "blog_posts": 9,
+      "linkedin_activity_score": 0.58,
+      "last_active_days_ago": 22
+    },
+    "career_signals": {
+      "career_growth_score": 0.42,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Data Engineer",
+      "Software Engineer",
+      "Data Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 47.5,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0015",
+    "name": "Siddharth Thomas",
+    "email": "siddharth.thomas@email.com",
+    "location": "Chennai",
+    "summary": "Passionate about data development. Strong background in Hadoop, FastAPI, Hugging Face, RAG with hands-on project experience.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "FastAPI",
+      "Hugging Face",
+      "RAG",
+      "dbt",
+      "Airflow",
+      "Python"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "IIT Bangalore",
+      "graduation_year": 2017,
+      "cgpa": 8.6
+    },
+    "experience": [
+      {
+        "company": "AIVentures",
+        "role": "Backend Developer",
+        "start": "2024-02",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "TCS",
+        "role": "Platform Engineer",
+        "start": "2023-05",
+        "end": "2024-10",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Google Cloud Professional",
+      "NPTEL Python"
+    ],
+    "github": {
+      "username": "siddharth_thomas",
+      "repos": 16,
+      "contributions_last_year": 766,
+      "open_source_prs": 14,
+      "github_score": 0.36
+    },
+    "activity_signals": {
+      "leetcode_solved": 320,
+      "hackathon_participations": 4,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.31,
+      "last_active_days_ago": 32
+    },
+    "career_signals": {
+      "career_growth_score": 0.77,
+      "avg_tenure_years": 1.5,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Data Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 44.8,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0016",
+    "name": "Priya Kumar",
+    "email": "priya.kumar@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in Azure, Linux, System Design, Terraform. Love solving complex problems.",
+    "years_experience": 4,
+    "seniority": "mid",
+    "role_type": "devops",
+    "skills": [
+      "Azure",
+      "Linux",
+      "System Design",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "MySQL",
+      "GitHub Actions"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "SRM University",
+      "graduation_year": 2019,
+      "cgpa": 8.7
+    },
+    "experience": [
+      {
+        "company": "AIVentures",
+        "role": "Platform Engineer",
+        "start": "2024-09",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Ola",
+        "role": "Senior Software Engineer",
+        "start": "2023-06",
+        "end": "2024-05",
+        "duration_years": 1
+      },
+      {
+        "company": "Flipkart",
+        "role": "Platform Engineer",
+        "start": "2022-07",
+        "end": "2023-09",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "priya_kumar",
+      "repos": 6,
+      "contributions_last_year": 1,
+      "open_source_prs": 42,
+      "github_score": 0.49
+    },
+    "activity_signals": {
+      "leetcode_solved": 82,
+      "hackathon_participations": 8,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.83,
+      "last_active_days_ago": 106
+    },
+    "career_signals": {
+      "career_growth_score": 0.98,
+      "avg_tenure_years": 2.0,
+      "promotions": 0,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "ML Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 9.2,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0017",
+    "name": "Divya Sharma",
+    "email": "divya.sharma@email.com",
+    "location": "Pune",
+    "summary": "Passionate about fullstack development. Strong background in Python, REST, JavaScript, React with hands-on project experience.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "Python",
+      "REST",
+      "JavaScript",
+      "React",
+      "Go",
+      "Pandas",
+      "Vue.js",
+      "MongoDB",
+      "Spring Boot"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Amity University",
+      "graduation_year": 2014,
+      "cgpa": 9.5
+    },
+    "experience": [
+      {
+        "company": "Startup XYZ",
+        "role": "Platform Engineer",
+        "start": "2024-07",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "DevHouse",
+        "role": "Platform Engineer",
+        "start": "2022-09",
+        "end": "2024-05",
+        "duration_years": 2
+      },
+      {
+        "company": "Zomato",
+        "role": "Frontend Developer",
+        "start": "2021-05",
+        "end": "2022-10",
+        "duration_years": 1
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Backend Developer",
+        "start": "2019-08",
+        "end": "2021-09",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Kubernetes CKA",
+      "TensorFlow Developer Certificate"
+    ],
+    "github": {
+      "username": "divya_sharma",
+      "repos": 35,
+      "contributions_last_year": 495,
+      "open_source_prs": 29,
+      "github_score": 0.94
+    },
+    "activity_signals": {
+      "leetcode_solved": 74,
+      "hackathon_participations": 5,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.36,
+      "last_active_days_ago": 142
+    },
+    "career_signals": {
+      "career_growth_score": 0.76,
+      "avg_tenure_years": 1.8,
+      "promotions": 3,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Platform Engineer",
+      "Research Engineer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 26.3,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0018",
+    "name": "Nicole Smith",
+    "email": "nicole.smith@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about ai development. Strong background in Scikit-learn, System Design, NumPy, Scrum with hands-on project experience.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "System Design",
+      "NumPy",
+      "Scrum",
+      "Deep Learning",
+      "TensorFlow",
+      "Python"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIIT Hyderabad",
+      "graduation_year": 2017,
+      "cgpa": 9.0
+    },
+    "experience": [
+      {
+        "company": "Flipkart",
+        "role": "Platform Engineer",
+        "start": "2024-11",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Senior Software Engineer",
+        "start": "2021-08",
+        "end": "2024-03",
+        "duration_years": 3
+      },
+      {
+        "company": "Zomato",
+        "role": "Software Engineer",
+        "start": "2018-01",
+        "end": "2021-06",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Docker Certified",
+      "Deep Learning Specialization",
+      "Kubernetes CKA"
+    ],
+    "github": {
+      "username": "nicole_smith",
+      "repos": 2,
+      "contributions_last_year": 57,
+      "open_source_prs": 34,
+      "github_score": 0.72
+    },
+    "activity_signals": {
+      "leetcode_solved": 316,
+      "hackathon_participations": 4,
+      "blog_posts": 11,
+      "linkedin_activity_score": 0.68,
+      "last_active_days_ago": 96
+    },
+    "career_signals": {
+      "career_growth_score": 0.88,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Cloud Engineer",
+      "ML Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 15.0,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0019",
+    "name": "Brian Reddy",
+    "email": "brian.reddy@email.com",
+    "location": "Chennai",
+    "summary": "Mid FULLSTACK engineer with 4 years of experience in REST API, Git, Next.js.",
+    "years_experience": 4,
+    "seniority": "mid",
+    "role_type": "fullstack",
+    "skills": [
+      "REST API",
+      "Git",
+      "Next.js",
+      "JavaScript",
+      "Agile",
+      "Django",
+      "MongoDB"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "SRM University",
+      "graduation_year": 2019,
+      "cgpa": 9.1
+    },
+    "experience": [
+      {
+        "company": "Cognizant",
+        "role": "Platform Engineer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Accenture",
+        "role": "Full Stack Developer",
+        "start": "2024-10",
+        "end": "2025-05",
+        "duration_years": 1
+      },
+      {
+        "company": "Accenture",
+        "role": "Senior Software Engineer",
+        "start": "2023-11",
+        "end": "2024-11",
+        "duration_years": 1
+      },
+      {
+        "company": "Zomato",
+        "role": "Platform Engineer",
+        "start": "2022-08",
+        "end": "2023-01",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "NPTEL Python"
+    ],
+    "github": {
+      "username": "brian_reddy",
+      "repos": 17,
+      "contributions_last_year": 593,
+      "open_source_prs": 25,
+      "github_score": 0.44
+    },
+    "activity_signals": {
+      "leetcode_solved": 4,
+      "hackathon_participations": 5,
+      "blog_posts": 4,
+      "linkedin_activity_score": 0.42,
+      "last_active_days_ago": 24
+    },
+    "career_signals": {
+      "career_growth_score": 0.44,
+      "avg_tenure_years": 1.3,
+      "promotions": 2,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Research Engineer",
+      "Data Scientist",
+      "Platform Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 25.0,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0020",
+    "name": "Jessica Garcia",
+    "email": "jessica.garcia@email.com",
+    "location": "Remote",
+    "summary": "Detail-oriented engineer with expertise in Scikit-learn, REST, RAG, Git. Love solving complex problems.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "REST",
+      "RAG",
+      "Git",
+      "Flask",
+      "Scrum",
+      "Keras",
+      "Python",
+      "NLP",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIIT Hyderabad",
+      "graduation_year": 2023,
+      "cgpa": 6.5
+    },
+    "experience": [
+      {
+        "company": "Microsoft",
+        "role": "ML Engineer",
+        "start": "2025-08",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Flipkart",
+        "role": "Full Stack Developer",
+        "start": "2024-09",
+        "end": "2025-03",
+        "duration_years": 1
+      },
+      {
+        "company": "Ola",
+        "role": "Data Scientist",
+        "start": "2023-11",
+        "end": "2024-12",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Cisco CCNA",
+      "TensorFlow Developer Certificate"
+    ],
+    "github": {
+      "username": "jessica_garcia",
+      "repos": 4,
+      "contributions_last_year": 713,
+      "open_source_prs": 41,
+      "github_score": 0.71
+    },
+    "activity_signals": {
+      "leetcode_solved": 325,
+      "hackathon_participations": 8,
+      "blog_posts": 13,
+      "linkedin_activity_score": 0.52,
+      "last_active_days_ago": 151
+    },
+    "career_signals": {
+      "career_growth_score": 0.7,
+      "avg_tenure_years": 3.0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Data Engineer",
+      "DevOps Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 4.5,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0021",
+    "name": "Chris Mehta",
+    "email": "chris.mehta@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about ai development. Strong background in Hugging Face, NumPy, Git, Flask with hands-on project experience.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "Hugging Face",
+      "NumPy",
+      "Git",
+      "Flask",
+      "Pandas",
+      "Deep Learning",
+      "Keras",
+      "LangChain",
+      "Agile",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "BITS Pilani",
+      "graduation_year": 2017,
+      "cgpa": 7.3
+    },
+    "experience": [
+      {
+        "company": "DataCorp",
+        "role": "Data Engineer",
+        "start": "2025-01",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Backend Developer",
+        "start": "2023-03",
+        "end": "2025-09",
+        "duration_years": 2
+      },
+      {
+        "company": "DataCorp",
+        "role": "Backend Developer",
+        "start": "2021-02",
+        "end": "2023-11",
+        "duration_years": 2
+      },
+      {
+        "company": "Infosys",
+        "role": "Software Engineer",
+        "start": "2020-06",
+        "end": "2021-04",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "Backend Developer",
+        "start": "2019-05",
+        "end": "2020-01",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Azure AZ-900"
+    ],
+    "github": {
+      "username": "chris_mehta",
+      "repos": 36,
+      "contributions_last_year": 129,
+      "open_source_prs": 50,
+      "github_score": 0.68
+    },
+    "activity_signals": {
+      "leetcode_solved": 105,
+      "hackathon_participations": 6,
+      "blog_posts": 3,
+      "linkedin_activity_score": 0.64,
+      "last_active_days_ago": 17
+    },
+    "career_signals": {
+      "career_growth_score": 0.22,
+      "avg_tenure_years": 1.8,
+      "promotions": 3,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "DevOps Engineer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 26.0,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0022",
+    "name": "James Taylor",
+    "email": "james.taylor@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, REST, System Design, RAG. Love solving complex problems.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "REST",
+      "System Design",
+      "RAG",
+      "NumPy",
+      "Git",
+      "Flask",
+      "LLM"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "Bangalore University",
+      "graduation_year": 2013,
+      "cgpa": 7.3
+    },
+    "experience": [
+      {
+        "company": "Capgemini",
+        "role": "ML Engineer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Docker Certified"
+    ],
+    "github": {
+      "username": "james_taylor",
+      "repos": 14,
+      "contributions_last_year": 156,
+      "open_source_prs": 28,
+      "github_score": 0.87
+    },
+    "activity_signals": {
+      "leetcode_solved": 211,
+      "hackathon_participations": 7,
+      "blog_posts": 2,
+      "linkedin_activity_score": 0.69,
+      "last_active_days_ago": 24
+    },
+    "career_signals": {
+      "career_growth_score": 0.82,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "AI/ML Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 30.6,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0023",
+    "name": "Daniel Johnson",
+    "email": "daniel.johnson@email.com",
+    "location": "Remote",
+    "summary": "Junior DATA engineer with 1 years of experience in Hadoop, Scikit-learn, NumPy.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "Scikit-learn",
+      "NumPy",
+      "SQL",
+      "Snowflake",
+      "dbt",
+      "TensorFlow",
+      "Power BI"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Anna University",
+      "graduation_year": 2010,
+      "cgpa": 6.7
+    },
+    "experience": [
+      {
+        "company": "DevHouse",
+        "role": "Data Scientist",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Google Cloud Professional",
+      "Coursera ML Specialization"
+    ],
+    "github": {
+      "username": "daniel_johnson",
+      "repos": 14,
+      "contributions_last_year": 6,
+      "open_source_prs": 36,
+      "github_score": 0.69
+    },
+    "activity_signals": {
+      "leetcode_solved": 219,
+      "hackathon_participations": 2,
+      "blog_posts": 4,
+      "linkedin_activity_score": 0.3,
+      "last_active_days_ago": 145
+    },
+    "career_signals": {
+      "career_growth_score": 0.29,
+      "avg_tenure_years": 1.0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Frontend Developer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 13.1,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0024",
+    "name": "Arjun Johnson",
+    "email": "arjun.johnson@email.com",
+    "location": "Delhi",
+    "summary": "Detail-oriented engineer with expertise in Python, Scikit-learn, REST, Redis. Love solving complex problems.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "fullstack",
+    "skills": [
+      "Python",
+      "Scikit-learn",
+      "REST",
+      "Redis",
+      "JavaScript",
+      "React",
+      "Pandas",
+      "Tailwind CSS",
+      "Problem Solving",
+      "Angular"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "IIIT Hyderabad",
+      "graduation_year": 2011,
+      "cgpa": 6.9
+    },
+    "experience": [
+      {
+        "company": "Microsoft",
+        "role": "Software Engineer",
+        "start": "2023-04",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Wipro",
+        "role": "Platform Engineer",
+        "start": "2021-03",
+        "end": "2023-05",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization"
+    ],
+    "github": {
+      "username": "arjun_johnson",
+      "repos": 7,
+      "contributions_last_year": 296,
+      "open_source_prs": 27,
+      "github_score": 0.54
+    },
+    "activity_signals": {
+      "leetcode_solved": 145,
+      "hackathon_participations": 5,
+      "blog_posts": 3,
+      "linkedin_activity_score": 0.5,
+      "last_active_days_ago": 2
+    },
+    "career_signals": {
+      "career_growth_score": 0.42,
+      "avg_tenure_years": 1.7,
+      "promotions": 3,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Python Developer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 43.5,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0025",
+    "name": "Daniel Verma",
+    "email": "daniel.verma@email.com",
+    "location": "Chennai",
+    "summary": "Senior DEVOPS engineer with 6 years of experience in GraphQL, Git, Go.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "GraphQL",
+      "Git",
+      "Go",
+      "AWS",
+      "Docker",
+      "CI/CD",
+      "GCP"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Amity University",
+      "graduation_year": 2016,
+      "cgpa": 9.6
+    },
+    "experience": [
+      {
+        "company": "Meesho",
+        "role": "Frontend Developer",
+        "start": "2024-11",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Razorpay",
+        "role": "Senior Software Engineer",
+        "start": "2023-03",
+        "end": "2024-05",
+        "duration_years": 1
+      },
+      {
+        "company": "TCS",
+        "role": "Data Engineer",
+        "start": "2022-03",
+        "end": "2023-11",
+        "duration_years": 1
+      },
+      {
+        "company": "TCS",
+        "role": "Platform Engineer",
+        "start": "2021-11",
+        "end": "2022-08",
+        "duration_years": 1
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "Data Engineer",
+        "start": "2020-10",
+        "end": "2021-08",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization",
+      "TensorFlow Developer Certificate",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "daniel_verma",
+      "repos": 10,
+      "contributions_last_year": 697,
+      "open_source_prs": 49,
+      "github_score": 0.49
+    },
+    "activity_signals": {
+      "leetcode_solved": 39,
+      "hackathon_participations": 5,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.46,
+      "last_active_days_ago": 39
+    },
+    "career_signals": {
+      "career_growth_score": 0.26,
+      "avg_tenure_years": 2.0,
+      "promotions": 3,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Software Engineer",
+      "Software Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 42.1,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0026",
+    "name": "Heather Taylor",
+    "email": "heather.taylor@email.com",
+    "location": "Chennai",
+    "summary": "Passionate about data development. Strong background in FastAPI, RAG, NumPy, Flask with hands-on project experience.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "data",
+    "skills": [
+      "FastAPI",
+      "RAG",
+      "NumPy",
+      "Flask",
+      "SQL",
+      "dbt",
+      "TensorFlow",
+      "Airflow",
+      "Power BI",
+      "Django",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Mumbai University",
+      "graduation_year": 2019,
+      "cgpa": 7.5
+    },
+    "experience": [
+      {
+        "company": "Capgemini",
+        "role": "Data Engineer",
+        "start": "2025-01",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "NPTEL Python",
+      "Azure AZ-900",
+      "AWS Solutions Architect"
+    ],
+    "github": {
+      "username": "heather_taylor",
+      "repos": 28,
+      "contributions_last_year": 646,
+      "open_source_prs": 15,
+      "github_score": 0.19
+    },
+    "activity_signals": {
+      "leetcode_solved": 224,
+      "hackathon_participations": 5,
+      "blog_posts": 2,
+      "linkedin_activity_score": 0.91,
+      "last_active_days_ago": 85
+    },
+    "career_signals": {
+      "career_growth_score": 0.47,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Frontend Developer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 44.0,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0027",
+    "name": "Meera Robinson",
+    "email": "meera.robinson@email.com",
+    "location": "Remote",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, Scikit-learn, Git, Scrum. Love solving complex problems.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Git",
+      "Scrum",
+      "Agile",
+      "Pandas",
+      "Keras",
+      "LLM",
+      "LangChain",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "VIT Vellore",
+      "graduation_year": 2014,
+      "cgpa": 6.6
+    },
+    "experience": [
+      {
+        "company": "TechSolutions",
+        "role": "Platform Engineer",
+        "start": "2024-02",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "AI/ML Engineer",
+        "start": "2021-12",
+        "end": "2024-09",
+        "duration_years": 3
+      },
+      {
+        "company": "Capgemini",
+        "role": "Data Scientist",
+        "start": "2020-10",
+        "end": "2021-03",
+        "duration_years": 1
+      },
+      {
+        "company": "PhonePe",
+        "role": "Backend Developer",
+        "start": "2017-03",
+        "end": "2020-03",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "meera_robinson",
+      "repos": 13,
+      "contributions_last_year": 709,
+      "open_source_prs": 11,
+      "github_score": 0.68
+    },
+    "activity_signals": {
+      "leetcode_solved": 174,
+      "hackathon_participations": 2,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.48,
+      "last_active_days_ago": 12
+    },
+    "career_signals": {
+      "career_growth_score": 0.49,
+      "avg_tenure_years": 1.8,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Research Engineer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 40.7,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0028",
+    "name": "John Garcia",
+    "email": "john.garcia@email.com",
+    "location": "Bengaluru",
+    "summary": "Results-driven developer specializing in Scikit-learn, REST, NumPy. 0 years building scalable systems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "backend",
+    "skills": [
+      "Scikit-learn",
+      "REST",
+      "NumPy",
+      "Go",
+      "Pandas",
+      "Kubernetes",
+      "PostgreSQL",
+      "CI/CD",
+      "GCP",
+      "Python",
+      "Java"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "IIT Bombay",
+      "graduation_year": 2020,
+      "cgpa": 9.7
+    },
+    "experience": [],
+    "certifications": [],
+    "github": {
+      "username": "john_garcia",
+      "repos": 15,
+      "contributions_last_year": 731,
+      "open_source_prs": 23,
+      "github_score": 0.9
+    },
+    "activity_signals": {
+      "leetcode_solved": 197,
+      "hackathon_participations": 5,
+      "blog_posts": 4,
+      "linkedin_activity_score": 0.94,
+      "last_active_days_ago": 36
+    },
+    "career_signals": {
+      "career_growth_score": 0.53,
+      "avg_tenure_years": 0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Research Engineer",
+      "Python Developer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 38.7,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0029",
+    "name": "Aditya Martinez",
+    "email": "aditya.martinez@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about fullstack development. Strong background in Python, Flask, Scrum, Django with hands-on project experience.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "Python",
+      "Flask",
+      "Scrum",
+      "Django",
+      "Vue.js",
+      "MySQL",
+      "Angular"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "NIT Trichy",
+      "graduation_year": 2019,
+      "cgpa": 7.7
+    },
+    "experience": [
+      {
+        "company": "Meesho",
+        "role": "Full Stack Developer",
+        "start": "2023-10",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "TCS",
+        "role": "Cloud Engineer",
+        "start": "2021-11",
+        "end": "2023-02",
+        "duration_years": 2
+      },
+      {
+        "company": "Meesho",
+        "role": "Senior Software Engineer",
+        "start": "2018-09",
+        "end": "2021-09",
+        "duration_years": 3
+      },
+      {
+        "company": "PhonePe",
+        "role": "Research Engineer",
+        "start": "2017-08",
+        "end": "2018-01",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Google Cloud Professional"
+    ],
+    "github": {
+      "username": "aditya_martinez",
+      "repos": 38,
+      "contributions_last_year": 650,
+      "open_source_prs": 31,
+      "github_score": 0.21
+    },
+    "activity_signals": {
+      "leetcode_solved": 274,
+      "hackathon_participations": 6,
+      "blog_posts": 11,
+      "linkedin_activity_score": 0.31,
+      "last_active_days_ago": 65
+    },
+    "career_signals": {
+      "career_growth_score": 0.71,
+      "avg_tenure_years": 1.5,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "ML Engineer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 5.1,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0030",
+    "name": "Ishaan Miller",
+    "email": "ishaan.miller@email.com",
+    "location": "Pune",
+    "summary": "Mid ML engineer with 5 years of experience in FastAPI, Scikit-learn, Hugging Face.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Hugging Face",
+      "REST",
+      "Flask",
+      "TensorFlow",
+      "Keras",
+      "Problem Solving",
+      "Python",
+      "NLP",
+      "Django",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "NIT Warangal",
+      "graduation_year": 2019,
+      "cgpa": 7.3
+    },
+    "experience": [
+      {
+        "company": "CRED",
+        "role": "Cloud Engineer",
+        "start": "2025-05",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Ola",
+        "role": "Data Engineer",
+        "start": "2023-12",
+        "end": "2025-07",
+        "duration_years": 2
+      },
+      {
+        "company": "IBM",
+        "role": "Python Developer",
+        "start": "2022-06",
+        "end": "2023-08",
+        "duration_years": 1
+      },
+      {
+        "company": "Oracle",
+        "role": "Research Engineer",
+        "start": "2021-06",
+        "end": "2022-10",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "ishaan_miller",
+      "repos": 5,
+      "contributions_last_year": 445,
+      "open_source_prs": 17,
+      "github_score": 0.91
+    },
+    "activity_signals": {
+      "leetcode_solved": 372,
+      "hackathon_participations": 4,
+      "blog_posts": 1,
+      "linkedin_activity_score": 0.45,
+      "last_active_days_ago": 20
+    },
+    "career_signals": {
+      "career_growth_score": 0.98,
+      "avg_tenure_years": 1.7,
+      "promotions": 2,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "DevOps Engineer",
+      "Data Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 31.4,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0031",
+    "name": "Chris Harris",
+    "email": "chris.harris@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about backend development. Strong background in FastAPI, REST API, System Design, REST with hands-on project experience.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "backend",
+    "skills": [
+      "FastAPI",
+      "REST API",
+      "System Design",
+      "REST",
+      "Redis",
+      "NumPy",
+      "Flask"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "Manipal Institute",
+      "graduation_year": 2015,
+      "cgpa": 9.6
+    },
+    "experience": [
+      {
+        "company": "Amazon",
+        "role": "Platform Engineer",
+        "start": "2024-11",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Capgemini",
+        "role": "Data Scientist",
+        "start": "2022-12",
+        "end": "2024-02",
+        "duration_years": 2
+      },
+      {
+        "company": "CloudBase",
+        "role": "ML Engineer",
+        "start": "2021-03",
+        "end": "2022-12",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Cisco CCNA"
+    ],
+    "github": {
+      "username": "chris_harris",
+      "repos": 31,
+      "contributions_last_year": 726,
+      "open_source_prs": 18,
+      "github_score": 0.92
+    },
+    "activity_signals": {
+      "leetcode_solved": 102,
+      "hackathon_participations": 2,
+      "blog_posts": 11,
+      "linkedin_activity_score": 0.21,
+      "last_active_days_ago": 131
+    },
+    "career_signals": {
+      "career_growth_score": 0.82,
+      "avg_tenure_years": 1.7,
+      "promotions": 1,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Senior Software Engineer",
+      "Senior Software Engineer",
+      "ML Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 50.0,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0032",
+    "name": "Daniel Thompson",
+    "email": "daniel.thompson@email.com",
+    "location": "Mumbai",
+    "summary": "Results-driven developer specializing in Azure, GraphQL, Jenkins. 6 years building scalable systems.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "Azure",
+      "GraphQL",
+      "Jenkins",
+      "AWS",
+      "Kubernetes",
+      "MySQL",
+      "Java"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "VIT Vellore",
+      "graduation_year": 2021,
+      "cgpa": 9.8
+    },
+    "experience": [
+      {
+        "company": "CloudBase",
+        "role": "ML Engineer",
+        "start": "2023-02",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Wipro",
+        "role": "Cloud Engineer",
+        "start": "2021-09",
+        "end": "2023-05",
+        "duration_years": 2
+      },
+      {
+        "company": "Accenture",
+        "role": "ML Engineer",
+        "start": "2020-10",
+        "end": "2021-09",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "daniel_thompson",
+      "repos": 19,
+      "contributions_last_year": 95,
+      "open_source_prs": 9,
+      "github_score": 0.49
+    },
+    "activity_signals": {
+      "leetcode_solved": 84,
+      "hackathon_participations": 8,
+      "blog_posts": 5,
+      "linkedin_activity_score": 0.92,
+      "last_active_days_ago": 152
+    },
+    "career_signals": {
+      "career_growth_score": 0.24,
+      "avg_tenure_years": 3.0,
+      "promotions": 0,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 47.6,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0033",
+    "name": "Jason Brown",
+    "email": "jason.brown@email.com",
+    "location": "Remote",
+    "summary": "Results-driven developer specializing in Hadoop, FastAPI, RAG. 3 years building scalable systems.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "FastAPI",
+      "RAG",
+      "Snowflake",
+      "Pandas",
+      "Tableau"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "NIT Trichy",
+      "graduation_year": 2021,
+      "cgpa": 8.1
+    },
+    "experience": [
+      {
+        "company": "CRED",
+        "role": "Full Stack Developer",
+        "start": "2025-08",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Swiggy",
+        "role": "Python Developer",
+        "start": "2024-04",
+        "end": "2025-03",
+        "duration_years": 1
+      },
+      {
+        "company": "Microsoft",
+        "role": "ML Engineer",
+        "start": "2023-07",
+        "end": "2024-10",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Cisco CCNA",
+      "Azure AZ-900"
+    ],
+    "github": {
+      "username": "jason_brown",
+      "repos": 20,
+      "contributions_last_year": 428,
+      "open_source_prs": 20,
+      "github_score": 0.72
+    },
+    "activity_signals": {
+      "leetcode_solved": 375,
+      "hackathon_participations": 3,
+      "blog_posts": 5,
+      "linkedin_activity_score": 0.24,
+      "last_active_days_ago": 84
+    },
+    "career_signals": {
+      "career_growth_score": 0.53,
+      "avg_tenure_years": 3.0,
+      "promotions": 1,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "AI/ML Engineer",
+      "Python Developer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 44.3,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0034",
+    "name": "Jessica Miller",
+    "email": "jessica.miller@email.com",
+    "location": "Chennai",
+    "summary": "Passionate about ml development. Strong background in FastAPI, REST, RAG, NumPy with hands-on project experience.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "REST",
+      "RAG",
+      "NumPy",
+      "Flask",
+      "Scrum",
+      "Keras",
+      "Problem Solving",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Chandigarh University",
+      "graduation_year": 2019,
+      "cgpa": 6.3
+    },
+    "experience": [
+      {
+        "company": "Startup XYZ",
+        "role": "AI/ML Engineer",
+        "start": "2025-05",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization",
+      "Docker Certified",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "jessica_miller",
+      "repos": 25,
+      "contributions_last_year": 638,
+      "open_source_prs": 2,
+      "github_score": 0.58
+    },
+    "activity_signals": {
+      "leetcode_solved": 26,
+      "hackathon_participations": 1,
+      "blog_posts": 4,
+      "linkedin_activity_score": 0.86,
+      "last_active_days_ago": 25
+    },
+    "career_signals": {
+      "career_growth_score": 0.54,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Full Stack Developer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 26.9,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0035",
+    "name": "Karan Jackson",
+    "email": "karan.jackson@email.com",
+    "location": "Chennai",
+    "summary": "Results-driven developer specializing in FastAPI, Scikit-learn, Hugging Face. 0 years building scalable systems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Hugging Face",
+      "System Design",
+      "NumPy",
+      "Scrum",
+      "TensorFlow",
+      "Keras",
+      "Problem Solving",
+      "PyTorch",
+      "NLP"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIT Bombay",
+      "graduation_year": 2025,
+      "cgpa": 7.1
+    },
+    "experience": [],
+    "certifications": [
+      "AWS Solutions Architect",
+      "Deep Learning Specialization"
+    ],
+    "github": {
+      "username": "karan_jackson",
+      "repos": 7,
+      "contributions_last_year": 671,
+      "open_source_prs": 21,
+      "github_score": 0.56
+    },
+    "activity_signals": {
+      "leetcode_solved": 213,
+      "hackathon_participations": 3,
+      "blog_posts": 1,
+      "linkedin_activity_score": 0.56,
+      "last_active_days_ago": 150
+    },
+    "career_signals": {
+      "career_growth_score": 0.59,
+      "avg_tenure_years": 0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "AI/ML Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 39.4,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0036",
+    "name": "Neha Patel",
+    "email": "neha.patel@email.com",
+    "location": "Chennai",
+    "summary": "Results-driven developer specializing in RAG, NLP, Git. 10 years building scalable systems.",
+    "years_experience": 10,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "RAG",
+      "NLP",
+      "Git",
+      "Flask",
+      "TensorFlow",
+      "Keras",
+      "Problem Solving"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Mumbai University",
+      "graduation_year": 2018,
+      "cgpa": 8.4
+    },
+    "experience": [
+      {
+        "company": "Razorpay",
+        "role": "ML Engineer",
+        "start": "2025-09",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Razorpay",
+        "role": "ML Engineer",
+        "start": "2023-05",
+        "end": "2025-12",
+        "duration_years": 2
+      },
+      {
+        "company": "IBM",
+        "role": "Frontend Developer",
+        "start": "2022-08",
+        "end": "2023-06",
+        "duration_years": 1
+      },
+      {
+        "company": "Meesho",
+        "role": "AI/ML Engineer",
+        "start": "2020-12",
+        "end": "2022-05",
+        "duration_years": 2
+      },
+      {
+        "company": "Flipkart",
+        "role": "Data Engineer",
+        "start": "2018-11",
+        "end": "2020-09",
+        "duration_years": 2
+      },
+      {
+        "company": "CloudBase",
+        "role": "DevOps Engineer",
+        "start": "2016-06",
+        "end": "2018-03",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Microsoft AI-900",
+      "Docker Certified"
+    ],
+    "github": {
+      "username": "neha_patel",
+      "repos": 11,
+      "contributions_last_year": 297,
+      "open_source_prs": 20,
+      "github_score": 0.74
+    },
+    "activity_signals": {
+      "leetcode_solved": 235,
+      "hackathon_participations": 0,
+      "blog_posts": 9,
+      "linkedin_activity_score": 0.57,
+      "last_active_days_ago": 21
+    },
+    "career_signals": {
+      "career_growth_score": 0.65,
+      "avg_tenure_years": 1.7,
+      "promotions": 3,
+      "companies_worked": 5
+    },
+    "preferred_roles": [
+      "Frontend Developer",
+      "Python Developer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 35.0,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0037",
+    "name": "Arjun Brown",
+    "email": "arjun.brown@email.com",
+    "location": "Bengaluru",
+    "summary": "Results-driven developer specializing in FastAPI, REST, NumPy. 8 years building scalable systems.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "REST",
+      "NumPy",
+      "Git",
+      "Flask",
+      "Pandas",
+      "Deep Learning",
+      "Keras",
+      "PyTorch",
+      "NLP",
+      "Agile",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "IIT Bangalore",
+      "graduation_year": 2020,
+      "cgpa": 7.1
+    },
+    "experience": [
+      {
+        "company": "Zoho",
+        "role": "AI/ML Engineer",
+        "start": "2023-08",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "TechSolutions",
+        "role": "AI/ML Engineer",
+        "start": "2022-08",
+        "end": "2023-05",
+        "duration_years": 1
+      },
+      {
+        "company": "DataCorp",
+        "role": "Senior Software Engineer",
+        "start": "2021-06",
+        "end": "2022-03",
+        "duration_years": 1
+      },
+      {
+        "company": "Ola",
+        "role": "Cloud Engineer",
+        "start": "2018-05",
+        "end": "2021-12",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Kubernetes CKA",
+      "Azure AZ-900"
+    ],
+    "github": {
+      "username": "arjun_brown",
+      "repos": 18,
+      "contributions_last_year": 190,
+      "open_source_prs": 47,
+      "github_score": 0.89
+    },
+    "activity_signals": {
+      "leetcode_solved": 19,
+      "hackathon_participations": 0,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.26,
+      "last_active_days_ago": 76
+    },
+    "career_signals": {
+      "career_growth_score": 0.94,
+      "avg_tenure_years": 1.6,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Data Scientist",
+      "ML Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 37.0,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0038",
+    "name": "Emily Jackson",
+    "email": "emily.jackson@email.com",
+    "location": "Remote",
+    "summary": "Passionate about backend development. Strong background in REST API, Redis, Agile, AWS with hands-on project experience.",
+    "years_experience": 10,
+    "seniority": "senior",
+    "role_type": "backend",
+    "skills": [
+      "REST API",
+      "Redis",
+      "Agile",
+      "AWS",
+      "Pandas",
+      "Kubernetes",
+      "GitHub Actions",
+      "Python",
+      "Java"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "IIT Madras",
+      "graduation_year": 2026,
+      "cgpa": 7.8
+    },
+    "experience": [
+      {
+        "company": "Meesho",
+        "role": "Senior Software Engineer",
+        "start": "2023-10",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Microsoft",
+        "role": "Research Engineer",
+        "start": "2022-09",
+        "end": "2023-09",
+        "duration_years": 1
+      },
+      {
+        "company": "HCL",
+        "role": "AI/ML Engineer",
+        "start": "2021-03",
+        "end": "2022-03",
+        "duration_years": 1
+      },
+      {
+        "company": "TechSolutions",
+        "role": "AI/ML Engineer",
+        "start": "2019-08",
+        "end": "2021-02",
+        "duration_years": 2
+      },
+      {
+        "company": "Wipro",
+        "role": "Frontend Developer",
+        "start": "2016-10",
+        "end": "2019-08",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Docker Certified",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "emily_jackson",
+      "repos": 34,
+      "contributions_last_year": 93,
+      "open_source_prs": 30,
+      "github_score": 0.96
+    },
+    "activity_signals": {
+      "leetcode_solved": 340,
+      "hackathon_participations": 8,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.53,
+      "last_active_days_ago": 15
+    },
+    "career_signals": {
+      "career_growth_score": 0.56,
+      "avg_tenure_years": 2.0,
+      "promotions": 2,
+      "companies_worked": 5
+    },
+    "preferred_roles": [
+      "Senior Software Engineer",
+      "AI/ML Engineer",
+      "Software Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 49.3,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0039",
+    "name": "Daniel Reddy",
+    "email": "daniel.reddy@email.com",
+    "location": "Remote",
+    "summary": "Mid ML engineer with 4 years of experience in FastAPI, Scikit-learn, Hugging Face.",
+    "years_experience": 4,
+    "seniority": "mid",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Hugging Face",
+      "NLP",
+      "Flask",
+      "Pandas",
+      "Deep Learning",
+      "LLM"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Manipal Institute",
+      "graduation_year": 2023,
+      "cgpa": 8.1
+    },
+    "experience": [
+      {
+        "company": "Razorpay",
+        "role": "Python Developer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Swiggy",
+        "role": "Full Stack Developer",
+        "start": "2024-12",
+        "end": "2025-02",
+        "duration_years": 1
+      },
+      {
+        "company": "DataCorp",
+        "role": "Cloud Engineer",
+        "start": "2023-07",
+        "end": "2024-10",
+        "duration_years": 1
+      },
+      {
+        "company": "Razorpay",
+        "role": "Full Stack Developer",
+        "start": "2022-02",
+        "end": "2023-02",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "daniel_reddy",
+      "repos": 14,
+      "contributions_last_year": 608,
+      "open_source_prs": 8,
+      "github_score": 0.87
+    },
+    "activity_signals": {
+      "leetcode_solved": 1,
+      "hackathon_participations": 0,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.21,
+      "last_active_days_ago": 154
+    },
+    "career_signals": {
+      "career_growth_score": 0.99,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Full Stack Developer",
+      "Platform Engineer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 9.6,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0040",
+    "name": "James Moore",
+    "email": "james.moore@email.com",
+    "location": "Mumbai",
+    "summary": "Results-driven developer specializing in FastAPI, System Design, REST. 9 years building scalable systems.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "System Design",
+      "REST",
+      "NumPy",
+      "Flask",
+      "Keras",
+      "LLM",
+      "LangChain",
+      "Agile",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "NIT Warangal",
+      "graduation_year": 2025,
+      "cgpa": 7.0
+    },
+    "experience": [
+      {
+        "company": "Zomato",
+        "role": "Research Engineer",
+        "start": "2025-12",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "DataCorp",
+        "role": "Python Developer",
+        "start": "2024-01",
+        "end": "2025-09",
+        "duration_years": 1
+      },
+      {
+        "company": "Paytm",
+        "role": "AI/ML Engineer",
+        "start": "2022-09",
+        "end": "2024-03",
+        "duration_years": 2
+      },
+      {
+        "company": "Razorpay",
+        "role": "ML Engineer",
+        "start": "2020-04",
+        "end": "2022-06",
+        "duration_years": 2
+      },
+      {
+        "company": "Amazon",
+        "role": "Python Developer",
+        "start": "2017-06",
+        "end": "2020-02",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Microsoft AI-900",
+      "Deep Learning Specialization"
+    ],
+    "github": {
+      "username": "james_moore",
+      "repos": 26,
+      "contributions_last_year": 548,
+      "open_source_prs": 44,
+      "github_score": 0.6
+    },
+    "activity_signals": {
+      "leetcode_solved": 209,
+      "hackathon_participations": 3,
+      "blog_posts": 1,
+      "linkedin_activity_score": 0.14,
+      "last_active_days_ago": 69
+    },
+    "career_signals": {
+      "career_growth_score": 0.48,
+      "avg_tenure_years": 1.5,
+      "promotions": 1,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Full Stack Developer",
+      "AI/ML Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 39.4,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0041",
+    "name": "Michael Verma",
+    "email": "michael.verma@email.com",
+    "location": "Pune",
+    "summary": "Results-driven developer specializing in GraphQL, REST, Git. 8 years building scalable systems.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "GraphQL",
+      "REST",
+      "Git",
+      "JavaScript",
+      "Flask",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "BITS Pilani",
+      "graduation_year": 2020,
+      "cgpa": 6.9
+    },
+    "experience": [
+      {
+        "company": "AIVentures",
+        "role": "Full Stack Developer",
+        "start": "2023-08",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Accenture",
+        "role": "Cloud Engineer",
+        "start": "2020-06",
+        "end": "2023-05",
+        "duration_years": 3
+      },
+      {
+        "company": "Oracle",
+        "role": "Cloud Engineer",
+        "start": "2018-12",
+        "end": "2020-08",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "michael_verma",
+      "repos": 37,
+      "contributions_last_year": 471,
+      "open_source_prs": 37,
+      "github_score": 0.61
+    },
+    "activity_signals": {
+      "leetcode_solved": 368,
+      "hackathon_participations": 2,
+      "blog_posts": 11,
+      "linkedin_activity_score": 0.3,
+      "last_active_days_ago": 44
+    },
+    "career_signals": {
+      "career_growth_score": 0.32,
+      "avg_tenure_years": 1.3,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Python Developer",
+      "Software Engineer",
+      "Software Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 28.9,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0042",
+    "name": "Kavya Wilson",
+    "email": "kavya.wilson@email.com",
+    "location": "Chennai",
+    "summary": "Passionate about ml development. Strong background in Hugging Face, System Design, NumPy, Pandas with hands-on project experience.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "Hugging Face",
+      "System Design",
+      "NumPy",
+      "Pandas",
+      "Deep Learning",
+      "TensorFlow",
+      "LLM",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "VIT Vellore",
+      "graduation_year": 2019,
+      "cgpa": 8.7
+    },
+    "experience": [
+      {
+        "company": "Accenture",
+        "role": "Research Engineer",
+        "start": "2025-11",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Amazon",
+        "role": "DevOps Engineer",
+        "start": "2024-07",
+        "end": "2025-07",
+        "duration_years": 1
+      },
+      {
+        "company": "Byju's",
+        "role": "Software Engineer",
+        "start": "2021-11",
+        "end": "2024-01",
+        "duration_years": 3
+      },
+      {
+        "company": "TCS",
+        "role": "Senior Software Engineer",
+        "start": "2018-08",
+        "end": "2021-07",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "kavya_wilson",
+      "repos": 25,
+      "contributions_last_year": 660,
+      "open_source_prs": 23,
+      "github_score": 0.57
+    },
+    "activity_signals": {
+      "leetcode_solved": 235,
+      "hackathon_participations": 5,
+      "blog_posts": 3,
+      "linkedin_activity_score": 0.83,
+      "last_active_days_ago": 136
+    },
+    "career_signals": {
+      "career_growth_score": 0.41,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Backend Developer",
+      "Platform Engineer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 46.7,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0043",
+    "name": "Neha Moore",
+    "email": "neha.moore@email.com",
+    "location": "Pune",
+    "summary": "Passionate about ai development. Strong background in FastAPI, REST, NumPy, Flask with hands-on project experience.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "REST",
+      "NumPy",
+      "Flask",
+      "Pandas",
+      "LLM",
+      "NLP",
+      "Django",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Chandigarh University",
+      "graduation_year": 2022,
+      "cgpa": 7.7
+    },
+    "experience": [
+      {
+        "company": "HCL",
+        "role": "Cloud Engineer",
+        "start": "2023-07",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "Data Engineer",
+        "start": "2022-05",
+        "end": "2023-04",
+        "duration_years": 1
+      },
+      {
+        "company": "Amazon",
+        "role": "Senior Software Engineer",
+        "start": "2019-05",
+        "end": "2022-03",
+        "duration_years": 3
+      },
+      {
+        "company": "IBM",
+        "role": "Platform Engineer",
+        "start": "2017-11",
+        "end": "2019-03",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Docker Certified",
+      "Deep Learning Specialization",
+      "AWS Solutions Architect"
+    ],
+    "github": {
+      "username": "neha_moore",
+      "repos": 17,
+      "contributions_last_year": 757,
+      "open_source_prs": 40,
+      "github_score": 0.31
+    },
+    "activity_signals": {
+      "leetcode_solved": 230,
+      "hackathon_participations": 6,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.17,
+      "last_active_days_ago": 93
+    },
+    "career_signals": {
+      "career_growth_score": 0.68,
+      "avg_tenure_years": 1.5,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Platform Engineer",
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 45.5,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0044",
+    "name": "Arjun Thomas",
+    "email": "arjun.thomas@email.com",
+    "location": "Chennai",
+    "summary": "Passionate about devops development. Strong background in Linux, REST, Terraform, Go with hands-on project experience.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "Linux",
+      "REST",
+      "Terraform",
+      "Go",
+      "CI/CD",
+      "GitHub Actions",
+      "Java"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "IIT Bangalore",
+      "graduation_year": 2014,
+      "cgpa": 7.2
+    },
+    "experience": [
+      {
+        "company": "CRED",
+        "role": "Research Engineer",
+        "start": "2024-10",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "DataCorp",
+        "role": "Research Engineer",
+        "start": "2022-06",
+        "end": "2024-08",
+        "duration_years": 2
+      },
+      {
+        "company": "Paytm",
+        "role": "Research Engineer",
+        "start": "2020-11",
+        "end": "2022-10",
+        "duration_years": 2
+      },
+      {
+        "company": "Zomato",
+        "role": "Data Scientist",
+        "start": "2019-10",
+        "end": "2020-12",
+        "duration_years": 1
+      },
+      {
+        "company": "Byju's",
+        "role": "Data Scientist",
+        "start": "2018-03",
+        "end": "2019-07",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "arjun_thomas",
+      "repos": 40,
+      "contributions_last_year": 326,
+      "open_source_prs": 15,
+      "github_score": 0.35
+    },
+    "activity_signals": {
+      "leetcode_solved": 253,
+      "hackathon_participations": 4,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.37,
+      "last_active_days_ago": 148
+    },
+    "career_signals": {
+      "career_growth_score": 0.83,
+      "avg_tenure_years": 1.6,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Python Developer",
+      "Backend Developer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 14.4,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0045",
+    "name": "David Kumar",
+    "email": "david.kumar@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in Scikit-learn, NumPy, Flask, Tableau. Love solving complex problems.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "data",
+    "skills": [
+      "Scikit-learn",
+      "NumPy",
+      "Flask",
+      "Tableau",
+      "dbt",
+      "Airflow",
+      "BigQuery",
+      "Power BI",
+      "Python",
+      "PyTorch"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "IIT Bombay",
+      "graduation_year": 2013,
+      "cgpa": 7.0
+    },
+    "experience": [
+      {
+        "company": "Oracle",
+        "role": "AI/ML Engineer",
+        "start": "2023-09",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "IBM",
+        "role": "Data Engineer",
+        "start": "2020-04",
+        "end": "2023-08",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "david_kumar",
+      "repos": 25,
+      "contributions_last_year": 383,
+      "open_source_prs": 41,
+      "github_score": 0.69
+    },
+    "activity_signals": {
+      "leetcode_solved": 385,
+      "hackathon_participations": 6,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.42,
+      "last_active_days_ago": 174
+    },
+    "career_signals": {
+      "career_growth_score": 0.72,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "ML Engineer",
+      "Data Scientist"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 39.9,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0046",
+    "name": "Rohan Jones",
+    "email": "rohan.jones@email.com",
+    "location": "Mumbai",
+    "summary": "Detail-oriented engineer with expertise in Scikit-learn, GraphQL, Node.js, System Design. Love solving complex problems.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "backend",
+    "skills": [
+      "Scikit-learn",
+      "GraphQL",
+      "Node.js",
+      "System Design",
+      "Redis",
+      "Go",
+      "Flask",
+      "Jenkins",
+      "MySQL",
+      "Python"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "IIT Bombay",
+      "graduation_year": 2016,
+      "cgpa": 7.8
+    },
+    "experience": [
+      {
+        "company": "PhonePe",
+        "role": "Software Engineer",
+        "start": "2024-12",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Wipro",
+        "role": "ML Engineer",
+        "start": "2023-12",
+        "end": "2024-02",
+        "duration_years": 1
+      },
+      {
+        "company": "Flipkart",
+        "role": "Platform Engineer",
+        "start": "2020-09",
+        "end": "2023-03",
+        "duration_years": 3
+      },
+      {
+        "company": "CRED",
+        "role": "Full Stack Developer",
+        "start": "2019-08",
+        "end": "2020-02",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "rohan_jones",
+      "repos": 40,
+      "contributions_last_year": 268,
+      "open_source_prs": 25,
+      "github_score": 0.24
+    },
+    "activity_signals": {
+      "leetcode_solved": 94,
+      "hackathon_participations": 7,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.6,
+      "last_active_days_ago": 153
+    },
+    "career_signals": {
+      "career_growth_score": 0.97,
+      "avg_tenure_years": 1.8,
+      "promotions": 2,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Full Stack Developer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 8.5,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0047",
+    "name": "Kevin Williams",
+    "email": "kevin.williams@email.com",
+    "location": "Chennai",
+    "summary": "Detail-oriented engineer with expertise in Hadoop, Spark, FastAPI, Scikit-learn. Love solving complex problems.",
+    "years_experience": 2,
+    "seniority": "junior",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "Spark",
+      "FastAPI",
+      "Scikit-learn",
+      "NumPy",
+      "Pandas",
+      "TensorFlow",
+      "Keras",
+      "Airflow",
+      "BigQuery",
+      "Power BI"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "SRM University",
+      "graduation_year": 2023,
+      "cgpa": 8.8
+    },
+    "experience": [
+      {
+        "company": "Byju's",
+        "role": "Backend Developer",
+        "start": "2024-02",
+        "end": "Present",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Kubernetes CKA"
+    ],
+    "github": {
+      "username": "kevin_williams",
+      "repos": 12,
+      "contributions_last_year": 578,
+      "open_source_prs": 8,
+      "github_score": 0.27
+    },
+    "activity_signals": {
+      "leetcode_solved": 196,
+      "hackathon_participations": 0,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.86,
+      "last_active_days_ago": 75
+    },
+    "career_signals": {
+      "career_growth_score": 0.7,
+      "avg_tenure_years": 1.0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "AI/ML Engineer",
+      "Senior Software Engineer",
+      "Data Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 15.6,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0048",
+    "name": "Chris Wilson",
+    "email": "chris.wilson@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in GraphQL, REST, Jenkins, Kubernetes. Love solving complex problems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "devops",
+    "skills": [
+      "GraphQL",
+      "REST",
+      "Jenkins",
+      "Kubernetes",
+      "Docker",
+      "GCP",
+      "GitHub Actions",
+      "REST API"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "NIT Trichy",
+      "graduation_year": 2016,
+      "cgpa": 9.3
+    },
+    "experience": [],
+    "certifications": [],
+    "github": {
+      "username": "chris_wilson",
+      "repos": 37,
+      "contributions_last_year": 60,
+      "open_source_prs": 47,
+      "github_score": 0.88
+    },
+    "activity_signals": {
+      "leetcode_solved": 352,
+      "hackathon_participations": 5,
+      "blog_posts": 8,
+      "linkedin_activity_score": 0.21,
+      "last_active_days_ago": 153
+    },
+    "career_signals": {
+      "career_growth_score": 0.85,
+      "avg_tenure_years": 0,
+      "promotions": 1,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Frontend Developer",
+      "ML Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 29.9,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0049",
+    "name": "Sneha Joshi",
+    "email": "sneha.joshi@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, Scikit-learn, REST, System Design. Love solving complex problems.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "REST",
+      "System Design",
+      "RAG",
+      "NumPy",
+      "Flask",
+      "Scrum"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "Delhi University",
+      "graduation_year": 2010,
+      "cgpa": 9.5
+    },
+    "experience": [
+      {
+        "company": "Amazon",
+        "role": "Frontend Developer",
+        "start": "2023-08",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Capgemini",
+        "role": "Frontend Developer",
+        "start": "2020-06",
+        "end": "2023-02",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "sneha_joshi",
+      "repos": 17,
+      "contributions_last_year": 547,
+      "open_source_prs": 32,
+      "github_score": 0.51
+    },
+    "activity_signals": {
+      "leetcode_solved": 355,
+      "hackathon_participations": 6,
+      "blog_posts": 6,
+      "linkedin_activity_score": 0.67,
+      "last_active_days_ago": 110
+    },
+    "career_signals": {
+      "career_growth_score": 0.9,
+      "avg_tenure_years": 2.0,
+      "promotions": 0,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 3.8,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0050",
+    "name": "Aditya Brown",
+    "email": "aditya.brown@email.com",
+    "location": "Bengaluru",
+    "summary": "Senior FULLSTACK engineer with 7 years of experience in GraphQL, Git, Go.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "GraphQL",
+      "Git",
+      "Go",
+      "Next.js",
+      "Flask",
+      "Vue.js",
+      "Tailwind CSS",
+      "Angular",
+      "REST API"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "SRM University",
+      "graduation_year": 2012,
+      "cgpa": 6.5
+    },
+    "experience": [
+      {
+        "company": "Freshworks",
+        "role": "Cloud Engineer",
+        "start": "2025-08",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "Frontend Developer",
+        "start": "2024-06",
+        "end": "2025-02",
+        "duration_years": 1
+      },
+      {
+        "company": "IBM",
+        "role": "Backend Developer",
+        "start": "2022-08",
+        "end": "2024-02",
+        "duration_years": 2
+      },
+      {
+        "company": "PhonePe",
+        "role": "Senior Software Engineer",
+        "start": "2021-12",
+        "end": "2022-02",
+        "duration_years": 1
+      },
+      {
+        "company": "CRED",
+        "role": "Data Scientist",
+        "start": "2020-05",
+        "end": "2021-03",
+        "duration_years": 1
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "Research Engineer",
+        "start": "2019-03",
+        "end": "2020-11",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "aditya_brown",
+      "repos": 5,
+      "contributions_last_year": 693,
+      "open_source_prs": 41,
+      "github_score": 0.46
+    },
+    "activity_signals": {
+      "leetcode_solved": 360,
+      "hackathon_participations": 2,
+      "blog_posts": 2,
+      "linkedin_activity_score": 0.37,
+      "last_active_days_ago": 136
+    },
+    "career_signals": {
+      "career_growth_score": 0.76,
+      "avg_tenure_years": 2.3,
+      "promotions": 3,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 9.6,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0051",
+    "name": "Michael Brown",
+    "email": "michael.brown@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about devops development. Strong background in Azure, REST API, Redis, Jenkins with hands-on project experience.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "Azure",
+      "REST API",
+      "Redis",
+      "Jenkins",
+      "Kubernetes",
+      "Problem Solving",
+      "GitHub Actions",
+      "MongoDB"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "Pune University",
+      "graduation_year": 2013,
+      "cgpa": 7.0
+    },
+    "experience": [
+      {
+        "company": "Cognizant",
+        "role": "Senior Software Engineer",
+        "start": "2023-09",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Meesho",
+        "role": "Data Scientist",
+        "start": "2022-03",
+        "end": "2023-07",
+        "duration_years": 1
+      },
+      {
+        "company": "Meesho",
+        "role": "AI/ML Engineer",
+        "start": "2020-11",
+        "end": "2022-03",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "michael_brown",
+      "repos": 18,
+      "contributions_last_year": 781,
+      "open_source_prs": 25,
+      "github_score": 0.89
+    },
+    "activity_signals": {
+      "leetcode_solved": 330,
+      "hackathon_participations": 7,
+      "blog_posts": 2,
+      "linkedin_activity_score": 0.28,
+      "last_active_days_ago": 5
+    },
+    "career_signals": {
+      "career_growth_score": 0.69,
+      "avg_tenure_years": 2.0,
+      "promotions": 3,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "DevOps Engineer",
+      "Senior Software Engineer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 28.3,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0052",
+    "name": "Ishaan Kumar",
+    "email": "ishaan.kumar@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about backend development. Strong background in FastAPI, GraphQL, Scikit-learn, REST API with hands-on project experience.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "backend",
+    "skills": [
+      "FastAPI",
+      "GraphQL",
+      "Scikit-learn",
+      "REST API",
+      "Redis",
+      "Go",
+      "Git",
+      "Jenkins",
+      "Docker",
+      "Microservices"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIT Bombay",
+      "graduation_year": 2015,
+      "cgpa": 8.0
+    },
+    "experience": [
+      {
+        "company": "Freshworks",
+        "role": "AI/ML Engineer",
+        "start": "2025-12",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "ishaan_kumar",
+      "repos": 11,
+      "contributions_last_year": 265,
+      "open_source_prs": 42,
+      "github_score": 0.93
+    },
+    "activity_signals": {
+      "leetcode_solved": 61,
+      "hackathon_participations": 2,
+      "blog_posts": 11,
+      "linkedin_activity_score": 0.2,
+      "last_active_days_ago": 33
+    },
+    "career_signals": {
+      "career_growth_score": 0.69,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "ML Engineer",
+      "AI/ML Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 15.4,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0053",
+    "name": "Kevin Johnson",
+    "email": "kevin.johnson@email.com",
+    "location": "Mumbai",
+    "summary": "Passionate about fullstack development. Strong background in Scikit-learn, JavaScript, Next.js, Go with hands-on project experience.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "Scikit-learn",
+      "JavaScript",
+      "Next.js",
+      "Go",
+      "Pandas",
+      "Vue.js"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "Chandigarh University",
+      "graduation_year": 2023,
+      "cgpa": 6.9
+    },
+    "experience": [
+      {
+        "company": "Paytm",
+        "role": "Frontend Developer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "AIVentures",
+        "role": "Senior Software Engineer",
+        "start": "2023-10",
+        "end": "2025-06",
+        "duration_years": 2
+      },
+      {
+        "company": "Freshworks",
+        "role": "Cloud Engineer",
+        "start": "2022-01",
+        "end": "2023-03",
+        "duration_years": 1
+      },
+      {
+        "company": "DataCorp",
+        "role": "AI/ML Engineer",
+        "start": "2021-01",
+        "end": "2022-07",
+        "duration_years": 1
+      },
+      {
+        "company": "CloudBase",
+        "role": "Python Developer",
+        "start": "2020-05",
+        "end": "2021-05",
+        "duration_years": 1
+      },
+      {
+        "company": "Amazon",
+        "role": "AI/ML Engineer",
+        "start": "2019-08",
+        "end": "2020-01",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "kevin_johnson",
+      "repos": 23,
+      "contributions_last_year": 377,
+      "open_source_prs": 30,
+      "github_score": 0.56
+    },
+    "activity_signals": {
+      "leetcode_solved": 196,
+      "hackathon_participations": 3,
+      "blog_posts": 9,
+      "linkedin_activity_score": 0.14,
+      "last_active_days_ago": 145
+    },
+    "career_signals": {
+      "career_growth_score": 0.89,
+      "avg_tenure_years": 2.3,
+      "promotions": 0,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Software Engineer",
+      "Full Stack Developer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 19.3,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0054",
+    "name": "David Garcia",
+    "email": "david.garcia@email.com",
+    "location": "Mumbai",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, Node.js, NumPy, Git. Love solving complex problems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "backend",
+    "skills": [
+      "FastAPI",
+      "Node.js",
+      "NumPy",
+      "Git",
+      "PostgreSQL",
+      "GitHub Actions",
+      "Microservices"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "IIT Delhi",
+      "graduation_year": 2023,
+      "cgpa": 8.6
+    },
+    "experience": [],
+    "certifications": [
+      "Kubernetes CKA",
+      "Google Cloud Professional"
+    ],
+    "github": {
+      "username": "david_garcia",
+      "repos": 6,
+      "contributions_last_year": 133,
+      "open_source_prs": 37,
+      "github_score": 0.93
+    },
+    "activity_signals": {
+      "leetcode_solved": 258,
+      "hackathon_participations": 3,
+      "blog_posts": 9,
+      "linkedin_activity_score": 0.91,
+      "last_active_days_ago": 67
+    },
+    "career_signals": {
+      "career_growth_score": 0.62,
+      "avg_tenure_years": 0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Frontend Developer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 17.9,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0055",
+    "name": "Nikhil Gupta",
+    "email": "nikhil.gupta@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about ai development. Strong background in FastAPI, LangChain, REST, RAG with hands-on project experience.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "LangChain",
+      "REST",
+      "RAG",
+      "Scrum",
+      "Deep Learning",
+      "TensorFlow"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Pune University",
+      "graduation_year": 2026,
+      "cgpa": 6.2
+    },
+    "experience": [
+      {
+        "company": "Swiggy",
+        "role": "Research Engineer",
+        "start": "2025-03",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Kaggle Competition Winner",
+      "Cisco CCNA",
+      "AWS Solutions Architect"
+    ],
+    "github": {
+      "username": "nikhil_gupta",
+      "repos": 20,
+      "contributions_last_year": 31,
+      "open_source_prs": 13,
+      "github_score": 0.34
+    },
+    "activity_signals": {
+      "leetcode_solved": 75,
+      "hackathon_participations": 6,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.21,
+      "last_active_days_ago": 143
+    },
+    "career_signals": {
+      "career_growth_score": 0.33,
+      "avg_tenure_years": 1.0,
+      "promotions": 1,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Software Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 42.0,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0056",
+    "name": "Jessica Johnson",
+    "email": "jessica.johnson@email.com",
+    "location": "Hyderabad",
+    "summary": "Passionate about ai development. Strong background in Scikit-learn, RAG, NumPy, Git with hands-on project experience.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "RAG",
+      "NumPy",
+      "Git",
+      "Flask",
+      "Deep Learning",
+      "TensorFlow"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "Anna University",
+      "graduation_year": 2018,
+      "cgpa": 7.8
+    },
+    "experience": [
+      {
+        "company": "Microsoft",
+        "role": "Data Engineer",
+        "start": "2025-10",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Accenture",
+        "role": "ML Engineer",
+        "start": "2024-08",
+        "end": "2025-07",
+        "duration_years": 1
+      },
+      {
+        "company": "Microsoft",
+        "role": "Senior Software Engineer",
+        "start": "2023-05",
+        "end": "2024-07",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Docker Certified",
+      "Kubernetes CKA",
+      "AWS Solutions Architect"
+    ],
+    "github": {
+      "username": "jessica_johnson",
+      "repos": 27,
+      "contributions_last_year": 140,
+      "open_source_prs": 24,
+      "github_score": 0.95
+    },
+    "activity_signals": {
+      "leetcode_solved": 88,
+      "hackathon_participations": 6,
+      "blog_posts": 6,
+      "linkedin_activity_score": 0.15,
+      "last_active_days_ago": 165
+    },
+    "career_signals": {
+      "career_growth_score": 0.94,
+      "avg_tenure_years": 3.0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Platform Engineer",
+      "Frontend Developer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 25.5,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0057",
+    "name": "Kevin Smith",
+    "email": "kevin.smith@email.com",
+    "location": "Mumbai",
+    "summary": "Passionate about backend development. Strong background in FastAPI, Node.js, Terraform, Flask with hands-on project experience.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "backend",
+    "skills": [
+      "FastAPI",
+      "Node.js",
+      "Terraform",
+      "Flask",
+      "Microservices",
+      "Agile",
+      "AWS",
+      "MongoDB",
+      "Spring Boot",
+      "Python",
+      "REST API"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Delhi University",
+      "graduation_year": 2021,
+      "cgpa": 9.7
+    },
+    "experience": [
+      {
+        "company": "IBM",
+        "role": "Frontend Developer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "HCL",
+        "role": "Backend Developer",
+        "start": "2022-10",
+        "end": "2025-04",
+        "duration_years": 3
+      },
+      {
+        "company": "Zoho",
+        "role": "ML Engineer",
+        "start": "2020-03",
+        "end": "2022-08",
+        "duration_years": 2
+      },
+      {
+        "company": "Amazon",
+        "role": "Software Engineer",
+        "start": "2019-04",
+        "end": "2020-10",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "AI/ML Engineer",
+        "start": "2018-08",
+        "end": "2019-01",
+        "duration_years": 1
+      },
+      {
+        "company": "DevHouse",
+        "role": "Data Engineer",
+        "start": "2017-04",
+        "end": "2018-03",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "AWS Solutions Architect",
+      "TensorFlow Developer Certificate",
+      "Cisco CCNA"
+    ],
+    "github": {
+      "username": "kevin_smith",
+      "repos": 22,
+      "contributions_last_year": 348,
+      "open_source_prs": 24,
+      "github_score": 0.19
+    },
+    "activity_signals": {
+      "leetcode_solved": 88,
+      "hackathon_participations": 2,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.69,
+      "last_active_days_ago": 16
+    },
+    "career_signals": {
+      "career_growth_score": 0.41,
+      "avg_tenure_years": 1.5,
+      "promotions": 2,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 41.3,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0058",
+    "name": "Karan Reddy",
+    "email": "karan.reddy@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in Azure, Scikit-learn, GraphQL, Linux. Love solving complex problems.",
+    "years_experience": 4,
+    "seniority": "mid",
+    "role_type": "backend",
+    "skills": [
+      "Azure",
+      "Scikit-learn",
+      "GraphQL",
+      "Linux",
+      "NumPy",
+      "Scrum"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "Anna University",
+      "graduation_year": 2016,
+      "cgpa": 7.0
+    },
+    "experience": [
+      {
+        "company": "Meesho",
+        "role": "ML Engineer",
+        "start": "2025-02",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "Software Engineer",
+        "start": "2022-07",
+        "end": "2025-08",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "karan_reddy",
+      "repos": 40,
+      "contributions_last_year": 750,
+      "open_source_prs": 5,
+      "github_score": 0.77
+    },
+    "activity_signals": {
+      "leetcode_solved": 373,
+      "hackathon_participations": 6,
+      "blog_posts": 5,
+      "linkedin_activity_score": 0.31,
+      "last_active_days_ago": 106
+    },
+    "career_signals": {
+      "career_growth_score": 0.99,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Python Developer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 40.6,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0059",
+    "name": "James Joshi",
+    "email": "james.joshi@email.com",
+    "location": "Mumbai",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, Azure, Linux, REST. Love solving complex problems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "backend",
+    "skills": [
+      "FastAPI",
+      "Azure",
+      "Linux",
+      "REST",
+      "Go",
+      "Flask",
+      "MySQL"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "Chandigarh University",
+      "graduation_year": 2018,
+      "cgpa": 8.6
+    },
+    "experience": [],
+    "certifications": [],
+    "github": {
+      "username": "james_joshi",
+      "repos": 21,
+      "contributions_last_year": 304,
+      "open_source_prs": 6,
+      "github_score": 0.95
+    },
+    "activity_signals": {
+      "leetcode_solved": 105,
+      "hackathon_participations": 3,
+      "blog_posts": 3,
+      "linkedin_activity_score": 0.25,
+      "last_active_days_ago": 13
+    },
+    "career_signals": {
+      "career_growth_score": 0.91,
+      "avg_tenure_years": 0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "AI/ML Engineer",
+      "Research Engineer",
+      "Python Developer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 5.6,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0060",
+    "name": "Ravi Thompson",
+    "email": "ravi.thompson@email.com",
+    "location": "Mumbai",
+    "summary": "Results-driven developer specializing in REST API, Next.js, React. 1 years building scalable systems.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "fullstack",
+    "skills": [
+      "REST API",
+      "Next.js",
+      "React",
+      "Scrum",
+      "Java",
+      "Django"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "Mumbai University",
+      "graduation_year": 2015,
+      "cgpa": 7.8
+    },
+    "experience": [
+      {
+        "company": "Ola",
+        "role": "Python Developer",
+        "start": "2025-05",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "ravi_thompson",
+      "repos": 34,
+      "contributions_last_year": 231,
+      "open_source_prs": 41,
+      "github_score": 0.81
+    },
+    "activity_signals": {
+      "leetcode_solved": 198,
+      "hackathon_participations": 4,
+      "blog_posts": 1,
+      "linkedin_activity_score": 0.52,
+      "last_active_days_ago": 39
+    },
+    "career_signals": {
+      "career_growth_score": 0.92,
+      "avg_tenure_years": 1.0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Full Stack Developer",
+      "AI/ML Engineer",
+      "Software Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 41.5,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0061",
+    "name": "John Moore",
+    "email": "john.moore@email.com",
+    "location": "Bengaluru",
+    "summary": "Detail-oriented engineer with expertise in Azure, Git, AWS, Kubernetes. Love solving complex problems.",
+    "years_experience": 10,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "Azure",
+      "Git",
+      "AWS",
+      "Kubernetes",
+      "GCP",
+      "MySQL",
+      "GitHub Actions"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "Bangalore University",
+      "graduation_year": 2016,
+      "cgpa": 10.0
+    },
+    "experience": [
+      {
+        "company": "Infosys",
+        "role": "Research Engineer",
+        "start": "2023-10",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "CRED",
+        "role": "Frontend Developer",
+        "start": "2021-02",
+        "end": "2023-02",
+        "duration_years": 2
+      },
+      {
+        "company": "Zoho",
+        "role": "DevOps Engineer",
+        "start": "2019-09",
+        "end": "2021-06",
+        "duration_years": 2
+      },
+      {
+        "company": "Freshworks",
+        "role": "Python Developer",
+        "start": "2017-01",
+        "end": "2019-12",
+        "duration_years": 2
+      },
+      {
+        "company": "Flipkart",
+        "role": "DevOps Engineer",
+        "start": "2016-03",
+        "end": "2017-03",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "john_moore",
+      "repos": 12,
+      "contributions_last_year": 580,
+      "open_source_prs": 13,
+      "github_score": 0.95
+    },
+    "activity_signals": {
+      "leetcode_solved": 64,
+      "hackathon_participations": 1,
+      "blog_posts": 3,
+      "linkedin_activity_score": 0.5,
+      "last_active_days_ago": 145
+    },
+    "career_signals": {
+      "career_growth_score": 0.96,
+      "avg_tenure_years": 2.0,
+      "promotions": 0,
+      "companies_worked": 5
+    },
+    "preferred_roles": [
+      "Data Scientist",
+      "Frontend Developer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 5.3,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0062",
+    "name": "Priya Smith",
+    "email": "priya.smith@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in Flask, Agile, Django, PostgreSQL. Love solving complex problems.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "backend",
+    "skills": [
+      "Flask",
+      "Agile",
+      "Django",
+      "PostgreSQL",
+      "GCP",
+      "GitHub Actions",
+      "Python",
+      "Java",
+      "REST API"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "Amity University",
+      "graduation_year": 2010,
+      "cgpa": 6.7
+    },
+    "experience": [
+      {
+        "company": "AIVentures",
+        "role": "Software Engineer",
+        "start": "2025-04",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Ola",
+        "role": "Software Engineer",
+        "start": "2024-06",
+        "end": "2025-12",
+        "duration_years": 1
+      },
+      {
+        "company": "Swiggy",
+        "role": "Data Scientist",
+        "start": "2023-08",
+        "end": "2024-09",
+        "duration_years": 1
+      },
+      {
+        "company": "Accenture",
+        "role": "Senior Software Engineer",
+        "start": "2021-11",
+        "end": "2023-01",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization",
+      "AWS Solutions Architect",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "priya_smith",
+      "repos": 10,
+      "contributions_last_year": 247,
+      "open_source_prs": 50,
+      "github_score": 0.5
+    },
+    "activity_signals": {
+      "leetcode_solved": 33,
+      "hackathon_participations": 5,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.92,
+      "last_active_days_ago": 153
+    },
+    "career_signals": {
+      "career_growth_score": 0.53,
+      "avg_tenure_years": 2.5,
+      "promotions": 2,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Research Engineer",
+      "Frontend Developer",
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 4.3,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0063",
+    "name": "Shreya Garcia",
+    "email": "shreya.garcia@email.com",
+    "location": "Mumbai",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, Scikit-learn, Hugging Face, Git. Love solving complex problems.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Hugging Face",
+      "Git",
+      "Flask",
+      "Scrum",
+      "Agile",
+      "Pandas",
+      "Deep Learning"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Amity University",
+      "graduation_year": 2022,
+      "cgpa": 8.3
+    },
+    "experience": [
+      {
+        "company": "Freshworks",
+        "role": "Cloud Engineer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Accenture",
+        "role": "Data Engineer",
+        "start": "2022-10",
+        "end": "2025-05",
+        "duration_years": 3
+      },
+      {
+        "company": "Capgemini",
+        "role": "Senior Software Engineer",
+        "start": "2020-08",
+        "end": "2022-02",
+        "duration_years": 2
+      },
+      {
+        "company": "Swiggy",
+        "role": "Cloud Engineer",
+        "start": "2018-06",
+        "end": "2020-05",
+        "duration_years": 2
+      },
+      {
+        "company": "Accenture",
+        "role": "Frontend Developer",
+        "start": "2017-11",
+        "end": "2018-05",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Docker Certified",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "shreya_garcia",
+      "repos": 29,
+      "contributions_last_year": 192,
+      "open_source_prs": 22,
+      "github_score": 0.65
+    },
+    "activity_signals": {
+      "leetcode_solved": 129,
+      "hackathon_participations": 2,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.95,
+      "last_active_days_ago": 15
+    },
+    "career_signals": {
+      "career_growth_score": 0.77,
+      "avg_tenure_years": 2.2,
+      "promotions": 1,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Frontend Developer",
+      "Frontend Developer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 35.3,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0064",
+    "name": "Kevin Verma",
+    "email": "kevin.verma@email.com",
+    "location": "Pune",
+    "summary": "Mid DATA engineer with 5 years of experience in Hadoop, Flask, SQL.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "Flask",
+      "SQL",
+      "Pandas",
+      "Tableau",
+      "TensorFlow",
+      "LLM",
+      "Airflow"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "IIT Delhi",
+      "graduation_year": 2012,
+      "cgpa": 7.9
+    },
+    "experience": [
+      {
+        "company": "Freshworks",
+        "role": "Senior Software Engineer",
+        "start": "2025-11",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Freshworks",
+        "role": "ML Engineer",
+        "start": "2023-07",
+        "end": "2025-01",
+        "duration_years": 2
+      },
+      {
+        "company": "Infosys",
+        "role": "Full Stack Developer",
+        "start": "2022-06",
+        "end": "2023-07",
+        "duration_years": 1
+      },
+      {
+        "company": "Infosys",
+        "role": "Data Scientist",
+        "start": "2021-12",
+        "end": "2022-03",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Deep Learning Specialization",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "kevin_verma",
+      "repos": 37,
+      "contributions_last_year": 797,
+      "open_source_prs": 16,
+      "github_score": 0.69
+    },
+    "activity_signals": {
+      "leetcode_solved": 150,
+      "hackathon_participations": 1,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.3,
+      "last_active_days_ago": 86
+    },
+    "career_signals": {
+      "career_growth_score": 0.38,
+      "avg_tenure_years": 1.7,
+      "promotions": 0,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Data Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 32.8,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0065",
+    "name": "David Sharma",
+    "email": "david.sharma@email.com",
+    "location": "Pune",
+    "summary": "Results-driven developer specializing in FastAPI, Python, Node.js. 7 years building scalable systems.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "FastAPI",
+      "Python",
+      "Node.js",
+      "React",
+      "Pandas",
+      "Vue.js"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "NIT Trichy",
+      "graduation_year": 2020,
+      "cgpa": 10.0
+    },
+    "experience": [
+      {
+        "company": "Meesho",
+        "role": "Platform Engineer",
+        "start": "2024-04",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "DevHouse",
+        "role": "Platform Engineer",
+        "start": "2023-07",
+        "end": "2024-01",
+        "duration_years": 1
+      },
+      {
+        "company": "Razorpay",
+        "role": "Frontend Developer",
+        "start": "2022-03",
+        "end": "2023-04",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "Data Engineer",
+        "start": "2019-09",
+        "end": "2022-03",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Azure AZ-900",
+      "Google Cloud Professional"
+    ],
+    "github": {
+      "username": "david_sharma",
+      "repos": 19,
+      "contributions_last_year": 126,
+      "open_source_prs": 2,
+      "github_score": 0.89
+    },
+    "activity_signals": {
+      "leetcode_solved": 148,
+      "hackathon_participations": 5,
+      "blog_posts": 1,
+      "linkedin_activity_score": 0.38,
+      "last_active_days_ago": 97
+    },
+    "career_signals": {
+      "career_growth_score": 0.28,
+      "avg_tenure_years": 2.3,
+      "promotions": 0,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Python Developer",
+      "DevOps Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 28.7,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0066",
+    "name": "Shreya Jackson",
+    "email": "shreya.jackson@email.com",
+    "location": "Remote",
+    "summary": "Results-driven developer specializing in Spark, FastAPI, Scikit-learn. 2 years building scalable systems.",
+    "years_experience": 2,
+    "seniority": "junior",
+    "role_type": "data",
+    "skills": [
+      "Spark",
+      "FastAPI",
+      "Scikit-learn",
+      "NumPy",
+      "Snowflake",
+      "Deep Learning"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "BITS Pilani",
+      "graduation_year": 2021,
+      "cgpa": 8.8
+    },
+    "experience": [
+      {
+        "company": "TCS",
+        "role": "Software Engineer",
+        "start": "2024-09",
+        "end": "Present",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "shreya_jackson",
+      "repos": 38,
+      "contributions_last_year": 508,
+      "open_source_prs": 12,
+      "github_score": 0.75
+    },
+    "activity_signals": {
+      "leetcode_solved": 102,
+      "hackathon_participations": 3,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.21,
+      "last_active_days_ago": 85
+    },
+    "career_signals": {
+      "career_growth_score": 0.29,
+      "avg_tenure_years": 1.0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 6.5,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0067",
+    "name": "Amit Jones",
+    "email": "amit.jones@email.com",
+    "location": "Delhi",
+    "summary": "Senior BACKEND engineer with 10 years of experience in GraphQL, Node.js, REST API.",
+    "years_experience": 10,
+    "seniority": "senior",
+    "role_type": "backend",
+    "skills": [
+      "GraphQL",
+      "Node.js",
+      "REST API",
+      "Git",
+      "AWS",
+      "Pandas",
+      "Kubernetes",
+      "GCP",
+      "Python",
+      "Django"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Delhi University",
+      "graduation_year": 2015,
+      "cgpa": 6.5
+    },
+    "experience": [
+      {
+        "company": "Ola",
+        "role": "ML Engineer",
+        "start": "2024-07",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Python Developer",
+        "start": "2021-07",
+        "end": "2024-11",
+        "duration_years": 3
+      },
+      {
+        "company": "Flipkart",
+        "role": "Backend Developer",
+        "start": "2020-12",
+        "end": "2021-12",
+        "duration_years": 1
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Backend Developer",
+        "start": "2019-02",
+        "end": "2020-07",
+        "duration_years": 1
+      },
+      {
+        "company": "Byju's",
+        "role": "Platform Engineer",
+        "start": "2016-10",
+        "end": "2019-11",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "amit_jones",
+      "repos": 39,
+      "contributions_last_year": 448,
+      "open_source_prs": 28,
+      "github_score": 0.11
+    },
+    "activity_signals": {
+      "leetcode_solved": 137,
+      "hackathon_participations": 2,
+      "blog_posts": 12,
+      "linkedin_activity_score": 0.22,
+      "last_active_days_ago": 92
+    },
+    "career_signals": {
+      "career_growth_score": 0.72,
+      "avg_tenure_years": 1.7,
+      "promotions": 3,
+      "companies_worked": 5
+    },
+    "preferred_roles": [
+      "Cloud Engineer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 10.0,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0068",
+    "name": "Arjun Miller",
+    "email": "arjun.miller@email.com",
+    "location": "Pune",
+    "summary": "Senior ML engineer with 10 years of experience in FastAPI, Scikit-learn, System Design.",
+    "years_experience": 10,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "System Design",
+      "RAG",
+      "Keras",
+      "Python",
+      "PyTorch",
+      "NLP",
+      "Django",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "B.Tech Computer Science",
+      "college": "Pune University",
+      "graduation_year": 2023,
+      "cgpa": 6.1
+    },
+    "experience": [
+      {
+        "company": "Google",
+        "role": "Research Engineer",
+        "start": "2023-02",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Cognizant",
+        "role": "Cloud Engineer",
+        "start": "2020-05",
+        "end": "2023-09",
+        "duration_years": 3
+      },
+      {
+        "company": "Wipro",
+        "role": "Cloud Engineer",
+        "start": "2017-11",
+        "end": "2020-08",
+        "duration_years": 3
+      },
+      {
+        "company": "Meesho",
+        "role": "Research Engineer",
+        "start": "2016-01",
+        "end": "2017-04",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Kubernetes CKA",
+      "Google Cloud Professional",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "arjun_miller",
+      "repos": 20,
+      "contributions_last_year": 465,
+      "open_source_prs": 28,
+      "github_score": 0.68
+    },
+    "activity_signals": {
+      "leetcode_solved": 60,
+      "hackathon_participations": 5,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.46,
+      "last_active_days_ago": 169
+    },
+    "career_signals": {
+      "career_growth_score": 0.39,
+      "avg_tenure_years": 1.7,
+      "promotions": 1,
+      "companies_worked": 5
+    },
+    "preferred_roles": [
+      "Research Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 13.1,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0069",
+    "name": "Rohan Harris",
+    "email": "rohan.harris@email.com",
+    "location": "Pune",
+    "summary": "Results-driven developer specializing in Spark, FastAPI, Scikit-learn. 5 years building scalable systems.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "data",
+    "skills": [
+      "Spark",
+      "FastAPI",
+      "Scikit-learn",
+      "NumPy",
+      "LLM",
+      "Airflow",
+      "Power BI",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Pune University",
+      "graduation_year": 2023,
+      "cgpa": 9.9
+    },
+    "experience": [
+      {
+        "company": "Startup XYZ",
+        "role": "Full Stack Developer",
+        "start": "2023-05",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "CRED",
+        "role": "ML Engineer",
+        "start": "2021-08",
+        "end": "2023-03",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Azure AZ-900",
+      "Cisco CCNA",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "rohan_harris",
+      "repos": 8,
+      "contributions_last_year": 141,
+      "open_source_prs": 46,
+      "github_score": 0.76
+    },
+    "activity_signals": {
+      "leetcode_solved": 53,
+      "hackathon_participations": 6,
+      "blog_posts": 9,
+      "linkedin_activity_score": 0.6,
+      "last_active_days_ago": 180
+    },
+    "career_signals": {
+      "career_growth_score": 0.55,
+      "avg_tenure_years": 1.7,
+      "promotions": 1,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "AI/ML Engineer",
+      "Frontend Developer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 36.4,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0070",
+    "name": "Nicole Moore",
+    "email": "nicole.moore@email.com",
+    "location": "Remote",
+    "summary": "Senior DEVOPS engineer with 7 years of experience in Azure, Node.js, Linux.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "Azure",
+      "Node.js",
+      "Linux",
+      "Terraform",
+      "Git",
+      "Docker",
+      "GCP",
+      "GitHub Actions",
+      "Agile"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIIT Hyderabad",
+      "graduation_year": 2016,
+      "cgpa": 9.0
+    },
+    "experience": [
+      {
+        "company": "Meesho",
+        "role": "Research Engineer",
+        "start": "2025-08",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Cognizant",
+        "role": "Research Engineer",
+        "start": "2024-11",
+        "end": "2025-12",
+        "duration_years": 1
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Full Stack Developer",
+        "start": "2021-12",
+        "end": "2024-11",
+        "duration_years": 3
+      },
+      {
+        "company": "Razorpay",
+        "role": "AI/ML Engineer",
+        "start": "2019-12",
+        "end": "2021-05",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "nicole_moore",
+      "repos": 16,
+      "contributions_last_year": 709,
+      "open_source_prs": 18,
+      "github_score": 0.7
+    },
+    "activity_signals": {
+      "leetcode_solved": 74,
+      "hackathon_participations": 0,
+      "blog_posts": 12,
+      "linkedin_activity_score": 0.28,
+      "last_active_days_ago": 100
+    },
+    "career_signals": {
+      "career_growth_score": 0.8,
+      "avg_tenure_years": 1.8,
+      "promotions": 1,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Full Stack Developer",
+      "ML Engineer",
+      "Python Developer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 49.2,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0071",
+    "name": "Kevin Singh",
+    "email": "kevin.singh@email.com",
+    "location": "Hyderabad",
+    "summary": "Junior AI engineer with 2 years of experience in Hugging Face, NumPy, Flask.",
+    "years_experience": 2,
+    "seniority": "junior",
+    "role_type": "ai",
+    "skills": [
+      "Hugging Face",
+      "NumPy",
+      "Flask",
+      "Agile",
+      "TensorFlow",
+      "Keras",
+      "LLM",
+      "Problem Solving",
+      "Django",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "Delhi University",
+      "graduation_year": 2026,
+      "cgpa": 6.9
+    },
+    "experience": [
+      {
+        "company": "Freshworks",
+        "role": "Senior Software Engineer",
+        "start": "2025-09",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Paytm",
+        "role": "AI/ML Engineer",
+        "start": "2024-09",
+        "end": "2025-07",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Cisco CCNA",
+      "NPTEL Python",
+      "Coursera ML Specialization"
+    ],
+    "github": {
+      "username": "kevin_singh",
+      "repos": 36,
+      "contributions_last_year": 94,
+      "open_source_prs": 31,
+      "github_score": 0.14
+    },
+    "activity_signals": {
+      "leetcode_solved": 281,
+      "hackathon_participations": 5,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.94,
+      "last_active_days_ago": 55
+    },
+    "career_signals": {
+      "career_growth_score": 0.68,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "AI/ML Engineer",
+      "Python Developer",
+      "AI/ML Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 8.4,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0072",
+    "name": "Heather Robinson",
+    "email": "heather.robinson@email.com",
+    "location": "Mumbai",
+    "summary": "Mid FULLSTACK engineer with 3 years of experience in Python, REST API, System Design.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "fullstack",
+    "skills": [
+      "Python",
+      "REST API",
+      "System Design",
+      "Go",
+      "Flask",
+      "Pandas",
+      "Tailwind CSS",
+      "Problem Solving",
+      "Angular"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIT Madras",
+      "graduation_year": 2016,
+      "cgpa": 8.7
+    },
+    "experience": [
+      {
+        "company": "TechSolutions",
+        "role": "Cloud Engineer",
+        "start": "2025-07",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Wipro",
+        "role": "AI/ML Engineer",
+        "start": "2024-12",
+        "end": "2025-12",
+        "duration_years": 1
+      },
+      {
+        "company": "Accenture",
+        "role": "Research Engineer",
+        "start": "2023-02",
+        "end": "2024-12",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "heather_robinson",
+      "repos": 5,
+      "contributions_last_year": 702,
+      "open_source_prs": 32,
+      "github_score": 0.5
+    },
+    "activity_signals": {
+      "leetcode_solved": 49,
+      "hackathon_participations": 2,
+      "blog_posts": 0,
+      "linkedin_activity_score": 0.14,
+      "last_active_days_ago": 118
+    },
+    "career_signals": {
+      "career_growth_score": 0.92,
+      "avg_tenure_years": 3.0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Backend Developer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 29.2,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0073",
+    "name": "David Jones",
+    "email": "david.jones@email.com",
+    "location": "Remote",
+    "summary": "Senior BACKEND engineer with 6 years of experience in Node.js, Linux, System Design.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "backend",
+    "skills": [
+      "Node.js",
+      "Linux",
+      "System Design",
+      "Redis",
+      "Go",
+      "Flask",
+      "Microservices",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "MySQL",
+      "Python"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "NIT Warangal",
+      "graduation_year": 2017,
+      "cgpa": 6.5
+    },
+    "experience": [
+      {
+        "company": "DataCorp",
+        "role": "Platform Engineer",
+        "start": "2024-09",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Accenture",
+        "role": "Backend Developer",
+        "start": "2022-05",
+        "end": "2024-11",
+        "duration_years": 2
+      },
+      {
+        "company": "Google",
+        "role": "AI/ML Engineer",
+        "start": "2020-09",
+        "end": "2022-03",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "david_jones",
+      "repos": 24,
+      "contributions_last_year": 126,
+      "open_source_prs": 28,
+      "github_score": 0.36
+    },
+    "activity_signals": {
+      "leetcode_solved": 202,
+      "hackathon_participations": 0,
+      "blog_posts": 0,
+      "linkedin_activity_score": 0.72,
+      "last_active_days_ago": 147
+    },
+    "career_signals": {
+      "career_growth_score": 0.69,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Backend Developer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 32.0,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0074",
+    "name": "Pooja Thomas",
+    "email": "pooja.thomas@email.com",
+    "location": "Pune",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, System Design, REST, NumPy. Love solving complex problems.",
+    "years_experience": 1,
+    "seniority": "junior",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "System Design",
+      "REST",
+      "NumPy",
+      "Scrum",
+      "Pandas"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "IIIT Hyderabad",
+      "graduation_year": 2014,
+      "cgpa": 8.3
+    },
+    "experience": [
+      {
+        "company": "DataCorp",
+        "role": "Data Scientist",
+        "start": "2025-07",
+        "end": "Present",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "pooja_thomas",
+      "repos": 12,
+      "contributions_last_year": 172,
+      "open_source_prs": 4,
+      "github_score": 0.42
+    },
+    "activity_signals": {
+      "leetcode_solved": 162,
+      "hackathon_participations": 0,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.7,
+      "last_active_days_ago": 64
+    },
+    "career_signals": {
+      "career_growth_score": 0.39,
+      "avg_tenure_years": 1.0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Research Engineer",
+      "Data Scientist"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 34.9,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0075",
+    "name": "Chris Johnson",
+    "email": "chris.johnson@email.com",
+    "location": "Pune",
+    "summary": "Passionate about fullstack development. Strong background in FastAPI, REST API, Git, Go with hands-on project experience.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "FastAPI",
+      "REST API",
+      "Git",
+      "Go",
+      "JavaScript",
+      "React",
+      "Flask",
+      "Vue.js",
+      "Python",
+      "Java"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "Pune University",
+      "graduation_year": 2017,
+      "cgpa": 9.6
+    },
+    "experience": [
+      {
+        "company": "Oracle",
+        "role": "Research Engineer",
+        "start": "2023-05",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Ola",
+        "role": "AI/ML Engineer",
+        "start": "2022-09",
+        "end": "2023-02",
+        "duration_years": 1
+      },
+      {
+        "company": "Meesho",
+        "role": "AI/ML Engineer",
+        "start": "2020-01",
+        "end": "2022-11",
+        "duration_years": 2
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Platform Engineer",
+        "start": "2019-10",
+        "end": "2020-11",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "TensorFlow Developer Certificate",
+      "AWS Solutions Architect",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "chris_johnson",
+      "repos": 34,
+      "contributions_last_year": 169,
+      "open_source_prs": 16,
+      "github_score": 0.86
+    },
+    "activity_signals": {
+      "leetcode_solved": 276,
+      "hackathon_participations": 8,
+      "blog_posts": 4,
+      "linkedin_activity_score": 0.67,
+      "last_active_days_ago": 115
+    },
+    "career_signals": {
+      "career_growth_score": 0.85,
+      "avg_tenure_years": 1.8,
+      "promotions": 0,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Full Stack Developer",
+      "AI/ML Engineer",
+      "Platform Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 21.2,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0076",
+    "name": "James Singh",
+    "email": "james.singh@email.com",
+    "location": "Chennai",
+    "summary": "Results-driven developer specializing in FastAPI, Scikit-learn, RAG. 0 years building scalable systems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "RAG",
+      "Flask",
+      "Scrum",
+      "Pandas",
+      "Deep Learning",
+      "Keras",
+      "LLM",
+      "Problem Solving",
+      "PyTorch",
+      "NLP",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "NIT Trichy",
+      "graduation_year": 2015,
+      "cgpa": 6.6
+    },
+    "experience": [],
+    "certifications": [
+      "Kubernetes CKA"
+    ],
+    "github": {
+      "username": "james_singh",
+      "repos": 14,
+      "contributions_last_year": 616,
+      "open_source_prs": 10,
+      "github_score": 0.54
+    },
+    "activity_signals": {
+      "leetcode_solved": 39,
+      "hackathon_participations": 1,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.53,
+      "last_active_days_ago": 107
+    },
+    "career_signals": {
+      "career_growth_score": 0.68,
+      "avg_tenure_years": 0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Senior Software Engineer",
+      "Python Developer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 25.5,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0077",
+    "name": "Priya Mehta",
+    "email": "priya.mehta@email.com",
+    "location": "Chennai",
+    "summary": "Detail-oriented engineer with expertise in Hadoop, FastAPI, Scikit-learn, NumPy. Love solving complex problems.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "FastAPI",
+      "Scikit-learn",
+      "NumPy",
+      "Snowflake",
+      "Tableau"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "NIT Warangal",
+      "graduation_year": 2017,
+      "cgpa": 9.3
+    },
+    "experience": [
+      {
+        "company": "Infosys",
+        "role": "Platform Engineer",
+        "start": "2023-10",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Cognizant",
+        "role": "Cloud Engineer",
+        "start": "2022-09",
+        "end": "2023-05",
+        "duration_years": 1
+      },
+      {
+        "company": "Oracle",
+        "role": "Cloud Engineer",
+        "start": "2021-06",
+        "end": "2022-08",
+        "duration_years": 1
+      },
+      {
+        "company": "Razorpay",
+        "role": "DevOps Engineer",
+        "start": "2020-07",
+        "end": "2021-03",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "AWS Solutions Architect",
+      "NPTEL Python",
+      "Coursera ML Specialization"
+    ],
+    "github": {
+      "username": "priya_mehta",
+      "repos": 13,
+      "contributions_last_year": 111,
+      "open_source_prs": 5,
+      "github_score": 0.93
+    },
+    "activity_signals": {
+      "leetcode_solved": 229,
+      "hackathon_participations": 0,
+      "blog_posts": 6,
+      "linkedin_activity_score": 0.56,
+      "last_active_days_ago": 134
+    },
+    "career_signals": {
+      "career_growth_score": 0.52,
+      "avg_tenure_years": 3.0,
+      "promotions": 0,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "AI/ML Engineer",
+      "Platform Engineer",
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 25.7,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0078",
+    "name": "Aditya Martinez",
+    "email": "aditya.martinez@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in System Design, Terraform, Scrum, Jenkins. Love solving complex problems.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "devops",
+    "skills": [
+      "System Design",
+      "Terraform",
+      "Scrum",
+      "Jenkins",
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "GCP",
+      "GitHub Actions"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "BITS Pilani",
+      "graduation_year": 2010,
+      "cgpa": 8.8
+    },
+    "experience": [
+      {
+        "company": "HCL",
+        "role": "AI/ML Engineer",
+        "start": "2025-02",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "DevOps Engineer",
+        "start": "2022-11",
+        "end": "2025-04",
+        "duration_years": 3
+      },
+      {
+        "company": "DataCorp",
+        "role": "Data Scientist",
+        "start": "2019-07",
+        "end": "2022-06",
+        "duration_years": 3
+      },
+      {
+        "company": "Infosys",
+        "role": "DevOps Engineer",
+        "start": "2018-11",
+        "end": "2019-10",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Azure AZ-900",
+      "Coursera ML Specialization"
+    ],
+    "github": {
+      "username": "aditya_martinez",
+      "repos": 14,
+      "contributions_last_year": 259,
+      "open_source_prs": 30,
+      "github_score": 0.82
+    },
+    "activity_signals": {
+      "leetcode_solved": 42,
+      "hackathon_participations": 4,
+      "blog_posts": 13,
+      "linkedin_activity_score": 0.92,
+      "last_active_days_ago": 145
+    },
+    "career_signals": {
+      "career_growth_score": 0.87,
+      "avg_tenure_years": 2.0,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Backend Developer",
+      "Research Engineer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 38.1,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0079",
+    "name": "Rohan Nair",
+    "email": "rohan.nair@email.com",
+    "location": "Chennai",
+    "summary": "Junior DATA engineer with 2 years of experience in Spark, FastAPI, Scikit-learn.",
+    "years_experience": 2,
+    "seniority": "junior",
+    "role_type": "data",
+    "skills": [
+      "Spark",
+      "FastAPI",
+      "Scikit-learn",
+      "SQL",
+      "Snowflake",
+      "Deep Learning",
+      "LLM",
+      "Airflow",
+      "Python",
+      "LangChain",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "SRM University",
+      "graduation_year": 2024,
+      "cgpa": 6.0
+    },
+    "experience": [
+      {
+        "company": "Wipro",
+        "role": "Software Engineer",
+        "start": "2024-10",
+        "end": "Present",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Cisco CCNA",
+      "NPTEL Python"
+    ],
+    "github": {
+      "username": "rohan_nair",
+      "repos": 18,
+      "contributions_last_year": 522,
+      "open_source_prs": 33,
+      "github_score": 0.34
+    },
+    "activity_signals": {
+      "leetcode_solved": 364,
+      "hackathon_participations": 8,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.43,
+      "last_active_days_ago": 158
+    },
+    "career_signals": {
+      "career_growth_score": 0.69,
+      "avg_tenure_years": 1.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Data Scientist",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 22.1,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0080",
+    "name": "Vikram Robinson",
+    "email": "vikram.robinson@email.com",
+    "location": "Hyderabad",
+    "summary": "Detail-oriented engineer with expertise in Terraform, Scrum, AWS, Kubernetes. Love solving complex problems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "devops",
+    "skills": [
+      "Terraform",
+      "Scrum",
+      "AWS",
+      "Kubernetes",
+      "CI/CD",
+      "Spring Boot",
+      "GCP"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "SRM University",
+      "graduation_year": 2017,
+      "cgpa": 9.0
+    },
+    "experience": [],
+    "certifications": [
+      "Google Cloud Professional",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "vikram_robinson",
+      "repos": 34,
+      "contributions_last_year": 794,
+      "open_source_prs": 16,
+      "github_score": 0.26
+    },
+    "activity_signals": {
+      "leetcode_solved": 294,
+      "hackathon_participations": 7,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.56,
+      "last_active_days_ago": 151
+    },
+    "career_signals": {
+      "career_growth_score": 0.65,
+      "avg_tenure_years": 0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Senior Software Engineer",
+      "ML Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 21.0,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0081",
+    "name": "James Brown",
+    "email": "james.brown@email.com",
+    "location": "Mumbai",
+    "summary": "Passionate about data development. Strong background in Hadoop, Spark, Flask, SQL with hands-on project experience.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "data",
+    "skills": [
+      "Hadoop",
+      "Spark",
+      "Flask",
+      "SQL",
+      "Snowflake",
+      "Tableau",
+      "LLM",
+      "Python",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "VIT Vellore",
+      "graduation_year": 2018,
+      "cgpa": 6.8
+    },
+    "experience": [
+      {
+        "company": "AIVentures",
+        "role": "Full Stack Developer",
+        "start": "2025-10",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Infosys",
+        "role": "Platform Engineer",
+        "start": "2023-02",
+        "end": "2025-02",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Azure AZ-900",
+      "NPTEL Python"
+    ],
+    "github": {
+      "username": "james_brown",
+      "repos": 31,
+      "contributions_last_year": 80,
+      "open_source_prs": 12,
+      "github_score": 0.94
+    },
+    "activity_signals": {
+      "leetcode_solved": 377,
+      "hackathon_participations": 7,
+      "blog_posts": 0,
+      "linkedin_activity_score": 0.53,
+      "last_active_days_ago": 139
+    },
+    "career_signals": {
+      "career_growth_score": 0.48,
+      "avg_tenure_years": 1.5,
+      "promotions": 1,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "ML Engineer",
+      "DevOps Engineer",
+      "Full Stack Developer"
+    ],
+    "notice_period_days": 90,
+    "expected_salary_lpa": 9.0,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0082",
+    "name": "Rahul Miller",
+    "email": "rahul.miller@email.com",
+    "location": "Pune",
+    "summary": "Results-driven developer specializing in Go, Next.js, Pandas. 8 years building scalable systems.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "Go",
+      "Next.js",
+      "Pandas",
+      "Vue.js",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "MySQL",
+      "Problem Solving",
+      "Python"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "NIT Warangal",
+      "graduation_year": 2025,
+      "cgpa": 7.7
+    },
+    "experience": [
+      {
+        "company": "IBM",
+        "role": "Platform Engineer",
+        "start": "2024-06",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "TechSolutions",
+        "role": "DevOps Engineer",
+        "start": "2022-05",
+        "end": "2024-08",
+        "duration_years": 2
+      },
+      {
+        "company": "HCL",
+        "role": "Backend Developer",
+        "start": "2021-10",
+        "end": "2022-11",
+        "duration_years": 1
+      },
+      {
+        "company": "AIVentures",
+        "role": "Senior Software Engineer",
+        "start": "2020-12",
+        "end": "2021-05",
+        "duration_years": 1
+      },
+      {
+        "company": "Zoho",
+        "role": "DevOps Engineer",
+        "start": "2019-07",
+        "end": "2020-04",
+        "duration_years": 1
+      },
+      {
+        "company": "DataCorp",
+        "role": "Frontend Developer",
+        "start": "2018-03",
+        "end": "2019-08",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Azure AZ-900",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "rahul_miller",
+      "repos": 15,
+      "contributions_last_year": 9,
+      "open_source_prs": 16,
+      "github_score": 0.29
+    },
+    "activity_signals": {
+      "leetcode_solved": 137,
+      "hackathon_participations": 2,
+      "blog_posts": 13,
+      "linkedin_activity_score": 0.62,
+      "last_active_days_ago": 128
+    },
+    "career_signals": {
+      "career_growth_score": 0.46,
+      "avg_tenure_years": 2.0,
+      "promotions": 1,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Python Developer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 24.1,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0083",
+    "name": "Emily Wilson",
+    "email": "emily.wilson@email.com",
+    "location": "Remote",
+    "summary": "Passionate about backend development. Strong background in GraphQL, Linux, Terraform, Flask with hands-on project experience.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "backend",
+    "skills": [
+      "GraphQL",
+      "Linux",
+      "Terraform",
+      "Flask",
+      "Scrum",
+      "MongoDB",
+      "CI/CD",
+      "Spring Boot",
+      "Problem Solving",
+      "Python",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "Delhi University",
+      "graduation_year": 2023,
+      "cgpa": 8.5
+    },
+    "experience": [
+      {
+        "company": "PhonePe",
+        "role": "Research Engineer",
+        "start": "2023-02",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "TCS",
+        "role": "Data Scientist",
+        "start": "2022-04",
+        "end": "2023-06",
+        "duration_years": 1
+      },
+      {
+        "company": "Accenture",
+        "role": "ML Engineer",
+        "start": "2021-12",
+        "end": "2022-05",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Cisco CCNA",
+      "Coursera ML Specialization"
+    ],
+    "github": {
+      "username": "emily_wilson",
+      "repos": 40,
+      "contributions_last_year": 619,
+      "open_source_prs": 29,
+      "github_score": 0.71
+    },
+    "activity_signals": {
+      "leetcode_solved": 74,
+      "hackathon_participations": 6,
+      "blog_posts": 8,
+      "linkedin_activity_score": 0.54,
+      "last_active_days_ago": 114
+    },
+    "career_signals": {
+      "career_growth_score": 0.79,
+      "avg_tenure_years": 1.7,
+      "promotions": 0,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Backend Developer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 7.8,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0084",
+    "name": "Sneha Sharma",
+    "email": "sneha.sharma@email.com",
+    "location": "Pune",
+    "summary": "Passionate about fullstack development. Strong background in FastAPI, REST API, REST, Next.js with hands-on project experience.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "FastAPI",
+      "REST API",
+      "REST",
+      "Next.js",
+      "React",
+      "Go",
+      "Agile",
+      "Tailwind CSS",
+      "Angular",
+      "Java",
+      "Microservices"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "Chandigarh University",
+      "graduation_year": 2015,
+      "cgpa": 8.4
+    },
+    "experience": [
+      {
+        "company": "Accenture",
+        "role": "Frontend Developer",
+        "start": "2024-11",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Paytm",
+        "role": "AI/ML Engineer",
+        "start": "2021-11",
+        "end": "2024-11",
+        "duration_years": 3
+      },
+      {
+        "company": "Zomato",
+        "role": "Data Scientist",
+        "start": "2018-08",
+        "end": "2021-09",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Kubernetes CKA",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "sneha_sharma",
+      "repos": 17,
+      "contributions_last_year": 232,
+      "open_source_prs": 34,
+      "github_score": 0.22
+    },
+    "activity_signals": {
+      "leetcode_solved": 280,
+      "hackathon_participations": 1,
+      "blog_posts": 14,
+      "linkedin_activity_score": 0.85,
+      "last_active_days_ago": 79
+    },
+    "career_signals": {
+      "career_growth_score": 0.22,
+      "avg_tenure_years": 2.0,
+      "promotions": 3,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Data Engineer",
+      "Full Stack Developer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 28.8,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0085",
+    "name": "Ashley Williams",
+    "email": "ashley.williams@email.com",
+    "location": "Remote",
+    "summary": "Senior FULLSTACK engineer with 8 years of experience in REST API, System Design, Redis.",
+    "years_experience": 8,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "REST API",
+      "System Design",
+      "Redis",
+      "Next.js",
+      "Django",
+      "Tailwind CSS",
+      "Spring Boot",
+      "Microservices"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "NIT Trichy",
+      "graduation_year": 2019,
+      "cgpa": 6.4
+    },
+    "experience": [
+      {
+        "company": "Cognizant",
+        "role": "Python Developer",
+        "start": "2024-05",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Cognizant",
+        "role": "Python Developer",
+        "start": "2021-04",
+        "end": "2024-06",
+        "duration_years": 3
+      },
+      {
+        "company": "Infosys",
+        "role": "Software Engineer",
+        "start": "2020-09",
+        "end": "2021-01",
+        "duration_years": 1
+      },
+      {
+        "company": "Flipkart",
+        "role": "ML Engineer",
+        "start": "2019-05",
+        "end": "2020-03",
+        "duration_years": 1
+      },
+      {
+        "company": "Oracle",
+        "role": "Software Engineer",
+        "start": "2018-04",
+        "end": "2019-02",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "NPTEL Python",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "ashley_williams",
+      "repos": 26,
+      "contributions_last_year": 154,
+      "open_source_prs": 17,
+      "github_score": 0.79
+    },
+    "activity_signals": {
+      "leetcode_solved": 96,
+      "hackathon_participations": 0,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.92,
+      "last_active_days_ago": 56
+    },
+    "career_signals": {
+      "career_growth_score": 0.85,
+      "avg_tenure_years": 1.6,
+      "promotions": 0,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Platform Engineer"
+    ],
+    "notice_period_days": 15,
+    "expected_salary_lpa": 21.1,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0086",
+    "name": "Nikhil Jones",
+    "email": "nikhil.jones@email.com",
+    "location": "Hyderabad",
+    "summary": "Fresher AI engineer with 0 years of experience in FastAPI, Hugging Face, REST.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "Hugging Face",
+      "REST",
+      "NumPy",
+      "Git",
+      "Flask",
+      "Scrum"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "Anna University",
+      "graduation_year": 2013,
+      "cgpa": 7.6
+    },
+    "experience": [],
+    "certifications": [
+      "Google Cloud Professional"
+    ],
+    "github": {
+      "username": "nikhil_jones",
+      "repos": 40,
+      "contributions_last_year": 248,
+      "open_source_prs": 15,
+      "github_score": 0.67
+    },
+    "activity_signals": {
+      "leetcode_solved": 222,
+      "hackathon_participations": 0,
+      "blog_posts": 1,
+      "linkedin_activity_score": 0.28,
+      "last_active_days_ago": 149
+    },
+    "career_signals": {
+      "career_growth_score": 0.91,
+      "avg_tenure_years": 0,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Data Engineer",
+      "Backend Developer",
+      "Data Scientist"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 14.7,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0087",
+    "name": "Heather Smith",
+    "email": "heather.smith@email.com",
+    "location": "Delhi",
+    "summary": "Detail-oriented engineer with expertise in FastAPI, System Design, RAG, Flask. Love solving complex problems.",
+    "years_experience": 10,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "System Design",
+      "RAG",
+      "Flask",
+      "Scrum",
+      "Pandas"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "IIIT Hyderabad",
+      "graduation_year": 2025,
+      "cgpa": 6.8
+    },
+    "experience": [
+      {
+        "company": "Zoho",
+        "role": "Data Scientist",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Ola",
+        "role": "ML Engineer",
+        "start": "2022-10",
+        "end": "2025-09",
+        "duration_years": 3
+      },
+      {
+        "company": "Amazon",
+        "role": "AI/ML Engineer",
+        "start": "2021-03",
+        "end": "2022-08",
+        "duration_years": 1
+      },
+      {
+        "company": "AIVentures",
+        "role": "ML Engineer",
+        "start": "2019-09",
+        "end": "2021-06",
+        "duration_years": 2
+      },
+      {
+        "company": "Google",
+        "role": "Platform Engineer",
+        "start": "2017-11",
+        "end": "2019-09",
+        "duration_years": 2
+      },
+      {
+        "company": "Oracle",
+        "role": "Backend Developer",
+        "start": "2016-01",
+        "end": "2017-10",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Kaggle Competition Winner",
+      "Azure AZ-900"
+    ],
+    "github": {
+      "username": "heather_smith",
+      "repos": 2,
+      "contributions_last_year": 372,
+      "open_source_prs": 16,
+      "github_score": 0.82
+    },
+    "activity_signals": {
+      "leetcode_solved": 248,
+      "hackathon_participations": 3,
+      "blog_posts": 10,
+      "linkedin_activity_score": 0.49,
+      "last_active_days_ago": 17
+    },
+    "career_signals": {
+      "career_growth_score": 0.35,
+      "avg_tenure_years": 1.7,
+      "promotions": 0,
+      "companies_worked": 5
+    },
+    "preferred_roles": [
+      "Data Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 33.9,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0088",
+    "name": "Amit Taylor",
+    "email": "amit.taylor@email.com",
+    "location": "Bengaluru",
+    "summary": "Passionate about ml development. Strong background in FastAPI, REST, RAG, Scrum with hands-on project experience.",
+    "years_experience": 5,
+    "seniority": "mid",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "REST",
+      "RAG",
+      "Scrum",
+      "Pandas",
+      "Problem Solving",
+      "NLP"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Pune University",
+      "graduation_year": 2016,
+      "cgpa": 6.8
+    },
+    "experience": [
+      {
+        "company": "Razorpay",
+        "role": "Data Engineer",
+        "start": "2023-11",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Zoho",
+        "role": "Frontend Developer",
+        "start": "2022-09",
+        "end": "2023-07",
+        "duration_years": 1
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "Cloud Engineer",
+        "start": "2021-10",
+        "end": "2022-06",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Google Cloud Professional",
+      "Coursera ML Specialization",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "amit_taylor",
+      "repos": 33,
+      "contributions_last_year": 690,
+      "open_source_prs": 13,
+      "github_score": 0.81
+    },
+    "activity_signals": {
+      "leetcode_solved": 49,
+      "hackathon_participations": 7,
+      "blog_posts": 13,
+      "linkedin_activity_score": 0.15,
+      "last_active_days_ago": 27
+    },
+    "career_signals": {
+      "career_growth_score": 0.69,
+      "avg_tenure_years": 1.7,
+      "promotions": 2,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "DevOps Engineer",
+      "Platform Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 41.8,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0089",
+    "name": "Jason Wilson",
+    "email": "jason.wilson@email.com",
+    "location": "Bengaluru",
+    "summary": "Results-driven developer specializing in Node.js, System Design, Terraform. 3 years building scalable systems.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "devops",
+    "skills": [
+      "Node.js",
+      "System Design",
+      "Terraform",
+      "Redis",
+      "Git",
+      "Jenkins",
+      "AWS",
+      "GCP",
+      "GitHub Actions"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Amity University",
+      "graduation_year": 2014,
+      "cgpa": 6.4
+    },
+    "experience": [
+      {
+        "company": "Meesho",
+        "role": "Backend Developer",
+        "start": "2024-03",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Meesho",
+        "role": "Data Engineer",
+        "start": "2023-04",
+        "end": "2024-04",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "jason_wilson",
+      "repos": 13,
+      "contributions_last_year": 262,
+      "open_source_prs": 14,
+      "github_score": 0.57
+    },
+    "activity_signals": {
+      "leetcode_solved": 161,
+      "hackathon_participations": 4,
+      "blog_posts": 2,
+      "linkedin_activity_score": 0.99,
+      "last_active_days_ago": 147
+    },
+    "career_signals": {
+      "career_growth_score": 0.44,
+      "avg_tenure_years": 1.5,
+      "promotions": 3,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Frontend Developer",
+      "Data Engineer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 31.0,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0090",
+    "name": "David Kumar",
+    "email": "david.kumar@email.com",
+    "location": "Remote",
+    "summary": "Senior ML engineer with 9 years of experience in Hugging Face, System Design, Git.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "Hugging Face",
+      "System Design",
+      "Git",
+      "Flask",
+      "Pandas",
+      "LLM"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "Bangalore University",
+      "graduation_year": 2019,
+      "cgpa": 9.1
+    },
+    "experience": [
+      {
+        "company": "Infosys",
+        "role": "Data Scientist",
+        "start": "2025-02",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "HCL",
+        "role": "Frontend Developer",
+        "start": "2023-01",
+        "end": "2025-09",
+        "duration_years": 2
+      },
+      {
+        "company": "Swiggy",
+        "role": "Senior Software Engineer",
+        "start": "2021-07",
+        "end": "2023-09",
+        "duration_years": 2
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "Frontend Developer",
+        "start": "2019-03",
+        "end": "2021-03",
+        "duration_years": 2
+      },
+      {
+        "company": "Zoho",
+        "role": "Full Stack Developer",
+        "start": "2017-08",
+        "end": "2019-07",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "AWS Solutions Architect"
+    ],
+    "github": {
+      "username": "david_kumar",
+      "repos": 25,
+      "contributions_last_year": 667,
+      "open_source_prs": 43,
+      "github_score": 0.39
+    },
+    "activity_signals": {
+      "leetcode_solved": 228,
+      "hackathon_participations": 3,
+      "blog_posts": 7,
+      "linkedin_activity_score": 0.61,
+      "last_active_days_ago": 63
+    },
+    "career_signals": {
+      "career_growth_score": 0.46,
+      "avg_tenure_years": 1.5,
+      "promotions": 1,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 10.3,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0091",
+    "name": "Neha Taylor",
+    "email": "neha.taylor@email.com",
+    "location": "Chennai",
+    "summary": "Fresher ML engineer with 0 years of experience in Scikit-learn, Hugging Face, RAG.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "ml",
+    "skills": [
+      "Scikit-learn",
+      "Hugging Face",
+      "RAG",
+      "Flask",
+      "Pandas",
+      "Deep Learning",
+      "Keras",
+      "Python"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "NIT Warangal",
+      "graduation_year": 2011,
+      "cgpa": 7.1
+    },
+    "experience": [],
+    "certifications": [
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "neha_taylor",
+      "repos": 1,
+      "contributions_last_year": 713,
+      "open_source_prs": 44,
+      "github_score": 0.59
+    },
+    "activity_signals": {
+      "leetcode_solved": 192,
+      "hackathon_participations": 4,
+      "blog_posts": 1,
+      "linkedin_activity_score": 0.78,
+      "last_active_days_ago": 120
+    },
+    "career_signals": {
+      "career_growth_score": 0.64,
+      "avg_tenure_years": 0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "DevOps Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 34.2,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0092",
+    "name": "Ravi Garcia",
+    "email": "ravi.garcia@email.com",
+    "location": "Delhi",
+    "summary": "Results-driven developer specializing in Hugging Face, REST, System Design. 0 years building scalable systems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "ml",
+    "skills": [
+      "Hugging Face",
+      "REST",
+      "System Design",
+      "RAG",
+      "NumPy",
+      "Git",
+      "Deep Learning",
+      "LLM",
+      "Python",
+      "LangChain",
+      "Django"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "Amity University",
+      "graduation_year": 2018,
+      "cgpa": 9.2
+    },
+    "experience": [],
+    "certifications": [
+      "Azure AZ-900",
+      "AWS Solutions Architect",
+      "Deep Learning Specialization"
+    ],
+    "github": {
+      "username": "ravi_garcia",
+      "repos": 22,
+      "contributions_last_year": 640,
+      "open_source_prs": 43,
+      "github_score": 0.14
+    },
+    "activity_signals": {
+      "leetcode_solved": 181,
+      "hackathon_participations": 4,
+      "blog_posts": 12,
+      "linkedin_activity_score": 0.93,
+      "last_active_days_ago": 8
+    },
+    "career_signals": {
+      "career_growth_score": 0.44,
+      "avg_tenure_years": 0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Backend Developer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 45.2,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0093",
+    "name": "Lauren Thomas",
+    "email": "lauren.thomas@email.com",
+    "location": "Mumbai",
+    "summary": "Passionate about ml development. Strong background in FastAPI, Scikit-learn, Hugging Face, RAG with hands-on project experience.",
+    "years_experience": 6,
+    "seniority": "senior",
+    "role_type": "ml",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Hugging Face",
+      "RAG",
+      "NumPy",
+      "Deep Learning",
+      "Keras",
+      "Problem Solving",
+      "NLP"
+    ],
+    "education": {
+      "degree": "M.Tech Computer Science",
+      "college": "IIT Madras",
+      "graduation_year": 2013,
+      "cgpa": 6.7
+    },
+    "experience": [
+      {
+        "company": "Oracle",
+        "role": "Software Engineer",
+        "start": "2025-06",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Paytm",
+        "role": "ML Engineer",
+        "start": "2023-08",
+        "end": "2025-12",
+        "duration_years": 2
+      },
+      {
+        "company": "DevHouse",
+        "role": "Frontend Developer",
+        "start": "2020-05",
+        "end": "2023-03",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Kaggle Competition Winner",
+      "Microsoft AI-900"
+    ],
+    "github": {
+      "username": "lauren_thomas",
+      "repos": 27,
+      "contributions_last_year": 797,
+      "open_source_prs": 8,
+      "github_score": 0.22
+    },
+    "activity_signals": {
+      "leetcode_solved": 394,
+      "hackathon_participations": 3,
+      "blog_posts": 3,
+      "linkedin_activity_score": 0.59,
+      "last_active_days_ago": 34
+    },
+    "career_signals": {
+      "career_growth_score": 0.84,
+      "avg_tenure_years": 1.5,
+      "promotions": 1,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Research Engineer",
+      "Data Engineer",
+      "Python Developer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 11.6,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0094",
+    "name": "Karan Reddy",
+    "email": "karan.reddy@email.com",
+    "location": "Pune",
+    "summary": "Senior FULLSTACK engineer with 7 years of experience in REST API, React, TypeScript.",
+    "years_experience": 7,
+    "seniority": "senior",
+    "role_type": "fullstack",
+    "skills": [
+      "REST API",
+      "React",
+      "TypeScript",
+      "Agile",
+      "Pandas",
+      "Microservices"
+    ],
+    "education": {
+      "degree": "B.E. Electronics",
+      "college": "Pune University",
+      "graduation_year": 2020,
+      "cgpa": 7.6
+    },
+    "experience": [
+      {
+        "company": "HCL",
+        "role": "Data Engineer",
+        "start": "2023-09",
+        "end": "Present",
+        "duration_years": 3
+      },
+      {
+        "company": "Accenture",
+        "role": "Frontend Developer",
+        "start": "2020-01",
+        "end": "2023-09",
+        "duration_years": 3
+      },
+      {
+        "company": "Ola",
+        "role": "Python Developer",
+        "start": "2019-01",
+        "end": "2020-04",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [
+      "Kaggle Competition Winner",
+      "Deep Learning Specialization"
+    ],
+    "github": {
+      "username": "karan_reddy",
+      "repos": 15,
+      "contributions_last_year": 531,
+      "open_source_prs": 29,
+      "github_score": 0.16
+    },
+    "activity_signals": {
+      "leetcode_solved": 218,
+      "hackathon_participations": 8,
+      "blog_posts": 12,
+      "linkedin_activity_score": 0.93,
+      "last_active_days_ago": 11
+    },
+    "career_signals": {
+      "career_growth_score": 0.99,
+      "avg_tenure_years": 1.8,
+      "promotions": 1,
+      "companies_worked": 3
+    },
+    "preferred_roles": [
+      "Research Engineer",
+      "Cloud Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 7.3,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0095",
+    "name": "Brian Gupta",
+    "email": "brian.gupta@email.com",
+    "location": "Remote",
+    "summary": "Passionate about ai development. Strong background in FastAPI, Hugging Face, RAG, Git with hands-on project experience.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "ai",
+    "skills": [
+      "FastAPI",
+      "Hugging Face",
+      "RAG",
+      "Git",
+      "Flask",
+      "Agile",
+      "TensorFlow",
+      "Problem Solving",
+      "Python",
+      "PyTorch",
+      "NLP",
+      "Django"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "Chandigarh University",
+      "graduation_year": 2022,
+      "cgpa": 6.2
+    },
+    "experience": [
+      {
+        "company": "DevHouse",
+        "role": "Data Scientist",
+        "start": "2025-10",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "TechSolutions",
+        "role": "Backend Developer",
+        "start": "2022-03",
+        "end": "2025-03",
+        "duration_years": 3
+      },
+      {
+        "company": "Startup XYZ",
+        "role": "Frontend Developer",
+        "start": "2021-01",
+        "end": "2022-07",
+        "duration_years": 1
+      },
+      {
+        "company": "Zomato",
+        "role": "Frontend Developer",
+        "start": "2019-08",
+        "end": "2021-05",
+        "duration_years": 2
+      },
+      {
+        "company": "Flipkart",
+        "role": "Backend Developer",
+        "start": "2018-04",
+        "end": "2019-01",
+        "duration_years": 1
+      },
+      {
+        "company": "Google",
+        "role": "Python Developer",
+        "start": "2017-08",
+        "end": "2018-08",
+        "duration_years": 1
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "brian_gupta",
+      "repos": 24,
+      "contributions_last_year": 556,
+      "open_source_prs": 45,
+      "github_score": 0.18
+    },
+    "activity_signals": {
+      "leetcode_solved": 372,
+      "hackathon_participations": 0,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.74,
+      "last_active_days_ago": 61
+    },
+    "career_signals": {
+      "career_growth_score": 0.71,
+      "avg_tenure_years": 2.2,
+      "promotions": 1,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Software Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 4.7,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0096",
+    "name": "Ryan Verma",
+    "email": "ryan.verma@email.com",
+    "location": "Remote",
+    "summary": "Senior DATA engineer with 9 years of experience in Spark, FastAPI, Hugging Face.",
+    "years_experience": 9,
+    "seniority": "senior",
+    "role_type": "data",
+    "skills": [
+      "Spark",
+      "FastAPI",
+      "Hugging Face",
+      "SQL",
+      "Pandas",
+      "LLM",
+      "Airflow"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "Chandigarh University",
+      "graduation_year": 2012,
+      "cgpa": 7.2
+    },
+    "experience": [
+      {
+        "company": "Flipkart",
+        "role": "Frontend Developer",
+        "start": "2025-05",
+        "end": "Present",
+        "duration_years": 1
+      },
+      {
+        "company": "Freshworks",
+        "role": "DevOps Engineer",
+        "start": "2023-09",
+        "end": "2025-04",
+        "duration_years": 2
+      },
+      {
+        "company": "Wipro",
+        "role": "Data Engineer",
+        "start": "2020-01",
+        "end": "2023-02",
+        "duration_years": 3
+      },
+      {
+        "company": "Oracle",
+        "role": "Cloud Engineer",
+        "start": "2017-09",
+        "end": "2020-02",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [
+      "Coursera ML Specialization"
+    ],
+    "github": {
+      "username": "ryan_verma",
+      "repos": 23,
+      "contributions_last_year": 495,
+      "open_source_prs": 20,
+      "github_score": 0.26
+    },
+    "activity_signals": {
+      "leetcode_solved": 194,
+      "hackathon_participations": 4,
+      "blog_posts": 13,
+      "linkedin_activity_score": 0.51,
+      "last_active_days_ago": 156
+    },
+    "career_signals": {
+      "career_growth_score": 0.66,
+      "avg_tenure_years": 2.2,
+      "promotions": 2,
+      "companies_worked": 4
+    },
+    "preferred_roles": [
+      "Software Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 4.1,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0097",
+    "name": "Heather Brown",
+    "email": "heather.brown@email.com",
+    "location": "Delhi",
+    "summary": "Mid DATA engineer with 3 years of experience in FastAPI, Scikit-learn, Flask.",
+    "years_experience": 3,
+    "seniority": "mid",
+    "role_type": "data",
+    "skills": [
+      "FastAPI",
+      "Scikit-learn",
+      "Flask",
+      "Snowflake",
+      "Deep Learning",
+      "Tableau",
+      "dbt",
+      "Keras",
+      "Python"
+    ],
+    "education": {
+      "degree": "B.Tech Information Technology",
+      "college": "BITS Pilani",
+      "graduation_year": 2020,
+      "cgpa": 9.3
+    },
+    "experience": [
+      {
+        "company": "Byju's",
+        "role": "Python Developer",
+        "start": "2023-01",
+        "end": "Present",
+        "duration_years": 3
+      }
+    ],
+    "certifications": [],
+    "github": {
+      "username": "heather_brown",
+      "repos": 21,
+      "contributions_last_year": 661,
+      "open_source_prs": 21,
+      "github_score": 0.37
+    },
+    "activity_signals": {
+      "leetcode_solved": 202,
+      "hackathon_participations": 2,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.59,
+      "last_active_days_ago": 40
+    },
+    "career_signals": {
+      "career_growth_score": 0.81,
+      "avg_tenure_years": 3.0,
+      "promotions": 2,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "Platform Engineer",
+      "Research Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 46.6,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0098",
+    "name": "Jason White",
+    "email": "jason.white@email.com",
+    "location": "Remote",
+    "summary": "Results-driven developer specializing in Terraform, Git, Go. 4 years building scalable systems.",
+    "years_experience": 4,
+    "seniority": "mid",
+    "role_type": "devops",
+    "skills": [
+      "Terraform",
+      "Git",
+      "Go",
+      "Scrum",
+      "Jenkins",
+      "AWS",
+      "Docker",
+      "CI/CD",
+      "GitHub Actions",
+      "Java"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "IIT Delhi",
+      "graduation_year": 2018,
+      "cgpa": 7.7
+    },
+    "experience": [
+      {
+        "company": "CloudBase",
+        "role": "Full Stack Developer",
+        "start": "2024-06",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "AIVentures",
+        "role": "ML Engineer",
+        "start": "2022-04",
+        "end": "2024-09",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "Azure AZ-900",
+      "Cisco CCNA"
+    ],
+    "github": {
+      "username": "jason_white",
+      "repos": 19,
+      "contributions_last_year": 309,
+      "open_source_prs": 7,
+      "github_score": 0.99
+    },
+    "activity_signals": {
+      "leetcode_solved": 361,
+      "hackathon_participations": 2,
+      "blog_posts": 3,
+      "linkedin_activity_score": 0.66,
+      "last_active_days_ago": 96
+    },
+    "career_signals": {
+      "career_growth_score": 0.87,
+      "avg_tenure_years": 1.3,
+      "promotions": 2,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Backend Developer",
+      "Platform Engineer"
+    ],
+    "notice_period_days": 0,
+    "expected_salary_lpa": 41.6,
+    "open_to_remote": true
+  },
+  {
+    "id": "CAND_0099",
+    "name": "Amanda Williams",
+    "email": "amanda.williams@email.com",
+    "location": "Chennai",
+    "summary": "Results-driven developer specializing in Scikit-learn, System Design, RAG. 0 years building scalable systems.",
+    "years_experience": 0,
+    "seniority": "fresher",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "System Design",
+      "RAG",
+      "Flask",
+      "Python",
+      "NLP",
+      "Machine Learning"
+    ],
+    "education": {
+      "degree": "MCA",
+      "college": "IIT Bangalore",
+      "graduation_year": 2018,
+      "cgpa": 6.6
+    },
+    "experience": [],
+    "certifications": [
+      "TensorFlow Developer Certificate",
+      "Deep Learning Specialization",
+      "Kaggle Competition Winner"
+    ],
+    "github": {
+      "username": "amanda_williams",
+      "repos": 18,
+      "contributions_last_year": 280,
+      "open_source_prs": 12,
+      "github_score": 0.79
+    },
+    "activity_signals": {
+      "leetcode_solved": 141,
+      "hackathon_participations": 1,
+      "blog_posts": 0,
+      "linkedin_activity_score": 0.77,
+      "last_active_days_ago": 160
+    },
+    "career_signals": {
+      "career_growth_score": 0.22,
+      "avg_tenure_years": 0,
+      "promotions": 0,
+      "companies_worked": 1
+    },
+    "preferred_roles": [
+      "AI/ML Engineer"
+    ],
+    "notice_period_days": 30,
+    "expected_salary_lpa": 28.8,
+    "open_to_remote": false
+  },
+  {
+    "id": "CAND_0100",
+    "name": "Jason Mehta",
+    "email": "jason.mehta@email.com",
+    "location": "Remote",
+    "summary": "Passionate about ai development. Strong background in Scikit-learn, Hugging Face, REST, RAG with hands-on project experience.",
+    "years_experience": 4,
+    "seniority": "mid",
+    "role_type": "ai",
+    "skills": [
+      "Scikit-learn",
+      "Hugging Face",
+      "REST",
+      "RAG",
+      "NumPy",
+      "Flask",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "education": {
+      "degree": "B.Sc Computer Science",
+      "college": "Chandigarh University",
+      "graduation_year": 2012,
+      "cgpa": 9.9
+    },
+    "experience": [
+      {
+        "company": "HCL",
+        "role": "Backend Developer",
+        "start": "2024-02",
+        "end": "Present",
+        "duration_years": 2
+      },
+      {
+        "company": "Flipkart",
+        "role": "Python Developer",
+        "start": "2022-05",
+        "end": "2024-11",
+        "duration_years": 2
+      }
+    ],
+    "certifications": [
+      "NPTEL Python",
+      "Kubernetes CKA",
+      "Cisco CCNA"
+    ],
+    "github": {
+      "username": "jason_mehta",
+      "repos": 19,
+      "contributions_last_year": 659,
+      "open_source_prs": 22,
+      "github_score": 0.15
+    },
+    "activity_signals": {
+      "leetcode_solved": 170,
+      "hackathon_participations": 7,
+      "blog_posts": 15,
+      "linkedin_activity_score": 0.48,
+      "last_active_days_ago": 60
+    },
+    "career_signals": {
+      "career_growth_score": 0.34,
+      "avg_tenure_years": 1.3,
+      "promotions": 3,
+      "companies_worked": 2
+    },
+    "preferred_roles": [
+      "Senior Software Engineer"
+    ],
+    "notice_period_days": 60,
+    "expected_salary_lpa": 8.3,
+    "open_to_remote": false
+  }
+]
