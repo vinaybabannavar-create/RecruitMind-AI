@@ -13,6 +13,7 @@ Endpoints:
 import json
 import os
 import time
+from contextlib import asynccontextmanager
 from typing import List, Optional, Dict, Any
 
 from dotenv import load_dotenv
@@ -26,10 +27,30 @@ from pipeline.ranker import run_ranking_pipeline
 from pipeline.explainer import add_explanations
 from pipeline.embedder import get_engine
 
+
+# ── Lifespan: Auto-index candidates on startup if ChromaDB is empty ───────────
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("RecruitMind AI starting up...")
+    try:
+        engine = get_engine()
+        count = engine.get_collection_count()
+        if count == 0:
+            print("ChromaDB empty — auto-indexing candidates...")
+            engine.index_candidates("data/candidates.json")
+            print(f"Auto-indexed {engine.get_collection_count()} candidates.")
+        else:
+            print(f"ChromaDB ready — {count} candidates already indexed.")
+    except Exception as e:
+        print(f"Warning: Auto-indexing failed: {e}")
+    yield
+
 app = FastAPI(
     title="RecruitMind AI",
     description="Intelligent Candidate Discovery — AI-powered ranking system",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
 app.add_middleware(

@@ -1068,23 +1068,38 @@ if run_clicked:
     if not jd_text.strip() or len(jd_text.strip()) < 30:
         st.error("⚠️ Please enter a valid job description (at least 30 characters).")
     else:
-        with st.spinner("Analyzing JD → Embedding → Multi-signal Ranking..."):
+        with st.status("Analyzing and ranking candidates...") as status:
+            status.write("🔍 Parsing Job Description (LLM/Rule-based)...")
+            time.sleep(0.4)
+            status.write("🧠 Embedding Job Description & building query vector...")
+            time.sleep(0.4)
+            status.write("🎯 Querying vector DB (ChromaDB) for candidate matches...")
+            time.sleep(0.4)
+            status.write("📊 Computing multi-signal scoring (Skills, Career Growth, Activity, Experience)...")
+            time.sleep(0.4)
+            status.write("⚖️ Applying diversity-boosted re-ranking...")
+            time.sleep(0.4)
+            status.write("🤖 Generating final explainable candidate profiles...")
             try:
                 payload = {"jd_text": jd_text, "top_k": top_k, "with_explanations": with_explanations}
                 response = requests.post(f"{API_URL}/rank", json=payload, timeout=120)
                 if response.status_code != 200:
+                    status.update(label="Failed to analyze candidates", state="error")
                     st.error(f"API Error {response.status_code}: {response.text}")
                     st.stop()
                 data = response.json()
+                status.update(label="Candidates successfully analyzed!", state="complete")
                 st.session_state["last_result"] = data
                 st.session_state["last_jd"] = jd_text
                 st.rerun()
             except requests.exceptions.ConnectionError:
+                status.update(label="API connection failed", state="error")
                 st.error("❌ Cannot connect to API. Make sure FastAPI is running on port 8000.")
                 st.stop()
             except Exception as e:
+                status.update(label="An error occurred", state="error")
                 st.error(f"Error: {e}")
-                st.stop()
+                st.stop()")
 
 if "last_result" in st.session_state:
     data       = st.session_state["last_result"]
