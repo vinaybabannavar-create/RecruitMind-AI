@@ -713,7 +713,7 @@ hr {
     box-shadow: 0 0 8px rgba(129,140,248,0.5);
 }
 </style>
-""", unsafe_allow_html=True)
+""")
 
 st.markdown(base_css, unsafe_allow_html=True)
 
