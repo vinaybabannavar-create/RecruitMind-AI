@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: recruitmind_api
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - chroma_data:/app/data/chroma_db
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - API_URL=http://localhost:8000
+    depends_on: []
+    restart: unless-stopped
+
+  ui:
+    build: .
+    container_name: recruitmind_ui
+    command: streamlit run ui/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - API_URL=http://api:8000
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
