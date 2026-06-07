@@ -1099,7 +1099,7 @@ if run_clicked:
             except Exception as e:
                 status.update(label="An error occurred", state="error")
                 st.error(f"Error: {e}")
-                st.stop()")
+                st.stop()
 
 if "last_result" in st.session_state:
     data       = st.session_state["last_result"]
