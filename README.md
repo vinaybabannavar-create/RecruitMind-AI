@@ -523,6 +523,80 @@ The Streamlit dashboard is built for a **recruiter who needs answers fast** — 
 
 ---
 
+## 🧪 Running Tests
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run all tests
+pytest tests/ -v
+
+# Run specific test file
+pytest tests/test_scorer.py -v
+```
+
+---
+
+## 📊 Sample Output
+
+Here is a real example of what the `/rank` endpoint returns for the query *"Senior Python ML Engineer, 4+ years, FastAPI + LangChain + Docker"*:
+
+```json
+{
+  "shortlist": [
+    {
+      "rank": 1,
+      "candidate_id": "CAND_0042",
+      "name": "Aditya Sharma",
+      "composite_score": 0.87,
+      "score_breakdown": {
+        "semantic_similarity": 0.91,
+        "skill_match": 0.85,
+        "career_growth": 0.80,
+        "activity": 0.75,
+        "experience_fit": 0.90
+      },
+      "explanation": "Ranked #1 — strong match on Python, FastAPI and LangChain (85% skill overlap). 5 years senior-level experience aligns perfectly with requirement. Active open source contributor (14 PRs). Minor gap: no AWS certification listed.",
+      "metadata": {
+        "email": "aditya.sharma@email.com",
+        "location": "Bengaluru",
+        "years_experience": 5,
+        "seniority": "senior",
+        "skills": ["Python", "FastAPI", "LangChain", "Docker", "PostgreSQL"],
+        "certifications": ["AWS Solutions Architect"],
+        "expected_salary_lpa": 22.5,
+        "notice_period_days": 30
+      }
+    }
+  ],
+  "parsed_jd": {
+    "job_title": "Senior ML Engineer",
+    "required_skills": ["Python", "FastAPI", "LangChain", "Docker"],
+    "seniority_level": "senior",
+    "min_experience_years": 4
+  },
+  "total_candidates_evaluated": 20,
+  "processing_time_sec": 1.8,
+  "warning": null
+}
+```
+
+---
+
+## 🗺️ Roadmap
+
+RecruitMind AI is built to grow. Here's what's planned beyond the hackathon:
+
+- [ ] **Resume PDF parsing** — extract skills directly from uploaded resumes (PyMuPDF + LLM)
+- [ ] **Real LinkedIn profile integration** via LinkedIn API for live candidate data
+- [ ] **Feedback loop** — recruiter marks hired/rejected, system learns from outcomes
+- [ ] **Multi-JD batch ranking** — rank 100s of candidates across multiple open roles simultaneously
+- [ ] **Bias detection layer** — flag potential discrimination signals in JD language or scoring patterns
+- [ ] **Production PostgreSQL + pgvector migration** from ChromaDB for horizontal scaling
+
+---
+
 ## 🐳 Docker Deployment
 
 > No local Python setup needed. One command brings the entire stack online.
