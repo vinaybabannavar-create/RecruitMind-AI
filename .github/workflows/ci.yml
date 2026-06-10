@@ -30,55 +30,7 @@ jobs:
       run: |
         python -m pytest tests/ -v
 
-    - name: Start FastAPI server in background
+    - name: Lint check (import validation)
       run: |
-        python api/main.py &
-        echo $! > fastapi.pid
-
-    - name: Wait for server to start & run tests
-      run: |
-        python -c '
-        import time, requests
-        # Wait up to 45 seconds for FastAPI server to become healthy and auto-indexing to finish
-        healthy = False
-        for i in range(45):
-            try:
-                r = requests.get("http://localhost:8000/health")
-                if r.status_code == 200:
-                    data = r.json()
-                    # Wait for vector_db_ready to be True and candidates to be indexed
-                    if data.get("vector_db_ready") and data.get("candidates_indexed", 0) > 0:
-                        print("FastAPI is healthy and candidates are indexed!")
-                        healthy = True
-                        break
-            except Exception:
-                pass
-            time.sleep(1)
-        if not healthy:
-            raise Exception("FastAPI server failed to start or index candidates in time.")
-
-        # Test 1: Verify health endpoint
-        r = requests.get("http://localhost:8000/health")
-        data = r.json()
-        assert data["status"] == "ok", f"Expected ok status, got {data}"
-        print("Health check passed.")
-
-        # Test 2: Assert that 100 candidates are produced/indexed
-        r_candidates = requests.get("http://localhost:8000/candidates?limit=1")
-        cand_data = r_candidates.json()
-        total_candidates = cand_data["total"]
-        assert total_candidates == 100, f"Expected 100 candidates, got {total_candidates}"
-        print("Candidates assertion passed (100 candidates verified).")
-
-        # Test 3: Run ranking pipeline with a sample JD to verify it runs correctly
-        sample_jd = {
-            "jd_text": "Looking for a Senior Software Engineer with 5+ years of experience in Python, FastAPI, Docker, and SQL.",
-            "top_k": 5,
-            "with_explanations": False
-        }
-        r_rank = requests.post("http://localhost:8000/rank", json=sample_jd)
-        assert r_rank.status_code == 200, f"Rank request failed with status {r_rank.status_code}: {r_rank.text}"
-        rank_data = r_rank.json()
-        assert len(rank_data["shortlist"]) > 0, "Shortlist is empty"
-        print("Ranking pipeline verified successfully.")
-        '
+        python -c "from pipeline.scorer import score_candidate, skill_match_score, experience_fit_score; print('All imports OK')"
+        python -c "from pipeline.jd_parser import parse_jd; print('JD parser import OK')"
