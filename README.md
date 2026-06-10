@@ -530,10 +530,10 @@ The Streamlit dashboard is built for a **recruiter who needs answers fast** — 
 pip install -r requirements.txt
 
 # Run all tests
-pytest tests/ -v
+python -m pytest tests/ -v
 
 # Run specific test file
-pytest tests/test_scorer.py -v
+python -m pytest tests/test_scorer.py -v
 ```
 
 ---

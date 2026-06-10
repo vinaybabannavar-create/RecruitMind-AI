@@ -49,10 +49,10 @@ To ensure the matching engine remains reliable, we enforce strict standards:
 Ensure all tests pass before proposing changes:
 ```bash
 # Run pytest with verbose output
-pytest tests/ -v
+python -m pytest tests/ -v
 
 # Run pytest with coverage report
-pytest --cov=pipeline tests/ -v
+python -m pytest --cov=pipeline tests/ -v
 ```
 
 ---

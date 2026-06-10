@@ -28,7 +28,7 @@ jobs:
 
     - name: Run unit tests
       run: |
-        pytest tests/ -v
+        python -m pytest tests/ -v
 
     - name: Start FastAPI server in background
       run: |
