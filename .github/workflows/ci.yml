@@ -66,7 +66,8 @@ jobs:
         # Test 2: Assert that 100 candidates are produced/indexed
         r_candidates = requests.get("http://localhost:8000/candidates?limit=1")
         cand_data = r_candidates.json()
-        assert cand_data["total"] == 100, f"Expected 100 candidates, got {cand_data[\"total\"]}"
+        total_candidates = cand_data["total"]
+        assert total_candidates == 100, f"Expected 100 candidates, got {total_candidates}"
         print("Candidates assertion passed (100 candidates verified).")
 
         # Test 3: Run ranking pipeline with a sample JD to verify it runs correctly
