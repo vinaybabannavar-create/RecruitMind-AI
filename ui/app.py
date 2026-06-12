@@ -47,8 +47,34 @@ html, body, [class*="css"] {
 }
 
 .stApp {
-    background: linear-gradient(135deg, #0a0e1a 0%, #0d1321 40%, #111827 100%);
-    color: #e2e8f0;
+    background: radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.06) 0%, transparent 55%),
+                linear-gradient(135deg, #030712 0%, #090d16 50%, #020617 100%) !important;
+    color: #f1f5f9;
+}
+
+/* ── Glowing Orbs (Cosmic depth) ── */
+.stApp::before {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.05) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+}
+.stApp::after {
+    content: "";
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.04) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
 }
 
 /* ── Hide default Streamlit chrome ── */
@@ -57,19 +83,21 @@ html, body, [class*="css"] {
 
 /* ── Scrollbar ── */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #0d1321; }
-::-webkit-scrollbar-thumb { background: #3b4fd8; border-radius: 3px; }
+::-webkit-scrollbar-track { background: #080c14; }
+::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.4); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(167, 139, 250, 0.6); }
 
 /* ── Hero Banner ── */
 .hero-banner {
-    background: linear-gradient(135deg, #1a1f3a 0%, #16213e 50%, #0f3460 100%);
-    border: 1px solid rgba(99, 102, 241, 0.3);
-    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.45) 100%) !important;
+    border: 1px solid rgba(99, 102, 241, 0.25) !important;
+    border-radius: 24px;
     padding: 2.5rem 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 25px 50px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.03);
 }
 .hero-banner::before {
     content: '';
@@ -88,11 +116,11 @@ html, body, [class*="css"] {
     left: 5%;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(139,92,246,0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(168,85,247,0.08) 0%, transparent 70%);
     pointer-events: none;
 }
 .hero-title {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: 800;
     background: linear-gradient(135deg, #a78bfa 0%, #818cf8 40%, #60a5fa 100%);
     -webkit-background-clip: text;
@@ -100,85 +128,98 @@ html, body, [class*="css"] {
     background-clip: text;
     margin: 0;
     line-height: 1.1;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.8px;
+    filter: drop-shadow(0 2px 10px rgba(99,102,241,0.15));
 }
 .hero-sub {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     color: #94a3b8;
     margin-top: 0.6rem;
     font-weight: 400;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
 }
 .hero-badges {
     display: flex;
-    gap: 0.5rem;
-    margin-top: 1.2rem;
+    gap: 0.6rem;
+    margin-top: 1.5rem;
     flex-wrap: wrap;
 }
 .hero-badge {
-    background: rgba(99,102,241,0.15);
-    border: 1px solid rgba(99,102,241,0.3);
+    background: rgba(99,102,241,0.08);
+    border: 1px solid rgba(99,102,241,0.2);
     color: #a78bfa;
-    padding: 4px 14px;
+    padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.72rem;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.hero-badge:hover {
+    background: rgba(99,102,241,0.18);
+    border-color: rgba(167,139,250,0.5);
+    box-shadow: 0 0 12px rgba(167,139,250,0.25);
+    transform: translateY(-1px);
 }
 
 /* ── Glass Card ── */
 .glass-card {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 16px;
-    padding: 1.5rem;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-    margin-bottom: 1rem;
+    background: rgba(15, 23, 42, 0.45);
+    border: 1px solid rgba(99, 102, 241, 0.15);
+    border-radius: 20px;
+    padding: 1.8rem;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+    margin-bottom: 1.5rem;
 }
 
 /* ── Section Header ── */
 .section-header {
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #e2e8f0;
-    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #f8fafc;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.75rem;
+    letter-spacing: -0.3px;
 }
 .section-header .accent {
-    width: 3px;
-    height: 18px;
-    background: linear-gradient(180deg, #818cf8, #a78bfa);
-    border-radius: 2px;
+    width: 4px;
+    height: 22px;
+    background: linear-gradient(180deg, #6366f1, #a855f7);
+    border-radius: 4px;
     display: inline-block;
+    box-shadow: 0 0 10px rgba(99,102,241,0.5);
 }
 
 /* ── Metric Cards ── */
 .metric-row {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    margin: 1.2rem 0;
+    gap: 1.2rem;
+    margin: 1.5rem 0;
 }
 .metric-card {
-    background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(139,92,246,0.05) 100%);
-    border: 1px solid rgba(99,102,241,0.2);
-    border-radius: 14px;
-    padding: 1.2rem 1rem;
+    background: linear-gradient(135deg, rgba(99,102,241,0.06) 0%, rgba(168,85,247,0.04) 100%);
+    border: 1px solid rgba(99,102,241,0.18);
+    border-radius: 16px;
+    padding: 1.4rem 1.1rem;
     text-align: center;
-    transition: transform 0.2s, border-color 0.2s;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .metric-card:hover {
-    transform: translateY(-2px);
-    border-color: rgba(99,102,241,0.4);
+    transform: translateY(-3px);
+    border-color: rgba(167,139,250,0.45);
+    box-shadow: 0 10px 25px rgba(99,102,241,0.15);
 }
 .metric-value {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #818cf8, #a78bfa);
+    background: linear-gradient(135deg, #818cf8, #c084fc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -187,32 +228,33 @@ html, body, [class*="css"] {
 .metric-label {
     font-size: 0.72rem;
     color: #64748b;
-    margin-top: 0.4rem;
-    font-weight: 500;
+    margin-top: 0.5rem;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.8px;
 }
 
 /* ── Candidate Card ── */
 .candidate-card {
-    background: linear-gradient(135deg, rgba(15,20,40,0.95) 0%, rgba(20,26,50,0.95) 100%);
-    border: 1px solid rgba(99,102,241,0.15);
-    border-radius: 16px;
-    padding: 1.5rem;
-    margin: 0.8rem 0;
+    background: linear-gradient(135deg, rgba(13, 18, 36, 0.95) 0%, rgba(18, 24, 48, 0.95) 100%) !important;
+    border: 1px solid rgba(99,102,241,0.18) !important;
+    border-radius: 20px;
+    padding: 1.8rem;
+    margin: 1rem 0;
     position: relative;
     overflow: hidden;
-    transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
 }
 .candidate-card:hover {
-    border-color: rgba(99,102,241,0.4);
-    box-shadow: 0 8px 40px rgba(99,102,241,0.15);
-    transform: translateY(-1px);
+    border-color: rgba(167,139,250,0.45) !important;
+    box-shadow: 0 15px 45px rgba(99,102,241,0.2);
+    transform: translateY(-2px);
 }
 .candidate-card.top-3 {
-    border-color: rgba(167,139,250,0.3);
-    background: linear-gradient(135deg, rgba(20,15,50,0.98) 0%, rgba(25,20,55,0.98) 100%);
+    border-color: rgba(168,85,247,0.3) !important;
+    background: linear-gradient(135deg, rgba(16, 12, 42, 0.98) 0%, rgba(22, 18, 48, 0.98) 100%) !important;
 }
 .candidate-card::before {
     content: '';
@@ -220,11 +262,11 @@ html, body, [class*="css"] {
     top: 0;
     left: 0;
     right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, rgba(99,102,241,0.6), transparent);
+    height: 3px;
+    background: linear-gradient(90deg, transparent, rgba(99,102,241,0.5), transparent);
 }
 .candidate-card.top-3::before {
-    background: linear-gradient(90deg, transparent, rgba(167,139,250,0.8), rgba(99,102,241,0.6), transparent);
+    background: linear-gradient(90deg, transparent, rgba(168,85,247,0.7), rgba(99,102,241,0.5), transparent);
 }
 
 /* ── Rank Badge ── */
@@ -232,11 +274,11 @@ html, body, [class*="css"] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     font-weight: 800;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     margin-right: 0.75rem;
     flex-shrink: 0;
 }
@@ -250,69 +292,77 @@ html, body, [class*="css"] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.3rem;
+    gap: 0.4rem;
 }
 .score-ring {
-    width: 70px;
-    height: 70px;
+    width: 76px;
+    height: 76px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-weight: 800;
     position: relative;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
-.score-high { background: conic-gradient(#22c55e var(--pct), rgba(34,197,94,0.1) 0); color: #22c55e; box-shadow: 0 0 20px rgba(34,197,94,0.2); }
-.score-mid  { background: conic-gradient(#f59e0b var(--pct), rgba(245,158,11,0.1) 0); color: #f59e0b; box-shadow: 0 0 20px rgba(245,158,11,0.2); }
+.score-high { background: conic-gradient(#22c55e var(--pct), rgba(34,197,94,0.1) 0); color: #22c55e; box-shadow: 0 0 20px rgba(34,197,94,0.25); }
+.score-mid  { background: conic-gradient(#f59e0b var(--pct), rgba(245,158,11,0.1) 0); color: #f59e0b; box-shadow: 0 0 20px rgba(245,158,11,0.25); }
 .score-low  { background: conic-gradient(#ef4444 var(--pct), rgba(239,68,68,0.1) 0); color: #ef4444; }
 .score-inner {
     position: absolute;
-    width: 56px;
-    height: 56px;
+    width: 62px;
+    height: 62px;
     border-radius: 50%;
-    background: #0d1321;
+    background: #090d16;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 800;
 }
 
 /* ── Skill Tags ── */
 .skill-tag {
-    background: rgba(99,102,241,0.1);
-    border: 1px solid rgba(99,102,241,0.25);
-    color: #818cf8;
-    padding: 3px 10px;
+    background: rgba(99,102,241,0.08);
+    border: 1px solid rgba(99,102,241,0.22);
+    color: #a78bfa;
+    padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.72rem;
     font-weight: 500;
     display: inline-block;
-    margin: 2px;
-    transition: background 0.2s;
+    margin: 3px;
+    transition: all 0.2s;
+}
+.skill-tag:hover {
+    background: rgba(99,102,241,0.18);
+    border-color: rgba(167,139,250,0.4);
 }
 .skill-matched {
     background: rgba(34,197,94,0.12);
-    border: 1px solid rgba(34,197,94,0.3);
+    border: 1px solid rgba(34,197,94,0.35);
     color: #4ade80;
+}
+.skill-matched:hover {
+    background: rgba(34,197,94,0.2);
+    border-color: rgba(34,197,94,0.5);
 }
 
 /* ── Mini Score Bar ── */
 .score-bar-wrap {
-    margin: 5px 0;
+    margin: 8px 0;
 }
 .score-bar-label {
     display: flex;
     justify-content: space-between;
-    font-size: 0.7rem;
-    color: #64748b;
-    margin-bottom: 3px;
+    font-size: 0.72rem;
+    color: #94a3b8;
+    margin-bottom: 4px;
     font-weight: 500;
 }
 .score-bar-bg {
-    height: 5px;
+    height: 6px;
     background: rgba(255,255,255,0.06);
     border-radius: 3px;
     overflow: hidden;
@@ -325,90 +375,112 @@ html, body, [class*="css"] {
 
 /* ── AI Explanation Box ── */
 .explain-box {
-    background: linear-gradient(135deg, rgba(99,102,241,0.08) 0%, rgba(139,92,246,0.05) 100%);
-    border: 1px solid rgba(99,102,241,0.2);
+    background: linear-gradient(135deg, rgba(99,102,241,0.06) 0%, rgba(168,85,247,0.04) 100%);
+    border: 1px solid rgba(99,102,241,0.18);
     border-left: 3px solid #818cf8;
-    border-radius: 0 10px 10px 0;
-    padding: 0.9rem 1.1rem;
-    margin: 0.8rem 0;
+    border-radius: 0 12px 12px 0;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
     font-size: 0.88rem;
-    color: #c4b5fd;
+    color: #cbd5e1;
     line-height: 1.6;
     font-style: italic;
 }
 
 /* ── Info Pills ── */
 .info-pill {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.07);
-    border-radius: 8px;
-    padding: 0.5rem 0.8rem;
-    margin: 0.3rem 0;
-    font-size: 0.8rem;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    padding: 0.6rem 0.9rem;
+    margin: 0.4rem 0;
+    font-size: 0.82rem;
     color: #94a3b8;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.6rem;
+    backdrop-filter: blur(5px);
 }
-.info-pill strong { color: #e2e8f0; }
+.info-pill strong { color: #f1f5f9; }
 
-/* ── JD Input ── */
-.stTextArea textarea {
-    background: rgba(255,255,255,0.03) !important;
-    border: 1px solid rgba(99,102,241,0.2) !important;
-    border-radius: 12px !important;
-    color: #e2e8f0 !important;
+/* ── JD Input & Inputs ── */
+.stTextArea textarea, .stTextInput input, .stMultiselect div[data-baseweb="select"] {
+    background: rgba(15, 23, 42, 0.4) !important;
+    border: 1px solid rgba(99, 102, 241, 0.2) !important;
+    border-radius: 16px !important;
+    color: #f8fafc !important;
     font-family: 'Inter', sans-serif !important;
-    font-size: 0.88rem !important;
+    font-size: 0.9rem !important;
+    padding: 0.8rem 1rem !important;
     line-height: 1.6 !important;
-    resize: vertical !important;
-    transition: border-color 0.2s !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    backdrop-filter: blur(8px) !important;
 }
-.stTextArea textarea:focus {
-    border-color: rgba(99,102,241,0.6) !important;
-    box-shadow: 0 0 0 3px rgba(99,102,241,0.1) !important;
+.stTextArea textarea:focus, .stTextInput input:focus, .stMultiselect div[data-baseweb="select"]:focus-within {
+    border-color: rgba(167, 139, 250, 0.6) !important;
+    box-shadow: 0 0 20px rgba(167, 139, 250, 0.15), inset 0 0 0 1px rgba(167, 139, 250, 0.1) !important;
+    background: rgba(15, 23, 42, 0.65) !important;
 }
 
 /* ── Primary Button ── */
 .stButton > button[kind="primary"],
+button[data-testid="baseButton-primary"],
 div[data-testid="stFormSubmitButton"] > button {
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%) !important;
-    border: none !important;
-    border-radius: 10px !important;
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%) !important;
+    border: 1px solid rgba(167, 139, 250, 0.4) !important;
+    border-radius: 14px !important;
     color: white !important;
     font-weight: 700 !important;
     font-size: 0.95rem !important;
-    padding: 0.7rem 2rem !important;
-    letter-spacing: 0.3px !important;
-    box-shadow: 0 4px 20px rgba(79,70,229,0.4) !important;
-    transition: all 0.2s !important;
+    padding: 0.75rem 2.2rem !important;
+    letter-spacing: 0.5px !important;
+    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4), 0 0 15px rgba(168, 85, 247, 0.2) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    text-transform: uppercase !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
 }
-.stButton > button[kind="primary"]:hover {
-    transform: translateY(-1px) !important;
-    box-shadow: 0 8px 30px rgba(79,70,229,0.5) !important;
+.stButton > button[kind="primary"]:hover,
+button[data-testid="baseButton-primary"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 30px rgba(99, 102, 241, 0.6), 0 0 25px rgba(168, 85, 247, 0.4) !important;
+    border-color: rgba(167, 139, 250, 0.8) !important;
 }
+
+/* ── Standard Button ── */
 .stButton > button {
-    background: rgba(99,102,241,0.1) !important;
-    border: 1px solid rgba(99,102,241,0.25) !important;
-    color: #818cf8 !important;
-    border-radius: 8px !important;
-    font-weight: 500 !important;
-    font-size: 0.82rem !important;
-    transition: all 0.2s !important;
+    background: rgba(30, 41, 59, 0.4) !important;
+    border: 1px solid rgba(99, 102, 241, 0.22) !important;
+    color: #cbd5e1 !important;
+    border-radius: 12px !important;
+    font-weight: 600 !important;
+    font-size: 0.86rem !important;
+    padding: 0.65rem 1.4rem !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2) !important;
+    width: 100% !important;
 }
 .stButton > button:hover {
-    background: rgba(99,102,241,0.2) !important;
-    border-color: rgba(99,102,241,0.4) !important;
+    background: rgba(99, 102, 241, 0.12) !important;
+    border-color: rgba(167, 139, 250, 0.5) !important;
+    color: #f8fafc !important;
+    box-shadow: 0 0 15px rgba(167, 139, 250, 0.22) !important;
+    transform: translateY(-2px) !important;
+}
+.stButton > button:active {
+    transform: translateY(0px) !important;
 }
 
 /* ── Sidebar ── */
 section[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #080c18 0%, #0a0e1a 100%) !important;
-    border-right: 1px solid rgba(99,102,241,0.15);
+    background: linear-gradient(180deg, #020617 0%, #090d16 100%) !important;
+    border-right: 1px solid rgba(99, 102, 241, 0.15) !important;
 }
 section[data-testid="stSidebar"] .stMarkdown h2,
 section[data-testid="stSidebar"] .stMarkdown h3 {
-    color: #e2e8f0;
+    color: #f1f5f9;
 }
 
 /* ── Slider ── */
@@ -417,7 +489,7 @@ section[data-testid="stSidebar"] .stMarkdown h3 {
     background: rgba(99,102,241,0.2) !important;
 }
 .stSlider [data-testid="stSlider"] > div > div > div > div {
-    background: linear-gradient(90deg, #4f46e5, #7c3aed) !important;
+    background: linear-gradient(90deg, #6366f1, #a855f7) !important;
 }
 
 /* ── Toggle ── */
@@ -454,17 +526,18 @@ section[data-testid="stSidebar"] .stMarkdown h3 {
 
 /* ── Expander ── */
 .streamlit-expanderHeader {
-    background: rgba(255,255,255,0.03) !important;
-    border: 1px solid rgba(99,102,241,0.15) !important;
-    border-radius: 12px !important;
+    background: rgba(15, 23, 42, 0.4) !important;
+    border: 1px solid rgba(99,102,241,0.18) !important;
+    border-radius: 14px !important;
     color: #e2e8f0 !important;
     font-weight: 600 !important;
+    padding: 0.8rem 1.2rem !important;
 }
 .streamlit-expanderContent {
-    background: rgba(255,255,255,0.02) !important;
-    border: 1px solid rgba(99,102,241,0.1) !important;
+    background: rgba(15, 23, 42, 0.2) !important;
+    border: 1px solid rgba(99,102,241,0.12) !important;
     border-top: none !important;
-    border-radius: 0 0 12px 12px !important;
+    border-radius: 0 0 14px 14px !important;
 }
 
 /* ── Download Button ── */
@@ -472,18 +545,30 @@ section[data-testid="stSidebar"] .stMarkdown h3 {
     background: rgba(34,197,94,0.1) !important;
     border: 1px solid rgba(34,197,94,0.25) !important;
     color: #4ade80 !important;
-    border-radius: 8px !important;
-    font-size: 0.82rem !important;
+    border-radius: 10px !important;
+    font-size: 0.86rem !important;
     font-weight: 600 !important;
 }
 .stDownloadButton > button:hover {
     background: rgba(34,197,94,0.2) !important;
+    border-color: #22c55e !important;
+    box-shadow: 0 0 15px rgba(34,197,94,0.25) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ── Custom Alert styling ── */
+div[data-testid="stAlert"] {
+    background: rgba(15, 23, 42, 0.45) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 14px !important;
+    backdrop-filter: blur(8px) !important;
+    padding: 1rem !important;
 }
 
 /* ── Divider ── */
 hr {
-    border-color: rgba(99,102,241,0.12) !important;
-    margin: 1.2rem 0 !important;
+    border-color: rgba(99,102,241,0.15) !important;
+    margin: 1.5rem 0 !important;
 }
 
 /* ── Spinner ── */
@@ -660,6 +745,16 @@ hr {
 @keyframes zoomOut {
     0% { transform: scale(1.6); opacity: 0; filter: blur(8px); }
     100% { transform: scale(1); opacity: 1; filter: blur(0); }
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: rgba(129, 140, 248, 0.75); }
 }
 
 /* ── Pipeline Stepper Styles ── */
@@ -862,7 +957,7 @@ def check_api():
 
 with st.sidebar:
     if logo_base64:
-        sidebar_logo_html = f'<img src="{logo_base64}" style="width: 70px; height: 70px; margin-bottom: 0.5rem; filter: drop-shadow(0 0 10px rgba(167, 139, 250, 0.4));">'
+        sidebar_logo_html = f'<div style="background:white; border-radius:16px; padding:4px; display:inline-block; margin-bottom: 0.8rem; box-shadow: 0 8px 25px rgba(99, 102, 241, 0.25); border:1px solid rgba(167, 139, 250, 0.2);"><img src="{logo_base64}" style="width: 65px; height: 65px; border-radius: 12px; display:block;"></div>'
     else:
         sidebar_logo_html = '<div style="font-size:2.5rem;">🧠</div>'
 
@@ -965,7 +1060,7 @@ with st.sidebar:
 # ── Hero Banner ────────────────────────────────────────────────────────────────
 
 if logo_base64:
-    hero_logo_html = f'<img src="{logo_base64}" style="width: 55px; height: 55px; filter: drop-shadow(0 0 10px rgba(167, 139, 250, 0.4));">'
+    hero_logo_html = f'<div style="background:white; border-radius:12px; padding:3px; display:inline-flex; align-items:center; justify-content:center; box-shadow:0 8px 20px rgba(99, 102, 241, 0.25); border:1px solid rgba(167, 139, 250, 0.2);"><img src="{logo_base64}" style="width: 45px; height: 45px; border-radius: 9px; display:block;"></div>'
 else:
     hero_logo_html = '<span style="font-size:2.5rem">🧠</span>'
 
@@ -1441,7 +1536,11 @@ if "last_result" in st.session_state:
 
 # ── Candidate Comparison Section ─────────────────────────────────────────────
 st.divider()
-st.markdown("### ⚖️ Side-by-Side Candidate Comparison")
+st.markdown(clean_html("""
+    <div class="section-header">
+        <span class="accent"></span>⚖️ Side-by-Side Candidate Comparison
+    </div>
+"""), unsafe_allow_html=True)
 st.caption("Select 2 or 3 candidates from the shortlist above to compare them directly.")
 
 if "last_result" in st.session_state:
@@ -1473,27 +1572,41 @@ if "last_result" in st.session_state:
                         for col, cand in zip(cols, comparison):
                             with col:
                                 scores = cand.get("scores", {})
-                                composite = round(scores.get("composite", 0) * 100, 1)
-                                st.markdown(f"**{cand.get('name')}**")
-                                st.markdown(f"Score: **{composite}%**")
-                                st.markdown(f"📍 {cand.get('location', '')} · {cand.get('seniority', '')} · {cand.get('years_experience', 0)}y")
-                                for label, key in [
-                                    ("Semantic",   "semantic"),
-                                    ("Skill",      "skill_match"),
-                                    ("Career",     "career_growth"),
-                                    ("Activity",   "activity"),
-                                    ("Exp Fit",    "experience_fit"),
-                                ]:
-                                    val = round(scores.get(key, 0) * 100, 1)
-                                    color = "#22c55e" if val >= 80 else ("#f59e0b" if val >= 65 else "#ef4444")
-                                    st.markdown(
-                                        f'<div style="display:flex;justify-content:space-between;font-size:12px;">'
-                                        f'<span>{label}</span><span style="color:{color}"><b>{val}%</b></span></div>',
-                                        unsafe_allow_html=True
-                                    )
+                                composite = scores.get("composite", 0)
+                                name = cand.get("name", "")
+                                loc = cand.get("location", "")
+                                seniority = cand.get("seniority", "")
+                                yexp = cand.get("years_experience", 0)
                                 skills = cand.get("skills", [])
+                                
+                                card_start = clean_html(f"""
+                                    <div class="candidate-card" style="margin: 0; min-height: 480px;">
+                                        <div style="text-align: center; margin-bottom: 1rem;">
+                                            <h4 style="margin: 5px 0 2px 0; color: #f1f5f9; font-size: 1.1rem; font-weight: 700;">{name}</h4>
+                                            <span style="font-size: 0.72rem; color: #64748b;">{seniority.capitalize()} · {loc}</span>
+                                        </div>
+                                """)
+                                st.markdown(card_start, unsafe_allow_html=True)
+                                
+                                st.markdown(render_score_ring(composite), unsafe_allow_html=True)
+                                
+                                card_middle = clean_html(f"""
+                                    <div class="info-pill" style="margin: 4px 0; background: rgba(255,255,255,0.02);">💼 Experience: <strong>{yexp} yrs</strong></div>
+                                    <div class="info-pill" style="margin: 4px 0; background: rgba(255,255,255,0.02);">📍 Location: <strong>{loc}</strong></div>
+                                """)
+                                st.markdown(card_middle, unsafe_allow_html=True)
+                                
+                                st.markdown('<div style="font-size:0.7rem; font-weight:700; color:#64748b; text-transform:uppercase; letter-spacing:0.5px; margin: 1rem 0 0.5rem 0;">Signals Breakdown</div>', unsafe_allow_html=True)
+                                st.markdown(render_score_bar("Semantic", scores.get("semantic", 0)), unsafe_allow_html=True)
+                                st.markdown(render_score_bar("Skill Match", scores.get("skill_match", 0)), unsafe_allow_html=True)
+                                st.markdown(render_score_bar("Career Growth", scores.get("career_growth", 0)), unsafe_allow_html=True)
+                                st.markdown(render_score_bar("Activity Signal", scores.get("activity", 0)), unsafe_allow_html=True)
+                                
                                 if skills:
-                                    st.markdown(f"**Skills:** {', '.join(skills[:6])}")
+                                    skill_tags = "".join([f'<span class="skill-tag">{s}</span>' for s in skills[:6]])
+                                    st.markdown(f'<div style="margin-top:0.8rem;line-height:1.4;">{skill_tags}</div>', unsafe_allow_html=True)
+                                    
+                                st.markdown("</div>", unsafe_allow_html=True)
                     else:
                         st.error("Comparison failed. Make sure API is running.")
                 except Exception as e:
@@ -1507,7 +1620,11 @@ else:
 
 # ── JD Bias Checker Section ───────────────────────────────────────────────────
 st.divider()
-st.markdown("### 🔍 JD Bias Checker")
+st.markdown(clean_html("""
+    <div class="section-header">
+        <span class="accent"></span>🔍 JD Bias Checker
+    </div>
+"""), unsafe_allow_html=True)
 st.caption("Paste any job description to check for potentially biased language before posting.")
 
 bias_jd = st.text_area(
@@ -1531,13 +1648,24 @@ if st.button("🔎 Check for Bias", use_container_width=False):
                 flags = bias_data.get("bias_flags", [])
                 score = bias_data.get("bias_score", 0)
                 color = "#ef4444" if level == "High" else ("#f59e0b" if level == "Medium" else "#22c55e")
-                st.markdown(
-                    f'<div style="padding:10px;border-radius:8px;background:#f8fafc;border:1px solid #e2e8f0;">'
-                    f'Bias Level: <b style="color:{color}">{level}</b> &nbsp;|&nbsp; '
-                    f'Flags Found: <b>{len(flags)}</b> &nbsp;|&nbsp; '
-                    f'Bias Score: <b>{score}/100</b></div>',
-                    unsafe_allow_html=True
-                )
+                st.markdown(clean_html(f"""
+                    <div style="padding: 1.2rem; border-radius: 16px; background: rgba(15,23,42,0.4); border: 1px solid rgba(99,102,241,0.25); backdrop-filter: blur(10px); box-shadow: 0 10px 30px rgba(0,0,0,0.3); margin-bottom: 1.2rem; display: flex; gap: 1.5rem; justify-content: space-around; text-align: center;">
+                        <div>
+                            <div style="font-size: 0.72rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.3rem;">Bias Level</div>
+                            <div style="font-size: 1.4rem; font-weight: 800; color: {color};">{level}</div>
+                        </div>
+                        <div style="width: 1px; background: rgba(255,255,255,0.06);"></div>
+                        <div>
+                            <div style="font-size: 0.72rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.3rem;">Flags Found</div>
+                            <div style="font-size: 1.4rem; font-weight: 800; color: #f1f5f9;">{len(flags)}</div>
+                        </div>
+                        <div style="width: 1px; background: rgba(255,255,255,0.06);"></div>
+                        <div>
+                            <div style="font-size: 0.72rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.3rem;">Bias Score</div>
+                            <div style="font-size: 1.4rem; font-weight: 800; color: #818cf8;">{score}/100</div>
+                        </div>
+                    </div>
+                """), unsafe_allow_html=True)
                 if flags:
                     st.markdown("**Flagged Terms:**")
                     for flag in flags:
