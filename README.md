@@ -762,6 +762,27 @@ Each of the 100 synthetic candidates carries a rich, realistic profile:
 
 > **No key?** No problem. RecruitMind AI automatically falls back to rule-based offline mode for JD parsing and explanations. All semantic search and scoring still works fully — you won't lose core functionality.
 
+## ⚖️ New Features
+
+### Candidate Comparison (`POST /compare`)
+Compare 2–3 candidates side by side with full score breakdown.
+```json
+{
+  "candidate_ids": ["CAND_0042", "CAND_0017", "CAND_0063"],
+  "jd_text": "Senior Python ML Engineer..."
+}
+```
+
+### JD Bias Checker (`POST /bias-check`)
+Checks any job description for potentially biased language before posting.
+```json
+{ "jd_text": "We are looking for a young energetic developer..." }
+```
+Returns bias level (Low/Medium/High), flagged terms, and suggestions for inclusive rewriting.
+
+### Expanded Dataset
+System now indexes **300 synthetic candidate profiles** for more realistic and diverse ranking results.
+
 ---
 
 ## 🤝 Contributing

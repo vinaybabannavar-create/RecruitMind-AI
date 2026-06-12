@@ -205,6 +205,89 @@ def get_candidate(candidate_id: str):
         raise HTTPException(status_code=404, detail="candidates.json not found")
 
 
+class CompareRequest(BaseModel):
+    candidate_ids: List[str]
+    jd_text: str = ""
+
+@app.post("/compare")
+def compare_candidates(request: CompareRequest):
+    """Compare 2-3 candidates side by side with full score breakdown."""
+    if len(request.candidate_ids) < 2:
+        raise HTTPException(status_code=400, detail="Provide at least 2 candidate IDs to compare.")
+    if len(request.candidate_ids) > 3:
+        raise HTTPException(status_code=400, detail="Maximum 3 candidates can be compared at once.")
+    try:
+        with open("data/candidates.json") as f:
+            all_candidates = json.load(f)
+        candidate_map = {c["id"]: c for c in all_candidates}
+        results = []
+        for cid in request.candidate_ids:
+            candidate = candidate_map.get(cid)
+            if not candidate:
+                raise HTTPException(status_code=404, detail=f"Candidate {cid} not found.")
+            from pipeline.scorer import score_candidate
+            from pipeline.jd_parser import parse_jd_offline
+            parsed_jd = parse_jd_offline(request.jd_text) if request.jd_text else {
+                "required_skills": [], "nice_to_have_skills": [],
+                "min_experience_years": 0, "max_experience_years": None,
+                "seniority_level": "mid", "role_type": "backend"
+            }
+            scored = score_candidate(candidate, parsed_jd, 0.75)
+            results.append({
+                "candidate_id": cid,
+                "name": candidate.get("name"),
+                "scores": scored.get("scores", {}),
+                "metadata": scored.get("metadata", {}),
+                "skills": candidate.get("skills", []),
+                "certifications": candidate.get("certifications", []),
+                "years_experience": candidate.get("years_experience", 0),
+                "seniority": candidate.get("seniority", ""),
+                "location": candidate.get("location", ""),
+                "github": candidate.get("github", {}),
+                "activity_signals": candidate.get("activity_signals", {}),
+            })
+        return {"comparison": results, "candidate_count": len(results)}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+BIAS_KEYWORDS = [
+    "young", "fresh graduate only", "energetic young", "digital native",
+    "recent graduate", "college student", "boys", "girls", "male preferred",
+    "female preferred", "native english", "mother tongue english",
+    "local candidates only", "unmarried", "married preferred"
+]
+
+class BiasRequest(BaseModel):
+    jd_text: str
+
+@app.post("/bias-check")
+def check_jd_bias(request: BiasRequest):
+    """Check a job description for potentially biased language."""
+    if not request.jd_text.strip():
+        raise HTTPException(status_code=400, detail="jd_text cannot be empty.")
+    jd_lower = request.jd_text.lower()
+    found_flags = []
+    for keyword in BIAS_KEYWORDS:
+        if keyword.lower() in jd_lower:
+            found_flags.append({
+                "term": keyword,
+                "reason": f"The term '{keyword}' may indicate age, gender, or origin bias.",
+                "suggestion": "Consider using neutral, skills-based language instead."
+            })
+    bias_score = min(100, len(found_flags) * 20)
+    return {
+        "bias_flags": found_flags,
+        "bias_score": bias_score,
+        "bias_level": "High" if bias_score >= 60 else ("Medium" if bias_score >= 20 else "Low"),
+        "total_flags": len(found_flags),
+        "recommendation": "Review and rewrite flagged sections using inclusive, skills-focused language." if found_flags else "No obvious bias detected. JD language appears neutral.",
+        "jd_word_count": len(request.jd_text.split())
+    }
+
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("api.main:app", host="0.0.0.0", port=8000, reload=True)

@@ -188,7 +188,7 @@ def generate_candidate(cid):
     }
 
 def main():
-    candidates = [generate_candidate(i) for i in range(1, 101)]
+    candidates = [generate_candidate(i) for i in range(1, 301)]
     output_path = "data/candidates.json"
     with open(output_path, "w") as f:
         json.dump(candidates, f, indent=2)

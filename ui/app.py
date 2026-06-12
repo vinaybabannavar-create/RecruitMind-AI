@@ -1439,6 +1439,119 @@ if "last_result" in st.session_state:
                 use_container_width=True
             )
 
+# ── Candidate Comparison Section ─────────────────────────────────────────────
+st.divider()
+st.markdown("### ⚖️ Side-by-Side Candidate Comparison")
+st.caption("Select 2 or 3 candidates from the shortlist above to compare them directly.")
+
+if "last_result" in st.session_state:
+    shortlist = st.session_state["last_result"].get("shortlist", [])
+    if shortlist:
+        candidate_options = {
+            f"#{c.get('rank')} {c.get('name')} ({round(c.get('composite_score', 0) * 100, 1)}%)": c.get("candidate_id")
+            for c in shortlist
+        }
+        selected_labels = st.multiselect(
+            "Choose 2 or 3 candidates to compare",
+            options=list(candidate_options.keys()),
+            max_selections=3
+        )
+        if len(selected_labels) >= 2:
+            selected_ids = [candidate_options[label] for label in selected_labels]
+            jd_for_compare = st.session_state.get("last_jd", "")
+            if st.button("🔍 Compare Selected Candidates", use_container_width=True):
+                try:
+                    compare_response = requests.post(
+                        f"{API_URL}/compare",
+                        json={"candidate_ids": selected_ids, "jd_text": jd_for_compare},
+                        timeout=30
+                    )
+                    if compare_response.status_code == 200:
+                        compare_data = compare_response.json()
+                        comparison = compare_data.get("comparison", [])
+                        cols = st.columns(len(comparison))
+                        for col, cand in zip(cols, comparison):
+                            with col:
+                                scores = cand.get("scores", {})
+                                composite = round(scores.get("composite", 0) * 100, 1)
+                                st.markdown(f"**{cand.get('name')}**")
+                                st.markdown(f"Score: **{composite}%**")
+                                st.markdown(f"📍 {cand.get('location', '')} · {cand.get('seniority', '')} · {cand.get('years_experience', 0)}y")
+                                for label, key in [
+                                    ("Semantic",   "semantic"),
+                                    ("Skill",      "skill_match"),
+                                    ("Career",     "career_growth"),
+                                    ("Activity",   "activity"),
+                                    ("Exp Fit",    "experience_fit"),
+                                ]:
+                                    val = round(scores.get(key, 0) * 100, 1)
+                                    color = "#22c55e" if val >= 80 else ("#f59e0b" if val >= 65 else "#ef4444")
+                                    st.markdown(
+                                        f'<div style="display:flex;justify-content:space-between;font-size:12px;">'
+                                        f'<span>{label}</span><span style="color:{color}"><b>{val}%</b></span></div>',
+                                        unsafe_allow_html=True
+                                    )
+                                skills = cand.get("skills", [])
+                                if skills:
+                                    st.markdown(f"**Skills:** {', '.join(skills[:6])}")
+                    else:
+                        st.error("Comparison failed. Make sure API is running.")
+                except Exception as e:
+                    st.error(f"Error: {e}")
+        elif len(selected_labels) == 1:
+            st.info("Select at least one more candidate to compare.")
+    else:
+        st.info("Run a search first to get candidates to compare.")
+else:
+    st.info("Run a search first to get candidates to compare.")
+
+# ── JD Bias Checker Section ───────────────────────────────────────────────────
+st.divider()
+st.markdown("### 🔍 JD Bias Checker")
+st.caption("Paste any job description to check for potentially biased language before posting.")
+
+bias_jd = st.text_area(
+    "Paste JD to check for bias",
+    height=120,
+    placeholder="Paste your job description here to check for biased language...",
+    key="bias_jd_input",
+    label_visibility="collapsed"
+)
+if st.button("🔎 Check for Bias", use_container_width=False):
+    if bias_jd.strip():
+        try:
+            bias_response = requests.post(
+                f"{API_URL}/bias-check",
+                json={"jd_text": bias_jd},
+                timeout=15
+            )
+            if bias_response.status_code == 200:
+                bias_data = bias_response.json()
+                level = bias_data.get("bias_level", "Low")
+                flags = bias_data.get("bias_flags", [])
+                score = bias_data.get("bias_score", 0)
+                color = "#ef4444" if level == "High" else ("#f59e0b" if level == "Medium" else "#22c55e")
+                st.markdown(
+                    f'<div style="padding:10px;border-radius:8px;background:#f8fafc;border:1px solid #e2e8f0;">'
+                    f'Bias Level: <b style="color:{color}">{level}</b> &nbsp;|&nbsp; '
+                    f'Flags Found: <b>{len(flags)}</b> &nbsp;|&nbsp; '
+                    f'Bias Score: <b>{score}/100</b></div>',
+                    unsafe_allow_html=True
+                )
+                if flags:
+                    st.markdown("**Flagged Terms:**")
+                    for flag in flags:
+                        st.warning(f"⚠️ **\"{flag['term']}\"** — {flag['reason']} Suggestion: {flag['suggestion']}")
+                else:
+                    st.success("✅ No obvious bias detected. JD language appears neutral and inclusive.")
+                st.caption(bias_data.get("recommendation", ""))
+            else:
+                st.error("Bias check failed.")
+        except Exception as e:
+            st.error(f"Error: {e}")
+    else:
+        st.warning("Please paste a job description first.")
+
 # ── Footer ──────────────────────────────────────────────────────────────────────
 
 st.markdown(clean_html("""
