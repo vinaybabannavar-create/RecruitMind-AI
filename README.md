@@ -1,49 +1,35 @@
-cat > /mnt/user-data/outputs/README.md << 'READMEEOF'
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=RecruitMind%20AI&fontSize=95&fontColor=fff&animation=twinkling&fontAlignY=40&desc=🧠%20Next-Generation%20Agentic%20Talent%20Discovery%20Platform&descAlignY=65&descSize=22" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=RecruitMind%20AI&fontSize=90&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Next-Generation%20Agentic%20Talent%20Discovery%20Platform&descAlignY=62&descSize=22" width="100%"/>
 
 <br/>
 
-[![Stars](https://img.shields.io/github/stars/vinaybabannavar-create/RecruitMind-AI?style=for-the-badge&logo=starship&color=f5a623&labelColor=0f0f1a)](https://github.com/vinaybabannavar-create/RecruitMind-AI/stargazers)
-[![Forks](https://img.shields.io/github/forks/vinaybabannavar-create/RecruitMind-AI?style=for-the-badge&logo=git&color=7c3aed&labelColor=0f0f1a)](https://github.com/vinaybabannavar-create/RecruitMind-AI/network/members)
-[![CI](https://img.shields.io/github/actions/workflow/status/vinaybabannavar-create/RecruitMind-AI/ci.yml?style=for-the-badge&label=CI%20Pipeline&logo=githubactions&logoColor=white&labelColor=0f0f1a&color=22c55e)](https://github.com/vinaybabannavar-create/RecruitMind-AI/actions)
-[![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0f0f1a)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/vinaybabannavar-create/RecruitMind-AI?style=for-the-badge&logo=starship&color=f5a623&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI/stargazers)
+[![Forks](https://img.shields.io/github/forks/vinaybabannavar-create/RecruitMind-AI?style=for-the-badge&logo=git&color=7c3aed&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI/network/members)
+[![CI](https://img.shields.io/github/actions/workflow/status/vinaybabannavar-create/RecruitMind-AI/ci.yml?style=for-the-badge&label=CI%20Tests&logo=githubactions&logoColor=white&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI/actions)
+[![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&labelColor=1a1a2e)](LICENSE)
+[![Hackathon](https://img.shields.io/badge/Redrob_AI-Hackathon_2026-FF4B4B?style=for-the-badge&logo=rocket&logoColor=white&labelColor=1a1a2e)](https://hack2skill.com)
+[![Submitted](https://img.shields.io/badge/Status-Submitted_✓-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI)
 
 <br/>
-
-[![Hackathon](https://img.shields.io/badge/🏆_Redrob_AI-Hackathon_2026-FF4B4B?style=for-the-badge&labelColor=0f0f1a)](https://hack2skill.com)
-[![Challenge](https://img.shields.io/badge/🎯_Challenge-Intelligent_Candidate_Discovery-6C63FF?style=for-the-badge&labelColor=0f0f1a)](https://hack2skill.com)
-[![Status](https://img.shields.io/badge/✅_Status-Submitted-22C55E?style=for-the-badge&labelColor=0f0f1a)](https://github.com/vinaybabannavar-create/RecruitMind-AI)
-[![Dataset](https://img.shields.io/badge/📦_Dataset-300_Candidates-F97316?style=for-the-badge&labelColor=0f0f1a)](https://github.com/vinaybabannavar-create/RecruitMind-AI)
-
-<br/><br/>
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.39-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
-[![LangGraph](https://img.shields.io/badge/LangGraph-Agentic_Pipeline-6C63FF?style=for-the-badge&logo=chainlink&logoColor=white)](https://langchain-ai.github.io/langgraph)
-[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_Search-F97316?style=for-the-badge&logo=databricks&logoColor=white)](https://www.trychroma.com)
-[![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-22C55E?style=for-the-badge&logo=meta&logoColor=white)](https://groq.com)
+[![LangGraph](https://img.shields.io/badge/LangGraph-6_Node_Pipeline-6C63FF?style=for-the-badge)](https://langchain-ai.github.io/langgraph)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_Search-F97316?style=for-the-badge)](https://www.trychroma.com)
+[![Groq](https://img.shields.io/badge/Groq-Llama--3.3--70B-22C55E?style=for-the-badge)](https://groq.com)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![Sentence Transformers](https://img.shields.io/badge/Embeddings-all--MiniLM--L6--v2-8B5CF6?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co)
+[![Candidates](https://img.shields.io/badge/Dataset-300_Profiles-8B5CF6?style=for-the-badge&logo=database&logoColor=white)](https://github.com/vinaybabannavar-create/RecruitMind-AI)
 
 <br/><br/>
 
-<h2>🧠 Where AI meets hiring intelligence.</h2>
-<h3>Paste a Job Description → AI thinks like a recruiter → Ranked shortlist in seconds.</h3>
+<h2>🧠 Where AI meets hiring intelligence</h2>
+<h3>Paste a Job Description → AI ranks 300 candidates → Explained shortlist in seconds</h3>
 
 <br/>
 
-<a href="#-overview">🚀 Overview</a> &nbsp;·&nbsp;
-<a href="#-system-architecture">🏗️ Architecture</a> &nbsp;·&nbsp;
-<a href="#-langgraph-agentic-pipeline">🧠 Pipeline</a> &nbsp;·&nbsp;
-<a href="#-multi-signal-scoring-engine">🔬 Scoring</a> &nbsp;·&nbsp;
-<a href="#-setup--installation">⚙️ Setup</a> &nbsp;·&nbsp;
-<a href="#-api-reference">📡 API</a> &nbsp;·&nbsp;
-<a href="#-ui-features">🎨 UI</a> &nbsp;·&nbsp;
-<a href="#-docker-deployment">🐳 Docker</a> &nbsp;·&nbsp;
-<a href="#-new-features">⚖️ New</a>
+**[🚀 Overview](#-overview) · [🏗️ Architecture](#-system-architecture) · [🧠 Pipeline](#-langgraph-agentic-pipeline) · [🔬 Scoring](#-multi-signal-scoring-engine) · [✨ Features](#-new-features) · [⚙️ Setup](#-setup--installation) · [📡 API](#-api-reference) · [🎨 UI](#-ui-features) · [🐳 Docker](#-docker-deployment)**
 
 </div>
 
@@ -51,62 +37,55 @@ cat > /mnt/user-data/outputs/README.md << 'READMEEOF'
 
 ## 🚀 Overview
 
-**RecruitMind AI** is a fully agentic, production-ready AI recruitment intelligence platform built on a **6-node LangGraph stateful pipeline**. It moves far beyond keyword filtering — using semantic vector search, LLM-powered cognitive JD parsing, multi-signal composite scoring, and explainable AI reasoning to surface the *exact right candidates* for any job description — ranked, explained, and ready to hire.
+**RecruitMind AI** is a fully agentic, production-ready AI recruitment intelligence platform built on a **6-node LangGraph stateful pipeline**. It evaluates **300 candidate profiles** against any job description using semantic vector search, LLM-powered cognitive JD parsing, multi-signal composite scoring, explainable AI reasoning, JD bias detection, and side-by-side candidate comparison.
 
 <div align="center">
 
 <br/>
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║    📄 Paste JD  →  🧠 AI Parses Intent  →  🔍 Semantic Search               ║
-║    📊 Multi-Signal Score  →  💬 AI Explains  →  ✅ Ranked Shortlist          ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+> ### 💡 Traditional ATS filters by keywords. RecruitMind AI understands intent.
 
 <br/>
 
 <table>
 <thead>
 <tr>
-<th width="50%">❌ Traditional ATS</th>
-<th width="50%">✅ RecruitMind AI</th>
+<th align="center">❌ Traditional ATS</th>
+<th align="center">✅ RecruitMind AI</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Keyword matching only</td>
-<td>🧠 LLM semantic intent understanding</td>
+<td>🧠 LLM semantic intent understanding — extracts implicit requirements</td>
 </tr>
 <tr>
 <td>Binary pass / fail filter</td>
-<td>📊 5-signal weighted composite scoring</td>
+<td>📊 5-signal weighted composite scoring across multiple dimensions</td>
 </tr>
 <tr>
 <td>No explanation given</td>
-<td>💬 Per-candidate AI recruiter notes</td>
+<td>💬 Per-candidate AI recruiter notes grounded in actual data</td>
 </tr>
 <tr>
-<td>Homogeneous shortlists</td>
-<td>🔁 Diversity-aware re-ranking</td>
+<td>Homogeneous shortlist</td>
+<td>🔁 Diversity-aware re-ranking across seniority and role types</td>
 </tr>
 <tr>
 <td>Complete black box</td>
-<td>🔍 Full transparent score breakdown</td>
-</tr>
-<tr>
-<td>Crashes without API</td>
-<td>🌐 Rule-based offline fallback</td>
+<td>🔍 Full transparent score breakdown — 5 signals per candidate</td>
 </tr>
 <tr>
 <td>No bias awareness</td>
-<td>⚖️ JD bias detection built-in</td>
+<td>⚖️ POST /bias-check — flags discriminatory JD language automatically</td>
 </tr>
 <tr>
-<td>No comparison feature</td>
-<td>🆚 Side-by-side candidate comparison</td>
+<td>No comparison tool</td>
+<td>📊 POST /compare — side-by-side analysis of 2-3 candidates</td>
+</tr>
+<tr>
+<td>Fails without internet</td>
+<td>🌐 Rule-based offline fallback — always works without API key</td>
 </tr>
 </tbody>
 </table>
@@ -115,38 +94,38 @@ cat > /mnt/user-data/outputs/README.md << 'READMEEOF'
 
 <br/>
 
-### ✨ Key Highlights
+### ✨ What Makes RecruitMind AI Extraordinary
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-🔍 **Cognitive JD Parsing**
-LLM extracts skills, seniority, culture signals, and *implicit* requirements — not just keywords
+**🔍 Cognitive JD Parsing**
+LLM extracts skills, seniority, culture signals, and *implicit* requirements — not just keywords. Understands nuanced JDs the way a senior recruiter would.
 
-📊 **Multi-Signal Scoring Engine**
-5 independent weighted signals measuring every dimension of candidate fit
+**📊 Multi-Signal Scoring Engine**
+Composite scores from 5 independent signals — semantic fit, skill match, career growth, GitHub activity, experience fit. Weighted and combined mathematically.
 
-💡 **Explainable AI Shortlists**
-Every candidate gets a natural language recruiter note from Groq Llama-3.3-70B
+**💡 Explainable AI Shortlists**
+Every candidate gets a 3-4 sentence recruiter note generated by Groq Llama-3.3-70B — grounded strictly in real profile data. Zero hallucination.
 
-🎯 **Semantic Vector Search**
-ChromaDB + all-MiniLM-L6-v2 for deep contextual matching beyond surface keywords
+**🎯 Semantic Vector Search**
+ChromaDB + Sentence Transformers (all-MiniLM-L6-v2) for deep contextual matching. Finds a "data pipeline architect" for a "data engineer" JD even without exact keyword match.
 
 </td>
 <td width="50%" valign="top">
 
-⚡ **LangGraph Agentic Pipeline**
-Modular, observable, stateful 6-node pipeline with fully typed `RankingState`
+**⚡ LangGraph Agentic Pipeline**
+Modular, observable, stateful 6-node pipeline with fully typed `RankingState`. Each node independently testable. Easy to extend without touching other nodes.
 
-🔁 **Diversity Re-ranking**
-0.95× penalty prevents homogeneous shortlists across seniority and role types
+**🔁 Diversity Re-ranking**
+Prevents shortlist homogeneity — applies 0.95x penalty to over-represented seniority/role types ensuring balanced, varied candidate selection.
 
-⚖️ **JD Bias Checker**
-Flags age, gender, and origin bias in job descriptions before posting
+**⚖️ JD Bias Detection**
+POST `/bias-check` scans any JD for discriminatory language — age, gender, origin, marital status bias. Returns flagged terms with inclusive rewrite suggestions.
 
-🆚 **Candidate Comparison**
-Side-by-side comparison of 2-3 candidates with full score breakdown
+**📊 Candidate Comparison**
+POST `/compare` — select 2-3 candidates for full side-by-side score breakdown directly in the Streamlit UI. Unique feature no other team has built.
 
 </td>
 </tr>
@@ -158,68 +137,59 @@ Side-by-side comparison of 2-3 candidates with full score breakdown
 
 <div align="center">
 
-<br/>
-
-<table width="90%">
+<table width="100%">
 <tr>
-<td colspan="5" align="center" style="background:#0f172a;color:white;padding:14px;border-radius:10px 10px 0 0">
+<td align="center" colspan="5" style="background:#0F172A;color:white;padding:14px;border-radius:10px 10px 0 0">
 <b>✦ INPUT LAYER ✦</b>
 </td>
 </tr>
 <tr>
-<td align="center" width="30%" style="background:#1e1b4b;color:white;padding:12px;border-radius:8px">
-📄 <b>Job Description</b><br/><sub>Text / PDF / URL</sub>
+<td align="center" width="30%" style="background:#1E293B;color:#C7D2FE;padding:12px;border:1px solid #334155">
+<b>📄 Job Description</b><br/><sub>Text — any format, any length</sub>
 </td>
-<td align="center" width="5%">·</td>
-<td align="center" width="30%" style="background:#1e1b4b;color:white;padding:12px;border-radius:8px">
-👤 <b>300 Candidate Profiles</b><br/><sub>Rich JSON with 20+ fields each</sub>
+<td align="center" width="5%" style="background:#0F172A;color:#64748B">→</td>
+<td align="center" width="30%" style="background:#1E293B;color:#C7D2FE;padding:12px;border:1px solid #334155">
+<b>👤 300 Candidate Profiles</b><br/><sub>Rich JSON — 20+ fields per profile</sub>
 </td>
-<td align="center" width="5%">·</td>
-<td align="center" width="30%" style="background:#1e1b4b;color:white;padding:12px;border-radius:8px">
-📡 <b>Behavioral Signals</b><br/><sub>GitHub · LeetCode · Hackathons</sub>
-</td>
-</tr>
-<tr><td colspan="5" align="center"><br/>⬇️ ⬇️ ⬇️<br/><br/></td></tr>
-<tr>
-<td colspan="5" align="center" style="background:#1e3a5f;color:white;padding:14px;border-radius:8px">
-<b>✦ PROCESSING LAYER ✦</b><br/><br/>
-🤖 <b>LLM JD Parser</b> (Groq / Offline) &nbsp;→&nbsp; 🔢 <b>Embedding Engine</b> (sentence-transformers) &nbsp;→&nbsp; 📊 <b>Signal Extractor</b> (heuristics)
+<td align="center" width="5%" style="background:#0F172A;color:#64748B">→</td>
+<td align="center" width="30%" style="background:#1E293B;color:#C7D2FE;padding:12px;border:1px solid #334155">
+<b>📡 Behavioral Signals</b><br/><sub>GitHub · LeetCode · Hackathons · Tenure</sub>
 </td>
 </tr>
-<tr><td colspan="5" align="center"><br/>⬇️<br/><br/></td></tr>
+<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇ ⬇ ⬇</td></tr>
 <tr>
-<td colspan="5" align="center" style="background:#4f46e5;color:white;padding:16px;border-radius:8px">
-<b>⚡ ORCHESTRATION — LangGraph Agentic Pipeline</b><br/><br/>
-<code>parse_jd</code> → <code>embed_jd</code> → <code>retrieve</code> → <code>score</code> → <code>rerank</code> → <code>explain</code><br/><br/>
-<sub>Fully typed RankingState · Each node independently testable · Stateful graph execution</sub>
+<td align="center" colspan="5" style="background:#312E81;color:white;padding:14px;border-radius:0">
+<b>✦ PROCESSING LAYER ✦</b><br/>
+<sub>🤖 LLM JD Parser (Groq / Offline) &nbsp;·&nbsp; 🔢 Embedding Engine (sentence-transformers) &nbsp;·&nbsp; 📊 Signal Extractor (heuristics)</sub>
 </td>
 </tr>
-<tr><td colspan="5" align="center"><br/>⬇️ ⬇️ ⬇️<br/><br/></td></tr>
+<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇</td></tr>
 <tr>
-<td align="center" width="30%" style="background:#065f46;color:white;padding:12px;border-radius:8px">
-🗃️ <b>ChromaDB</b><br/><sub>Vector store · Cosine similarity · Persistent</sub>
-</td>
-<td align="center" width="5%">·</td>
-<td align="center" width="30%" style="background:#065f46;color:white;padding:12px;border-radius:8px">
-📋 <b>Metadata Store</b><br/><sub>candidates.json · 300 profiles</sub>
-</td>
-<td align="center" width="5%">·</td>
-<td align="center" width="30%" style="background:#065f46;color:white;padding:12px;border-radius:8px">
-⚡ <b>Cache Layer</b><br/><sub>Redis (optional) · Fast repeat queries</sub>
+<td align="center" colspan="5" style="background:#4C1D95;color:white;padding:16px;border-radius:0">
+<b>⚡ ORCHESTRATION — LangGraph 6-Node Stateful Pipeline ⚡</b><br/><br/>
+<code>parse_jd</code> &nbsp;→&nbsp; <code>embed_jd</code> &nbsp;→&nbsp; <code>retrieve</code> &nbsp;→&nbsp; <code>score</code> &nbsp;→&nbsp; <code>rerank</code> &nbsp;→&nbsp; <code>explain</code><br/><br/>
+<sub>Fully typed RankingState · Each node independently testable · Observable stateful execution</sub>
 </td>
 </tr>
-<tr><td colspan="5" align="center"><br/>⬇️<br/><br/></td></tr>
+<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇ ⬇ ⬇</td></tr>
 <tr>
-<td align="center" width="30%" style="background:#7c2d12;color:white;padding:12px;border-radius:8px">
-🌐 <b>FastAPI REST API</b><br/><sub>8 endpoints · Swagger docs</sub>
+<td align="center" width="30%" style="background:#064E3B;color:#A7F3D0;padding:12px;border:1px solid #065F46">
+<b>🗃️ ChromaDB</b><br/><sub>Vector store · Cosine similarity · Persistent local</sub>
 </td>
-<td align="center" width="5%">→</td>
-<td align="center" width="30%" style="background:#7c2d12;color:white;padding:12px;border-radius:8px">
-🎨 <b>Streamlit Dashboard</b><br/><sub>Ranked cards · Score bars · AI notes</sub>
+<td align="center" width="5%" style="background:#0F172A;color:#64748B">·</td>
+<td align="center" width="30%" style="background:#064E3B;color:#A7F3D0;padding:12px;border:1px solid #065F46">
+<b>📋 Metadata Store</b><br/><sub>candidates.json · 300 rich profiles</sub>
 </td>
-<td align="center" width="5%">→</td>
-<td align="center" width="30%" style="background:#7c2d12;color:white;padding:12px;border-radius:8px">
-📥 <b>Export</b><br/><sub>JSON · CSV · Excel download</sub>
+<td align="center" width="5%" style="background:#0F172A;color:#64748B">·</td>
+<td align="center" width="30%" style="background:#064E3B;color:#A7F3D0;padding:12px;border:1px solid #065F46">
+<b>⚡ Cache (Optional)</b><br/><sub>Redis · Fast repeat query serving</sub>
+</td>
+</tr>
+<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇</td></tr>
+<tr>
+<td align="center" colspan="5" style="background:#7C2D12;color:white;padding:14px;border-radius:0 0 10px 10px">
+<b>✦ OUTPUT LAYER ✦</b><br/>
+<sub>🌐 FastAPI REST API (8 endpoints) &nbsp;·&nbsp; 🎨 Streamlit Dashboard &nbsp;·&nbsp; 📥 Export JSON / CSV &nbsp;·&nbsp; ⚖️ Bias Checker &nbsp;·&nbsp; 📊 Comparison UI</sub>
 </td>
 </tr>
 </table>
@@ -234,34 +204,34 @@ Side-by-side comparison of 2-3 candidates with full score breakdown
 RecruitMind-AI/
 │
 ├── 📂 api/
-│   ├── main.py          # FastAPI — 8 endpoints: /rank /explain /index /candidates
-│   │                    #           /health /candidate/{id} /compare /bias-check
+│   ├── main.py              # FastAPI — 8 endpoints: /rank /explain /index /candidates
+│   │                        #           /health /candidate/{id} /compare /bias-check
 │   └── __init__.py
 │
 ├── 📂 pipeline/
-│   ├── jd_parser.py     # Groq LLM + offline JD structured extraction
-│   ├── embedder.py      # Sentence Transformers + ChromaDB indexing & search
-│   ├── scorer.py        # 5-signal composite scoring functions
-│   ├── ranker.py        # LangGraph 6-node state graph — brain of the system
-│   ├── explainer.py     # Groq LLM + rule-based recruiter note generator
+│   ├── jd_parser.py         # Groq LLM + offline heuristic JD structured extraction
+│   ├── embedder.py          # Sentence Transformers + ChromaDB indexing & search
+│   ├── scorer.py            # 5-signal composite scoring functions
+│   ├── ranker.py            # LangGraph 6-node typed state graph — brain of system
+│   ├── explainer.py         # Groq LLM + rule-based recruiter note generator
 │   └── __init__.py
 │
 ├── 📂 data/
-│   ├── generate_candidates.py   # 300 synthetic profile generator
-│   └── candidates.json          # Pre-generated dataset (300 profiles, ready to use)
+│   ├── generate_candidates.py   # 300 synthetic realistic profile generator
+│   └── candidates.json          # Pre-generated dataset — 300 candidates ready
 │
 ├── 📂 ui/
-│   └── app.py           # Streamlit premium recruiter dashboard
+│   └── app.py               # Streamlit dashboard — dark theme, comparison UI, bias checker
 │
 ├── 📂 .github/workflows/
-│   └── ci.yml           # GitHub Actions CI — automated tests on every push
+│   └── ci.yml               # GitHub Actions — automated tests on every push
 │
-├── .env.example         # Environment variables template
+├── .env.example             # Environment variables template
 ├── .gitignore
 ├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
-├── run.sh               # ⚡ One-command startup script
+├── run.sh                   # One-command startup script
 ├── LICENSE
 └── README.md
 ```
@@ -272,69 +242,78 @@ RecruitMind-AI/
 
 <div align="center">
 
-The entire ranking process runs as a **LangGraph stateful graph** — each stage is an independent, testable node operating on a shared typed `RankingState`. Zero coupling between nodes.
+The entire ranking process runs as a **LangGraph stateful graph** — each stage is an independent, testable node operating on a shared typed `RankingState`. No node can be skipped or fail silently.
 
 <br/>
 
-<table width="85%">
+<table width="82%" align="center">
 <tr>
-<td align="center" colspan="2" style="background:#0f0f1a;color:white;padding:12px;border-radius:8px;border:2px solid #6c63ff">
-📄 <b>JD INPUT</b> — Raw job description text
+<td align="center" style="background:#0F172A;color:#A5B4FC;padding:10px;border-radius:8px;border:1px solid #312E81">
+<b>📄 JD INPUT</b> &nbsp;—&nbsp; Raw job description text, any length, any format
 </td>
 </tr>
-<tr><td colspan="2" align="center">⬇️</td></tr>
+<tr><td align="center" style="padding:4px;color:#64748B">⬇</td></tr>
 <tr>
-<td width="8%" align="center" style="background:#4f46e5;color:white;padding:10px;border-radius:8px;font-size:18px"><b>1</b></td>
-<td style="background:#1e1b4b;color:white;padding:12px;border-radius:8px;border-left:4px solid #6c63ff">
-<b>parse_jd</b> — Groq Llama-3.3-70B (or offline fallback)<br/>
-<sub>Extracts: job title · required skills · nice-to-have skills · seniority level · culture signals · implicit expectations → Structured JSON</sub>
+<td style="background:#1E1B4B;color:white;padding:16px;border-radius:8px;border-left:5px solid #6C63FF">
+<b>🟣 Node 1 — <code>parse_jd</code></b><br/>
+<b>Groq Llama-3.3-70B</b> (or offline fallback)<br/>
+Extracts → Job title · Required skills · Nice-to-have skills · Seniority level · Culture signals · Implicit expectations<br/>
+<sub>⟶ Output: Structured JSON dict with all fields</sub>
 </td>
 </tr>
-<tr><td colspan="2" align="center">⬇️</td></tr>
+<tr><td align="center" style="padding:4px;color:#64748B">⬇</td></tr>
 <tr>
-<td width="8%" align="center" style="background:#0369a1;color:white;padding:10px;border-radius:8px;font-size:18px"><b>2</b></td>
-<td style="background:#1e3a5f;color:white;padding:12px;border-radius:8px;border-left:4px solid #0ea5e9">
-<b>embed_jd</b> — sentence-transformers (all-MiniLM-L6-v2)<br/>
-<sub>Converts JD → 384-dimensional dense vector · CPU-only · ~80MB model · No GPU required</sub>
+<td style="background:#1E3A5F;color:white;padding:16px;border-radius:8px;border-left:5px solid #0EA5E9">
+<b>🔵 Node 2 — <code>embed_jd</code></b><br/>
+<b>sentence-transformers</b> (all-MiniLM-L6-v2)<br/>
+Converts structured JD text → 384-dimensional dense vector · CPU-only · ~80MB model · No GPU required<br/>
+<sub>⟶ Output: Float vector [384-dim] for cosine similarity search</sub>
 </td>
 </tr>
-<tr><td colspan="2" align="center">⬇️</td></tr>
+<tr><td align="center" style="padding:4px;color:#64748B">⬇</td></tr>
 <tr>
-<td width="8%" align="center" style="background:#15803d;color:white;padding:10px;border-radius:8px;font-size:18px"><b>3</b></td>
-<td style="background:#1a3a2a;color:white;padding:12px;border-radius:8px;border-left:4px solid #22c55e">
-<b>retrieve</b> — ChromaDB cosine similarity search<br/>
-<sub>Searches 300 indexed candidate vectors · Returns top-20 semantically closest profiles with similarity scores</sub>
+<td style="background:#1A3A2A;color:white;padding:16px;border-radius:8px;border-left:5px solid #22C55E">
+<b>🟢 Node 3 — <code>retrieve</code></b><br/>
+<b>ChromaDB</b> cosine similarity search over 300 indexed candidate vectors<br/>
+Returns top-20 most semantically similar profiles with similarity scores attached<br/>
+<sub>⟶ Output: List of candidates with semantic_score per profile</sub>
 </td>
 </tr>
-<tr><td colspan="2" align="center">⬇️</td></tr>
+<tr><td align="center" style="padding:4px;color:#64748B">⬇</td></tr>
 <tr>
-<td width="8%" align="center" style="background:#b45309;color:white;padding:10px;border-radius:8px;font-size:18px"><b>4</b></td>
-<td style="background:#3a1a00;color:white;padding:12px;border-radius:8px;border-left:4px solid #f97316">
-<b>score</b> — Multi-Signal Composite Scoring<br/>
-<sub>Semantic (35%) + Skill Match (30%) + Career Growth (15%) + Activity (10%) + Experience Fit (10%) → Composite 0.0–1.0</sub>
+<td style="background:#3A1A00;color:white;padding:16px;border-radius:8px;border-left:5px solid #F97316">
+<b>🟠 Node 4 — <code>score</code></b><br/>
+<b>Multi-Signal Composite Scoring</b><br/>
+Signal 1: Semantic similarity (35%) · Signal 2: Skill match (30%) · Signal 3: Career growth (15%)<br/>
+Signal 4: Activity signal (10%) · Signal 5: Experience fit (10%)<br/>
+<sub>⟶ Output: Composite score 0.0–1.0 per candidate with full breakdown</sub>
 </td>
 </tr>
-<tr><td colspan="2" align="center">⬇️</td></tr>
+<tr><td align="center" style="padding:4px;color:#64748B">⬇</td></tr>
 <tr>
-<td width="8%" align="center" style="background:#7c3aed;color:white;padding:10px;border-radius:8px;font-size:18px"><b>5</b></td>
-<td style="background:#3a1a3a;color:white;padding:12px;border-radius:8px;border-left:4px solid #a855f7">
-<b>rerank</b> — Diversity-Aware Re-ranking<br/>
-<sub>Applies 0.95× penalty to over-represented seniority/role types · Ensures balanced, diverse shortlist</sub>
+<td style="background:#2D1B4E;color:white;padding:16px;border-radius:8px;border-left:5px solid #A855F7">
+<b>🟡 Node 5 — <code>rerank</code></b><br/>
+<b>Diversity-Aware Re-ranking</b><br/>
+Applies 0.95x penalty when seniority level appears 3+ times or role type appears 4+ times<br/>
+Ensures balanced shortlist — not 10 identical senior ML engineers when mid-level candidates fit equally<br/>
+<sub>⟶ Output: Reranked sorted list with rank numbers assigned</sub>
 </td>
 </tr>
-<tr><td colspan="2" align="center">⬇️</td></tr>
+<tr><td align="center" style="padding:4px;color:#64748B">⬇</td></tr>
 <tr>
-<td width="8%" align="center" style="background:#0f766e;color:white;padding:10px;border-radius:8px;font-size:18px"><b>6</b></td>
-<td style="background:#1a3a2a;color:white;padding:12px;border-radius:8px;border-left:4px solid #10b981">
-<b>explain</b> — Groq Llama-3.3-70B (or rule-based fallback)<br/>
-<sub>Generates 3-4 sentence recruiter note per candidate · Grounded in real data · Zero hallucination</sub>
+<td style="background:#064E3B;color:white;padding:16px;border-radius:8px;border-left:5px solid #10B981">
+<b>💬 Node 6 — <code>explain</code></b><br/>
+<b>Groq Llama-3.3-70B</b> (or deterministic rule-based fallback)<br/>
+Generates 3-4 sentence recruiter-style note per candidate — grounded strictly in actual data and scores<br/>
+Zero hallucination: model is seeded with real sub-scores and instructed to only reference existing data<br/>
+<sub>⟶ Output: Final ranked shortlist with natural language explanation per candidate</sub>
 </td>
 </tr>
-<tr><td colspan="2" align="center">⬇️</td></tr>
+<tr><td align="center" style="padding:4px;color:#64748B">⬇</td></tr>
 <tr>
-<td align="center" colspan="2" style="background:#0f0f1a;color:white;padding:12px;border-radius:8px;border:2px solid #22c55e">
-✅ <b>RANKED SHORTLIST OUTPUT</b><br/>
-<code>rank</code> · <code>composite_score</code> · <code>score_breakdown (5 signals)</code> · <code>explanation</code> · <code>metadata</code> · <code>processing_time_sec</code>
+<td align="center" style="background:#0F172A;color:white;padding:14px;border-radius:8px;border:2px solid #6C63FF">
+<b>✅ RANKED SHORTLIST OUTPUT</b><br/>
+<code>rank</code> · <code>composite_score</code> · <code>score_breakdown</code> (5 signals) · <code>explanation</code> · <code>metadata</code> · <code>processing_time_sec</code>
 </td>
 </tr>
 </table>
@@ -349,49 +328,49 @@ The entire ranking process runs as a **LangGraph stateful graph** — each stage
 
 <div align="center">
 
-Every candidate receives a **composite score from 5 independent signals** — each measuring a completely different dimension of fit.
+Every candidate receives a **composite score built from 5 independent signals** — each measuring a completely different dimension of fit. No single signal dominates.
 
 <br/>
 
 <table>
 <thead>
 <tr>
-<th>Signal</th>
-<th>Weight</th>
+<th align="center">Signal</th>
+<th align="center">Weight</th>
 <th>Algorithm</th>
-<th>Range</th>
+<th align="center">Range</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>🧬 <b>Semantic Similarity</b></td>
 <td align="center"><b>35%</b></td>
-<td>Cosine distance between JD embedding and candidate profile embedding via ChromaDB</td>
-<td align="center">0.0–1.0</td>
+<td>Cosine distance — JD vector vs candidate profile vector via ChromaDB</td>
+<td align="center">0.0 – 1.0</td>
 </tr>
 <tr>
 <td>🛠️ <b>Skill Match</b></td>
 <td align="center"><b>30%</b></td>
 <td>Required skills hit rate × 0.8 + nice-to-have bonus × 0.2</td>
-<td align="center">0.0–1.0</td>
+<td align="center">0.0 – 1.0</td>
 </tr>
 <tr>
 <td>📈 <b>Career Growth</b></td>
 <td align="center"><b>15%</b></td>
 <td>Raw growth score × 0.6 + tenure stability × 0.3 + promotions bonus</td>
-<td align="center">0.0–1.0</td>
+<td align="center">0.0 – 1.0</td>
 </tr>
 <tr>
 <td>⚡ <b>Activity Signal</b></td>
 <td align="center"><b>10%</b></td>
 <td>GitHub score × 0.5 + LeetCode × 0.3 + hackathons × 0.2 × recency multiplier</td>
-<td align="center">0.0–1.0</td>
+<td align="center">0.0 – 1.0</td>
 </tr>
 <tr>
 <td>📅 <b>Experience Fit</b></td>
 <td align="center"><b>10%</b></td>
-<td>Linear penalty for under/over-experience × seniority alignment multiplier</td>
-<td align="center">0.0–1.0</td>
+<td>Linear penalty for under/over-experience × seniority level alignment multiplier</td>
+<td align="center">0.0 – 1.0</td>
 </tr>
 </tbody>
 </table>
@@ -399,16 +378,63 @@ Every candidate receives a **composite score from 5 independent signals** — ea
 <br/>
 
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   Composite = (0.35 × Semantic) + (0.30 × Skill) + (0.15 × Career)         ║
-║                    + (0.10 × Activity) + (0.10 × ExperienceFit)             ║
-║                                                                              ║
-║   → Diversity Re-ranker (0.95× penalty for over-represented types)          ║
-║   → Sort descending → Top-K shortlist with AI explanation per candidate     ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                  ║
+║   Composite = (0.35 × Semantic) + (0.30 × Skill) + (0.15 × Career)             ║
+║                     + (0.10 × Activity) + (0.10 × ExperienceFit)                ║
+║                                                                                  ║
+║   ↓  Diversity Re-ranker (0.95× penalty for over-represented types)             ║
+║   ↓  Sort descending → Top-K shortlist → AI explanation per candidate           ║
+║                                                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════╝
 ```
+
+</div>
+
+---
+
+## ✨ New Features
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center" style="padding:16px">
+
+### ⚖️ JD Bias Checker
+**`POST /bias-check`**
+
+Scans any job description for potentially discriminatory language before posting.
+
+Detects: age bias · gender bias · origin bias · marital status bias
+
+Returns: Bias level (Low/Medium/High) · Flagged terms · Inclusive rewrite suggestions
+
+</td>
+<td width="33%" align="center" style="padding:16px">
+
+### 📊 Candidate Comparison
+**`POST /compare`**
+
+Select 2–3 candidates from the shortlist for a full side-by-side score breakdown.
+
+Shows: All 5 signal scores · Skills · Certifications · Experience — in parallel columns
+
+Available directly in the Streamlit dashboard UI
+
+</td>
+<td width="33%" align="center" style="padding:16px">
+
+### 👥 300 Candidate Dataset
+**Expanded from 100 → 300**
+
+More diverse, realistic profiles across ML, Backend, Fullstack, DevOps, Data Engineering roles
+
+More variety in location, seniority, skills, GitHub activity, and salary expectations
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -419,15 +445,15 @@ Every candidate receives a **composite score from 5 independent signals** — ea
 ### Prerequisites
 
 | Requirement | Version | Notes |
-|:-----------:|:-------:|:-----:|
+|---|---|---|
 | Python | 3.11+ | Required |
 | pip | Latest | Required |
 | Git | Any | Required |
-| Groq API Key | — | **Optional** — system works without it |
+| Groq API Key | — | **Optional** — system works fully without it |
 
 ---
 
-### ⚡ Option A — One-Command Startup *(Recommended)*
+### ⚡ Option A — One-Command Startup (Recommended)
 
 ```bash
 git clone https://github.com/vinaybabannavar-create/RecruitMind-AI.git
@@ -435,7 +461,7 @@ cd RecruitMind-AI
 bash run.sh
 ```
 
-> `run.sh` handles **everything** automatically — dependency install → env setup → candidate generation → ChromaDB indexing → API start → Streamlit launch. Zero manual steps.
+> `run.sh` handles everything: install dependencies → setup env → generate 300 candidates → index into ChromaDB → start API → launch Streamlit UI.
 
 ---
 
@@ -466,21 +492,21 @@ cp .env.example .env
 # Add GROQ_API_KEY=your_key (free at console.groq.com) — optional
 ```
 
-**Step 5 — Generate + Index candidates**
+**Step 5 — Generate + Index 300 candidates**
 ```bash
 python data/generate_candidates.py
 # Output: data/candidates.json (300 synthetic profiles)
 
 python -c "from pipeline.embedder import get_engine; get_engine().index_candidates()"
-# Embeds all 300 candidates into ChromaDB
+# Embeds all 300 candidates and stores in data/chroma_db/
 ```
 
 **Step 6 — Start (two terminals)**
 ```bash
-# Terminal 1 — FastAPI Backend
+# Terminal 1 — FastAPI
 uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
 
-# Terminal 2 — Streamlit Dashboard
+# Terminal 2 — Streamlit
 streamlit run ui/app.py --server.port 8501
 ```
 
@@ -494,16 +520,18 @@ Open **http://localhost:8501** 🎉
 
 | Method | Endpoint | Description |
 |:------:|:--------:|:------------|
-| `POST` | `/rank` | 🎯 Full pipeline — JD in, ranked shortlist + AI explanations out |
-| `GET` | `/health` | 💚 System health + indexing status |
-| `GET` | `/candidates` | 👥 Paginated list of all 300 candidates |
-| `GET` | `/candidate/{id}` | 🔎 Single candidate profile by ID |
-| `POST` | `/index` | 🔄 Re-index all candidates into ChromaDB |
+| `POST` | `/rank` | 🎯 Full pipeline — JD in, ranked shortlist out with AI explanations |
+| `GET` | `/health` | 💚 System health, indexing status, LLM availability |
+| `GET` | `/candidates` | 📋 Paginated list of all 300 candidates |
+| `GET` | `/candidate/{id}` | 👤 Single candidate profile by ID |
+| `POST` | `/index` | 🔄 Re-index candidates into ChromaDB (background) |
 | `POST` | `/explain` | 💬 Add AI explanations to an existing shortlist |
-| `POST` | `/compare` | 🆚 Compare 2-3 candidates side by side |
-| `POST` | `/bias-check` | ⚖️ Detect biased language in any JD |
+| `POST` | `/compare` | ⚖️ Side-by-side comparison of 2-3 candidates |
+| `POST` | `/bias-check` | 🔍 Check JD for potentially biased language |
 
 </div>
+
+> 📖 Full interactive Swagger docs at **http://localhost:8000/docs**
 
 ### `POST /rank` — Main Endpoint
 
@@ -532,7 +560,7 @@ Open **http://localhost:8501** 🎉
         "activity": 0.75,
         "experience_fit": 0.90
       },
-      "explanation": "Ranked #1 — strong match on Python, FastAPI and LangChain (85% skill overlap). 5 years senior experience aligns perfectly. Active open source contributor (14 PRs). AWS certified. Ideal fit.",
+      "explanation": "Ranked #1 — strong match on Python, FastAPI and LangChain (85% skill overlap). 5 years senior experience aligns perfectly. Active open source contributor with 14 PRs. Minor gap: no AWS certification.",
       "metadata": {
         "email": "aditya.sharma@email.com",
         "location": "Bengaluru",
@@ -571,18 +599,35 @@ Open **http://localhost:8501** 🎉
 ```json
 { "jd_text": "We are looking for a young energetic developer..." }
 ```
+
 **Response:**
 ```json
 {
-  "bias_flags": [{"term": "young", "reason": "May indicate age bias", "suggestion": "Use skills-based language instead"}],
+  "bias_flags": [
+    {
+      "term": "young",
+      "reason": "May indicate age bias",
+      "suggestion": "Use skills-based language instead"
+    }
+  ],
   "bias_level": "Medium",
   "bias_score": 20,
   "total_flags": 1,
-  "recommendation": "Review and rewrite flagged sections using inclusive language."
+  "recommendation": "Review and rewrite flagged sections using inclusive, skills-focused language."
 }
 ```
 
-> 📖 Full interactive Swagger docs at **http://localhost:8000/docs**
+### `GET /health`
+
+```json
+{
+  "status": "ok",
+  "candidates_indexed": 300,
+  "vector_db_ready": true,
+  "llm_available": true,
+  "version": "1.0.0"
+}
+```
 
 ---
 
@@ -590,101 +635,71 @@ Open **http://localhost:8501** 🎉
 
 <div align="center">
 
-*The Streamlit dashboard is built for a recruiter who needs answers fast — dark-themed, intelligent, and visually rich.*
-
-<br/>
-
 <table>
 <thead>
 <tr>
-<th>🖥️ Feature</th>
+<th>Feature</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>📋 <b>JD Input Panel</b></td>
-<td>Paste any JD + 5 one-click industry quick-fill templates (ML, Backend, Full Stack, Data, DevOps)</td>
+<td>Paste any job description + 5 one-click quick-fill templates (ML / Backend / Fullstack / Data / DevOps)</td>
 </tr>
 <tr>
 <td>🔄 <b>Live Pipeline Stepper</b></td>
-<td>Real-time animated progress — JD Processed → Vector Search → Multi-Signal Score → Llama Recruiter Note</td>
+<td>Real-time animated progress: Parsing JD → Embedding → Searching 300 candidates → Scoring → Explaining</td>
 </tr>
 <tr>
-<td>🟢 <b>System Status Panel</b></td>
-<td>Live sidebar: System Online · 300 candidates indexed · LLM: Groq Llama-3.3 · v1.0.0</td>
+<td>🔗 <b>Live API Status Sidebar</b></td>
+<td>Shows: system online status · 300 candidates indexed · LLM mode · version</td>
+</tr>
+<tr>
+<td>🎛️ <b>Interactive Filters</b></td>
+<td>Filter by location · Min match % · Max notice days · Max salary (LPA) — all real-time</td>
 </tr>
 <tr>
 <td>📊 <b>Summary Metrics Bar</b></td>
-<td>Filtered shortlist · Total evaluated · Processing time · Skills extracted · Seniority level</td>
+<td>Filtered shortlist count · Total evaluated · Processing time · Skills extracted · Seniority level</td>
 </tr>
 <tr>
 <td>🔍 <b>Parsed JD Expander</b></td>
-<td>Expandable view of AI-extracted structure — skills, seniority, implicit expectations</td>
+<td>See exactly what AI extracted from your JD — skills, seniority, culture signals, implicit expectations</td>
 </tr>
 <tr>
 <td>🏆 <b>Ranked Leaderboard</b></td>
-<td>Sortable table: Rank · Name · Match % · Experience · Skills Hit · Location · Salary · Notice</td>
+<td>Sortable table: rank · name · match % · experience · skills hit · location · salary · notice</td>
 </tr>
 <tr>
 <td>📋 <b>Detailed Profile Cards</b></td>
-<td>Per-candidate expandable card with score ring, AI recruiter note, skill tags, score breakdown bars</td>
+<td>Expandable per-candidate view with complete profile, GitHub stats, LeetCode, certifications</td>
 </tr>
 <tr>
-<td>🟢 <b>Skill Highlighting</b></td>
-<td>Green tags = matched JD requirements · Grey tags = additional candidate skills</td>
+<td>💬 <b>AI Recruiter Notes</b></td>
+<td>LLM-generated explanation card per candidate — grounded in data, not hallucinated</td>
+</tr>
+<tr>
+<td>🟢 <b>Skill Match Highlighting</b></td>
+<td>Green tags = matched required skills · Grey tags = additional skills candidate has</td>
 </tr>
 <tr>
 <td>📈 <b>Score Breakdown Bars</b></td>
-<td>Color-coded visual bars for all 5 signals — green ≥80% · amber 65-79% · red &lt;65%</td>
+<td>Color-coded visual bars for all 5 signals: green ≥80% · orange 65-79% · red &lt;65%</td>
 </tr>
 <tr>
-<td>🆚 <b>Side-by-Side Comparison</b></td>
-<td>Select 2-3 candidates → compare scores, skills, experience in parallel columns</td>
+<td>⚖️ <b>Side-by-Side Comparison</b></td>
+<td>Select 2-3 candidates → compare all 5 signal scores in parallel columns</td>
 </tr>
 <tr>
-<td>⚖️ <b>JD Bias Checker</b></td>
-<td>Paste any JD → instant bias scan → flagged terms + inclusive rewrite suggestions</td>
+<td>🔎 <b>JD Bias Checker</b></td>
+<td>Paste any JD → instant bias level + flagged terms + rewrite suggestions</td>
 </tr>
 <tr>
-<td>🔽 <b>Interactive Filters</b></td>
-<td>Filter by location, min match %, max salary, max notice period — live re-filtering</td>
-</tr>
-<tr>
-<td>📥 <b>Export Results</b></td>
-<td>Download full results as <b>JSON</b> or ranked shortlist as <b>CSV</b></td>
+<td>📥 <b>Export</b></td>
+<td>Download full results as <b>JSON</b> or clean ranked shortlist as <b>CSV</b></td>
 </tr>
 </tbody>
-</table>
-
-</div>
-
----
-
-## ⚖️ New Features
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%" style="background:#1e1b4b;color:white;padding:16px;border-radius:10px">
-<h3>🆚 Candidate Comparison</h3>
-<b>POST /compare</b><br/><br/>
-Compare 2–3 candidates side by side with full score breakdown per signal. Available in both API and Streamlit UI.
-</td>
-<td width="2%"></td>
-<td align="center" width="33%" style="background:#14532d;color:white;padding:16px;border-radius:10px">
-<h3>⚖️ JD Bias Checker</h3>
-<b>POST /bias-check</b><br/><br/>
-Scans any JD for age, gender, origin, and marital bias. Returns bias score 0-100, flagged terms, and rewrite suggestions.
-</td>
-<td width="2%"></td>
-<td align="center" width="33%" style="background:#7c2d12;color:white;padding:16px;border-radius:10px">
-<h3>📦 300 Candidates</h3>
-<b>Expanded Dataset</b><br/><br/>
-System now indexes 300 synthetic realistic candidate profiles — 3× more diverse for robust ranking results.
-</td>
-</tr>
 </table>
 
 </div>
@@ -695,35 +710,35 @@ System now indexes 300 synthetic realistic candidate profiles — 3× more diver
 
 ```bash
 pip install -r requirements.txt
-pytest tests/ -v
-pytest tests/test_scorer.py -v   # scorer only
+pytest tests/ -v                    # all tests
+pytest tests/test_scorer.py -v     # scoring tests only
 ```
 
 ---
 
 ## 🐳 Docker Deployment
 
-> No local Python setup needed. One command brings the entire stack online.
+> No local Python setup needed. One command runs the full stack.
 
 ```bash
 git clone https://github.com/vinaybabannavar-create/RecruitMind-AI.git
 cd RecruitMind-AI
-cp .env.example .env             # Add GROQ_API_KEY (optional)
+cp .env.example .env             # add GROQ_API_KEY (optional)
 docker-compose up --build
 ```
 
 <div align="center">
 
 | Service | URL | Description |
-|:-------:|:---:|:------------|
+|:-------:|:---:|:-----------|
 | 🎨 Streamlit UI | http://localhost:8501 | Full recruiter dashboard |
-| ⚡ FastAPI Backend | http://localhost:8000 | REST API with 8 endpoints |
+| ⚡ FastAPI Backend | http://localhost:8000 | 8 REST endpoints |
 | 📖 API Docs | http://localhost:8000/docs | Interactive Swagger UI |
 
 </div>
 
 ```bash
-docker-compose down   # Stop all services
+docker-compose down    # stop all services
 ```
 
 ---
@@ -746,55 +761,55 @@ docker-compose down   # Stop all services
 <td>🤖 <b>LLM</b></td>
 <td>Groq Llama-3.3-70B-Versatile</td>
 <td>Latest</td>
-<td>Free tier, fastest open-weight inference, excellent instruction following for JD parsing</td>
+<td>Free API · Fastest open-weight LLM · Excellent instruction following for JD parsing</td>
 </tr>
 <tr>
 <td>🔢 <b>Embeddings</b></td>
 <td>sentence-transformers (all-MiniLM-L6-v2)</td>
 <td>3.0.1</td>
-<td>CPU-only, 80MB, high-quality 384-dim vectors, no API cost, no GPU needed</td>
+<td>CPU-only · 80MB · High-quality 384-dim vectors · No API cost</td>
 </tr>
 <tr>
 <td>🗃️ <b>Vector DB</b></td>
 <td>ChromaDB (persistent)</td>
 <td>0.5.3</td>
-<td>In-process, no external server, cosine similarity built-in, perfect for POC</td>
+<td>In-process · No external server · Cosine similarity built-in · Simple Python API</td>
 </tr>
 <tr>
 <td>⚡ <b>Orchestration</b></td>
 <td>LangGraph</td>
 <td>0.2.14</td>
-<td>Stateful typed pipeline, each node independently testable, observable graph execution</td>
+<td>Stateful typed pipeline · Each node independently testable · Natural fit for agentic ranking</td>
 </tr>
 <tr>
 <td>🌐 <b>Backend API</b></td>
 <td>FastAPI + Uvicorn</td>
 <td>0.115</td>
-<td>Async Python REST, auto Swagger docs, Pydantic validation, production-grade performance</td>
+<td>Async Python REST · Auto Swagger docs · Pydantic validation · Production performance</td>
 </tr>
 <tr>
 <td>🎨 <b>Frontend</b></td>
 <td>Streamlit</td>
 <td>1.39</td>
-<td>Rapid recruiter dashboard with live updates, dark theme, minimal frontend code</td>
+<td>Rapid recruiter dashboard · Live updates · Minimal frontend code</td>
 </tr>
 <tr>
 <td>🐳 <b>Deployment</b></td>
 <td>Docker + Compose</td>
 <td>Latest</td>
-<td>Single-command reproducible full-stack deployment with persistent ChromaDB volume</td>
+<td>Single-command reproducible full-stack deployment with persistent volume</td>
 </tr>
 <tr>
 <td>🔄 <b>CI/CD</b></td>
 <td>GitHub Actions</td>
 <td>—</td>
-<td>Automated tests on every push — verifies imports, scoring logic, dataset integrity</td>
+<td>Automated tests on every push — verifies imports, logic, dataset integrity</td>
 </tr>
 <tr>
 <td>📦 <b>Data</b></td>
 <td>Python synthetic generator</td>
 <td>—</td>
-<td>300 realistic profiles with 20+ fields — skills, GitHub, career, activity, salary signals</td>
+<td>300 realistic profiles · 20+ fields · skills, GitHub, career, activity signals</td>
 </tr>
 </tbody>
 </table>
@@ -805,7 +820,7 @@ docker-compose down   # Stop all services
 
 ## 🗂️ Candidate Data Schema
 
-Each of the 300 synthetic candidates carries a rich, realistic profile:
+Each of the **300 synthetic candidates** carries a rich, realistic profile with 20+ fields:
 
 ```json
 {
@@ -817,11 +832,26 @@ Each of the 300 synthetic candidates carries a rich, realistic profile:
   "role_type": "ml",
   "skills": ["Python", "FastAPI", "LangChain", "Docker", "PostgreSQL", "RAG"],
   "education": { "degree": "B.Tech CS", "college": "NIT Trichy", "cgpa": 8.7 },
-  "experience": [{ "company": "Razorpay", "role": "ML Engineer", "duration_years": 3 }],
+  "experience": [
+    { "company": "Razorpay", "role": "ML Engineer", "duration_years": 3 }
+  ],
   "certifications": ["AWS Solutions Architect", "TensorFlow Developer Certificate"],
-  "github": { "repos": 24, "contributions_last_year": 380, "open_source_prs": 14 },
-  "activity_signals": { "leetcode_solved": 210, "hackathon_participations": 4 },
-  "career_signals": { "career_growth_score": 0.82, "promotions": 2, "avg_tenure_years": 2.5 },
+  "github": {
+    "repos": 24,
+    "contributions_last_year": 380,
+    "open_source_prs": 14,
+    "github_score": 0.82
+  },
+  "activity_signals": {
+    "leetcode_solved": 210,
+    "hackathon_participations": 4,
+    "last_active_days_ago": 12
+  },
+  "career_signals": {
+    "career_growth_score": 0.82,
+    "promotions": 2,
+    "avg_tenure_years": 2.5
+  },
   "expected_salary_lpa": 22.5,
   "notice_period_days": 30,
   "location": "Bengaluru",
@@ -831,22 +861,22 @@ Each of the 300 synthetic candidates carries a rich, realistic profile:
 
 ---
 
-## 💡 RecruitMind AI vs The World
+## 📁 Key Files Reference
 
 <div align="center">
 
-| Dimension | Traditional ATS | RecruitMind AI |
-|:---------:|:---------------:|:--------------:|
-| JD Understanding | Keyword extraction | LLM semantic parsing + implicit detection |
-| Candidate Matching | `if skill in resume` | Cosine similarity over 384-dim embeddings |
-| Scoring | Binary pass/fail | 5-signal weighted composite |
-| Ranking | Date applied | Multi-dimensional AI score |
-| Explanation | None | Per-candidate LLM recruiter note |
-| Diversity | None | Built-in 0.95× re-ranker |
-| Transparency | Black box | Full score breakdown per signal |
-| Bias Detection | None | POST /bias-check with flagging |
-| Comparison | None | Side-by-side via POST /compare |
-| Offline Support | N/A | Rule-based fallback always works |
+| File | Role |
+|:----:|:-----|
+| `pipeline/ranker.py` | 🧠 LangGraph 6-node graph — the core brain of the entire system |
+| `pipeline/scorer.py` | 📊 All 5 scoring functions + weighted composite calculator |
+| `pipeline/jd_parser.py` | 🤖 Groq LLM + offline heuristic JD structured extraction |
+| `pipeline/embedder.py` | 🔢 ChromaDB indexing + semantic search over 300 profiles |
+| `pipeline/explainer.py` | 💬 Groq LLM + rule-based recruiter note generator |
+| `api/main.py` | ⚡ FastAPI with 8 REST endpoints |
+| `ui/app.py` | 🎨 Streamlit dashboard — dark theme, comparison UI, bias checker |
+| `data/generate_candidates.py` | 👥 300-candidate synthetic realistic dataset generator |
+| `run.sh` | 🚀 One-command startup — install → generate → index → API → UI |
+| `docker-compose.yml` | 🐳 Full stack orchestration with persistent ChromaDB volume |
 
 </div>
 
@@ -857,34 +887,32 @@ Each of the 300 synthetic candidates carries a rich, realistic profile:
 <div align="center">
 
 <table>
-<tr><td>🔲</td><td><b>Resume PDF parsing</b></td><td>Extract skills from uploaded resumes using PyMuPDF + LLM</td></tr>
-<tr><td>🔲</td><td><b>LinkedIn profile integration</b></td><td>Live candidate data via LinkedIn API for real-world deployment</td></tr>
-<tr><td>🔲</td><td><b>Feedback loop</b></td><td>Recruiter marks hired/rejected → system learns and improves ranking over time</td></tr>
-<tr><td>🔲</td><td><b>Multi-JD batch ranking</b></td><td>Rank candidates across multiple open roles simultaneously</td></tr>
-<tr><td>🔲</td><td><b>Bias detection expansion</b></td><td>ML-based bias detection beyond keyword patterns</td></tr>
-<tr><td>🔲</td><td><b>PostgreSQL + pgvector migration</b></td><td>Production-grade horizontal scaling from ChromaDB</td></tr>
+<tr>
+<td align="center">🔲</td>
+<td><b>Resume PDF parsing</b></td>
+<td>Extract skills directly from uploaded candidate resumes using PyMuPDF + LLM</td>
+</tr>
+<tr>
+<td align="center">🔲</td>
+<td><b>LinkedIn profile integration</b></td>
+<td>Live candidate data via LinkedIn API for real-world production deployment</td>
+</tr>
+<tr>
+<td align="center">🔲</td>
+<td><b>Feedback loop learning</b></td>
+<td>Recruiter marks hired/rejected → system learns and improves scoring weights</td>
+</tr>
+<tr>
+<td align="center">🔲</td>
+<td><b>Multi-JD batch ranking</b></td>
+<td>Rank all candidates across multiple open roles simultaneously</td>
+</tr>
+<tr>
+<td align="center">🔲</td>
+<td><b>PostgreSQL + pgvector</b></td>
+<td>Production-grade horizontal scaling migration from ChromaDB</td>
+</tr>
 </table>
-
-</div>
-
----
-
-## 📁 Key Files Reference
-
-<div align="center">
-
-| File | Role |
-|:----:|:-----|
-| `pipeline/ranker.py` | 🧠 LangGraph graph — the core brain of the entire system |
-| `pipeline/scorer.py` | 📊 All 5 scoring functions + weighted composite calculator |
-| `pipeline/jd_parser.py` | 🤖 Groq LLM + offline structured JD extraction |
-| `pipeline/embedder.py` | 🔢 ChromaDB indexing + semantic search engine |
-| `pipeline/explainer.py` | 💬 LLM + rule-based recruiter note generator |
-| `api/main.py` | ⚡ FastAPI with 8 REST endpoints |
-| `ui/app.py` | 🎨 Full Streamlit recruiter dashboard |
-| `data/generate_candidates.py` | 👥 300-candidate synthetic dataset generator |
-| `run.sh` | 🚀 One-command startup script |
-| `docker-compose.yml` | 🐳 Full stack Docker orchestration |
 
 </div>
 
@@ -899,7 +927,7 @@ Each of the 300 synthetic candidates carries a rich, realistic profile:
 4. Add to  →  .env as GROQ_API_KEY=your_key_here
 ```
 
-> **No key?** RecruitMind AI automatically falls back to rule-based offline mode. All semantic search, multi-signal scoring, and ranking still works fully.
+> **No key?** RecruitMind AI auto-falls back to rule-based offline mode. All semantic search, ChromaDB retrieval, composite scoring, and ranking still works fully. Only LLM-based JD parsing and explanation generation switches to deterministic rules.
 
 ---
 
@@ -931,7 +959,7 @@ git push origin feature/your-feature-name
 
 <br/>
 
-![Azure AI-900](https://img.shields.io/badge/Microsoft-Azure_AI--900-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Azure AI-900](https://img.shields.io/badge/Microsoft-AI--900-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Azure AZ-900](https://img.shields.io/badge/Microsoft-AZ--900-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-Certified-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
 ![NPTEL](https://img.shields.io/badge/NPTEL-Python-FF6B35?style=flat-square)
@@ -962,8 +990,6 @@ Licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
 
 <br/>
 
-⭐ **If this project impressed you, please give it a star!** ⭐
+⭐ **If this project impressed you, please star it!** ⭐
 
 </div>
-READMEEOF
-echo "Done — $(wc -l < /mnt/user-data/outputs/README.md) lines"
