@@ -136,67 +136,8 @@ POST `/compare` — select 2-3 candidates for full side-by-side score breakdown 
 ## 🏗️ System Architecture
 
 <div align="center">
-
-<table width="100%">
-<tr>
-<td align="center" colspan="5" style="background:#0F172A;color:white;padding:14px;border-radius:10px 10px 0 0">
-<b>✦ INPUT LAYER ✦</b>
-</td>
-</tr>
-<tr>
-<td align="center" width="30%" style="background:#1E293B;color:#C7D2FE;padding:12px;border:1px solid #334155">
-<b>📄 Job Description</b><br/><sub>Text — any format, any length</sub>
-</td>
-<td align="center" width="5%" style="background:#0F172A;color:#64748B">→</td>
-<td align="center" width="30%" style="background:#1E293B;color:#C7D2FE;padding:12px;border:1px solid #334155">
-<b>👤 300 Candidate Profiles</b><br/><sub>Rich JSON — 20+ fields per profile</sub>
-</td>
-<td align="center" width="5%" style="background:#0F172A;color:#64748B">→</td>
-<td align="center" width="30%" style="background:#1E293B;color:#C7D2FE;padding:12px;border:1px solid #334155">
-<b>📡 Behavioral Signals</b><br/><sub>GitHub · LeetCode · Hackathons · Tenure</sub>
-</td>
-</tr>
-<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇ ⬇ ⬇</td></tr>
-<tr>
-<td align="center" colspan="5" style="background:#312E81;color:white;padding:14px;border-radius:0">
-<b>✦ PROCESSING LAYER ✦</b><br/>
-<sub>🤖 LLM JD Parser (Groq / Offline) &nbsp;·&nbsp; 🔢 Embedding Engine (sentence-transformers) &nbsp;·&nbsp; 📊 Signal Extractor (heuristics)</sub>
-</td>
-</tr>
-<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇</td></tr>
-<tr>
-<td align="center" colspan="5" style="background:#4C1D95;color:white;padding:16px;border-radius:0">
-<b>⚡ ORCHESTRATION — LangGraph 6-Node Stateful Pipeline ⚡</b><br/><br/>
-<code>parse_jd</code> &nbsp;→&nbsp; <code>embed_jd</code> &nbsp;→&nbsp; <code>retrieve</code> &nbsp;→&nbsp; <code>score</code> &nbsp;→&nbsp; <code>rerank</code> &nbsp;→&nbsp; <code>explain</code><br/><br/>
-<sub>Fully typed RankingState · Each node independently testable · Observable stateful execution</sub>
-</td>
-</tr>
-<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇ ⬇ ⬇</td></tr>
-<tr>
-<td align="center" width="30%" style="background:#064E3B;color:#A7F3D0;padding:12px;border:1px solid #065F46">
-<b>🗃️ ChromaDB</b><br/><sub>Vector store · Cosine similarity · Persistent local</sub>
-</td>
-<td align="center" width="5%" style="background:#0F172A;color:#64748B">·</td>
-<td align="center" width="30%" style="background:#064E3B;color:#A7F3D0;padding:12px;border:1px solid #065F46">
-<b>📋 Metadata Store</b><br/><sub>candidates.json · 300 rich profiles</sub>
-</td>
-<td align="center" width="5%" style="background:#0F172A;color:#64748B">·</td>
-<td align="center" width="30%" style="background:#064E3B;color:#A7F3D0;padding:12px;border:1px solid #065F46">
-<b>⚡ Cache (Optional)</b><br/><sub>Redis · Fast repeat query serving</sub>
-</td>
-</tr>
-<tr><td colspan="5" align="center" style="background:#0F172A;padding:6px;color:#64748B">⬇</td></tr>
-<tr>
-<td align="center" colspan="5" style="background:#7C2D12;color:white;padding:14px;border-radius:0 0 10px 10px">
-<b>✦ OUTPUT LAYER ✦</b><br/>
-<sub>🌐 FastAPI REST API (8 endpoints) &nbsp;·&nbsp; 🎨 Streamlit Dashboard &nbsp;·&nbsp; 📥 Export JSON / CSV &nbsp;·&nbsp; ⚖️ Bias Checker &nbsp;·&nbsp; 📊 Comparison UI</sub>
-</td>
-</tr>
-</table>
-
+  <img src="assets/RecruitMind-AI.jpg" alt="RecruitMind AI System Architecture" width="100%">
 </div>
-
-<br/>
 
 ### 📁 Project Structure
 
