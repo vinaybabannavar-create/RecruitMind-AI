@@ -136,7 +136,7 @@ POST `/compare` — select 2-3 candidates for full side-by-side score breakdown 
 ## 🏗️ System Architecture
 
 <div align="center">
-  <img src="assets/RecruitMind-AI.jpg" alt="RecruitMind AI System Architecture" width="100%">
+  <img src="ui/RecruitMind-AI.jpg" alt="RecruitMind AI System Architecture" width="100%">
 </div>
 
 ### 📁 Project Structure
