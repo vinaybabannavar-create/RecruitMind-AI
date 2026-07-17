@@ -8,8 +8,7 @@
 [![Forks](https://img.shields.io/github/forks/vinaybabannavar-create/RecruitMind-AI?style=for-the-badge&logo=git&color=7c3aed&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI/network/members)
 [![CI](https://img.shields.io/github/actions/workflow/status/vinaybabannavar-create/RecruitMind-AI/ci.yml?style=for-the-badge&label=CI%20Tests&logo=githubactions&logoColor=white&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI/actions)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&labelColor=1a1a2e)](LICENSE)
-[![Hackathon](https://img.shields.io/badge/Redrob_AI-Hackathon_2026-FF4B4B?style=for-the-badge&logo=rocket&logoColor=white&labelColor=1a1a2e)](https://hack2skill.com)
-[![Submitted](https://img.shields.io/badge/Status-Submitted_✓-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI)
+[![Status](https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=1a1a2e)](https://github.com/vinaybabannavar-create/RecruitMind-AI)
 
 <br/>
 
@@ -125,7 +124,7 @@ Prevents shortlist homogeneity — applies 0.95x penalty to over-represented sen
 POST `/bias-check` scans any JD for discriminatory language — age, gender, origin, marital status bias. Returns flagged terms with inclusive rewrite suggestions.
 
 **📊 Candidate Comparison**
-POST `/compare` — select 2-3 candidates for full side-by-side score breakdown directly in the Streamlit UI. Unique feature no other team has built.
+POST `/compare` — select 2-3 candidates for full side-by-side score breakdown directly in the Streamlit UI.
 
 </td>
 </tr>
@@ -907,7 +906,7 @@ git push origin feature/your-feature-name
 
 <br/>
 
-*Redrob AI × Hack2Skill — INDIA.RUNS Hackathon 2026 · Data & AI Challenge: Intelligent Candidate Discovery*
+*A self-driven project exploring agentic AI pipelines for intelligent candidate discovery.*
 
 <br/>
 
