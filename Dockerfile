@@ -15,7 +15,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy project files
 COPY . .
 
-# Generate candidates if not present
+# Generate candidates dataset
 RUN python data/generate_candidates.py
 
-EXPOSE 8000 8501
+# Expose Streamlit port (Render injects $PORT)
+EXPOSE 8501
+
+# Start FastAPI backend (internal on 8000) + Streamlit frontend on $PORT
+CMD ["bash", "start.sh"]
