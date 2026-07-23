@@ -35,6 +35,11 @@ async def lifespan(app: FastAPI):
     print("RecruitMind AI starting up...")
     try:
         engine = get_engine()
+        # ── Pre-warm the embedding model so first query is instant ──────────
+        print("Pre-loading embedding model...")
+        engine._load_model()
+        print("Embedding model ready.")
+        # ── Auto-index if ChromaDB is empty ─────────────────────────────────
         count = engine.get_collection_count()
         if count == 0:
             print("ChromaDB empty — auto-indexing candidates...")
@@ -43,7 +48,7 @@ async def lifespan(app: FastAPI):
         else:
             print(f"ChromaDB ready — {count} candidates already indexed.")
     except Exception as e:
-        print(f"Warning: Auto-indexing failed: {e}")
+        print(f"Warning: Startup init failed: {e}")
     yield
 
 app = FastAPI(
